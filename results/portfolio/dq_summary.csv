@@ -1,0 +1,10 @@
+check_name,value
+events_excluded,22
+events_total,33526
+metrics_outside_reconstructed_uptime,140
+pricing_gaps,0
+running_hours_without_metrics,16402
+server_hours_rows,695384
+servers_without_events,8
+sessions,16752
+unpriced_server_hours,0

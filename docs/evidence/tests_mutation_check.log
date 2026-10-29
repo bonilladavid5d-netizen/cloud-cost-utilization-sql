@@ -1,0 +1,26 @@
+Mutation check: sql/03_views.sql tariff join changed from
+  AND h.hour_start <  p.valid_to   to   AND h.hour_start <= p.valid_to
+(an hour exactly at a tariff change then matches two tariffs).
+Run on a scratch copy of the final project with CCU_DB_PREFIX=ccu_mutation; databases dropped afterwards.
+
+
+Suite core: fixture fixture_core.sql, database ccu_mutation_test
+PostgreSQL 17.11 on aarch64-unknown-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit
+PASS  test_01_events_and_sessions.sql                   15 assertions
+PASS  test_02_hours_and_monthly_uptime.sql              12 assertions
+FAIL  test_03_cost_and_joins.sql                       exit=3  ERROR:  FAIL [s1 February cost across tariff change]: expected 5.5, got 6.50000000000000000000
+FAIL  test_04_budget_vs_actual.sql                     exit=3  ERROR:  FAIL [a3 spend total]: expected 272.5, got 274.50000000000000000000
+PASS  test_05_metrics_and_low_utilization.sql           12 assertions
+FAIL  test_06_trend_and_concentration.sql              exit=3  ERROR:  FAIL [a5 total]: expected 272.5, got 274.50000000000000000000
+FAIL  test_07_offhours_savings.sql                     exit=3  ERROR:  FAIL [s1 savings]: expected 7.5, got 8.50000000000000000000
+FAIL  test_08_constraints_and_pricing_quality.sql      exit=3  ERROR:  FAIL [24 unpriced running hours on s8]: expected 24, got 23
+Negative control (assertion that must fail): exit=1 -> detected
+
+Suite partial_hours: fixture fixture_partial_hours.sql, database ccu_mutation_test_partial_hours
+PASS  test_partial_hours_01_many_short_bins.sql          6 assertions
+PASS  test_partial_hours_02_time_coverage.sql            8 assertions
+PASS  test_partial_hours_03_minimum_boundary.sql         6 assertions
+
+Result: 6/11 test files passed, 136 assertions in total
+TESTS FAILED
+run_tests.py exit code: 1

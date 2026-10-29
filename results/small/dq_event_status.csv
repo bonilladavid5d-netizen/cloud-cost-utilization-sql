@@ -1,0 +1,7 @@
+status,event_type,events,servers
+paired,start,874,23
+paired,stop,874,23
+start_followed_by_start,start,1,1
+start_preceded_by_start,start,1,1
+stop_after_ambiguous_start,stop,1,1
+stop_without_start,stop,1,1

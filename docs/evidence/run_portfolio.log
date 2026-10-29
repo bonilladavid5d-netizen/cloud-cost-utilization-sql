@@ -1,0 +1,42 @@
+[05:55:34] Pipeline size=portfolio seed=20250101 database=cloud_cost_utilization_portfolio
+[05:55:34] Code fingerprint: 942da95889d26ad233b8ad1c22feba1c28e4e2c78438d05036951882d9912cf0
+[05:55:34] generate ...
+[05:55:39] generate done in 4.61 s
+[05:55:39] recreate database ...
+[05:55:39] recreate database done in 0.79 s
+[05:55:39] schema ...
+[05:55:39] schema done in 0.15 s
+[05:55:39] load ...
+[05:55:49] load done in 9.98 s
+[05:55:49] transform ...
+[05:56:02] transform done in 12.47 s
+[05:56:02] views and analyses ...
+[05:56:03] views and analyses done in 1.06 s
+[05:56:03] indexes ...
+[05:56:03] indexes done in 0.16 s
+[05:56:03] vacuum analyze ...
+[05:56:04] vacuum analyze done in 0.43 s
+[05:56:04] quality gate ...
+[05:56:06] quality gate done in 2.05 s
+[05:56:06] Quality gate passed (13 invariants).
+[05:56:06] export ...
+[05:56:10] export done in 4.67 s
+[05:56:12] Rows generated vs loaded:
+[05:56:12]   departments      generated=        8 loaded=        8
+[05:56:12]   servers          generated=      500 loaded=      500
+[05:56:12]   pricing          generated=       33 loaded=       33
+[05:56:12]   budgets          generated=       23 loaded=       23
+[05:56:12]   server_events    generated=   33,526 loaded=   33,526
+[05:56:12]   server_metrics   generated=  679,122 loaded=  679,122
+[05:56:12] Data quality summary:
+[05:56:12]   events_excluded                          22
+[05:56:12]   events_total                             33526
+[05:56:12]   metrics_outside_reconstructed_uptime     140
+[05:56:12]   pricing_gaps                             0
+[05:56:12]   running_hours_without_metrics            16402
+[05:56:12]   server_hours_rows                        695384
+[05:56:12]   servers_without_events                   8
+[05:56:12]   sessions                                 16752
+[05:56:12]   unpriced_server_hours                    0
+[05:56:12] Results written to results/portfolio/
+[05:56:12] Pipeline finished OK

@@ -1,0 +1,26 @@
+Old-logic check: the new partial-hour tests run against the analysis 4 view as delivered
+before the unit correction (observed_hours = COUNT(*) of bins, coverage = bins / bins).
+Scratch copy of the project with only sql/analysis/04_low_utilization.sql replaced by the
+previous version; CCU_DB_PREFIX=ccu_oldlogic; databases dropped afterwards.
+
+
+Suite core: fixture fixture_core.sql, database ccu_oldlogic_test
+PostgreSQL 17.11 on aarch64-unknown-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit
+PASS  test_01_events_and_sessions.sql                   15 assertions
+PASS  test_02_hours_and_monthly_uptime.sql              12 assertions
+PASS  test_03_cost_and_joins.sql                        16 assertions
+PASS  test_04_budget_vs_actual.sql                      16 assertions
+PASS  test_05_metrics_and_low_utilization.sql           12 assertions
+PASS  test_06_trend_and_concentration.sql               13 assertions
+PASS  test_07_offhours_savings.sql                      14 assertions
+PASS  test_08_constraints_and_pricing_quality.sql       18 assertions
+Negative control (assertion that must fail): exit=1 -> detected
+
+Suite partial_hours: fixture fixture_partial_hours.sql, database ccu_oldlogic_test_partial_hours
+FAIL  test_partial_hours_01_many_short_bins.sql        exit=3  ERROR:  FAIL [s11: 10 observed bins of 6 min do not meet a 4 h minimum]: expected insufficient_data, got low_utilization
+FAIL  test_partial_hours_02_time_coverage.sql          exit=3  ERROR:  FAIL [s12 coverage is 8 s / 7,208 s, not 8 / 10 bins]: expected 0.0011098779, got 0.8000000000
+FAIL  test_partial_hours_03_minimum_boundary.sql       exit=3  ERROR:  FAIL [s15 14,399 observed seconds is below the minimum]: expected insufficient_data, got low_utilization
+
+Result: 8/11 test files passed, 136 assertions in total
+TESTS FAILED
+run_tests.py exit code: 1

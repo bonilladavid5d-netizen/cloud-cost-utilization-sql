@@ -1,0 +1,17 @@
+server_id,hostname,department_name,instance_type,region,uptime_hours,shutdown_window_hours,eligible_cost_usd,potential_savings_usd
+1,dev-plat-0001,Platform Engineering,gp.large,eu-central,1102.95,270.95,249.59,61.23
+3,dev-capp-0003,Customer Applications,gp.medium,na-west,677.77,66.00,72.39,7.00
+5,dev-mktg-0005,Marketing Technology,gp.small,sa-east,106.01,48.76,6.76,3.11
+7,dev-secu-0007,Security Operations,gp.medium,na-east,664.44,81.00,68.55,8.52
+10,dev-paym-0010,Payments,gp.medium,na-east,125.74,70.34,13.00,7.29
+11,dev-itls-0011,Internal Tools,gp.small,na-east,679.00,110.00,35.01,5.73
+12,dev-secu-0012,Security Operations,gp.small,na-east,733.02,151.00,37.90,7.97
+13,dev-paym-0013,Payments,gp.small,eu-central,682.01,92.00,38.54,5.13
+15,dev-plat-0015,Platform Engineering,gp.large,na-east,670.05,92.00,137.38,18.53
+16,dev-capp-0016,Customer Applications,gp.medium,eu-central,2158.17,1326.17,244.52,150.34
+17,dev-data-0017,Data & Analytics,gp.medium,eu-central,705.70,125.00,79.46,13.82
+18,dev-capp-0018,Customer Applications,gp.large,na-east,818.67,221.00,169.18,46.01
+19,dev-secu-0019,Security Operations,gp.large,na-east,2157.80,1325.80,444.50,273.27
+21,dev-paym-0021,Payments,cpu.xlarge,na-east,704.34,92.00,267.65,34.96
+22,dev-capp-0022,Customer Applications,gp.small,eu-central,759.10,129.00,42.95,7.30
+24,dev-capp-0024,Customer Applications,gp.medium,eu-central,0,0,0,0

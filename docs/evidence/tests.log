@@ -1,0 +1,21 @@
+Test run 2026-10-29 05:55 UTC
+
+Suite core: fixture fixture_core.sql, database cloud_cost_utilization_test
+PostgreSQL 17.11 on aarch64-unknown-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit
+PASS  test_01_events_and_sessions.sql                   15 assertions
+PASS  test_02_hours_and_monthly_uptime.sql              12 assertions
+PASS  test_03_cost_and_joins.sql                        16 assertions
+PASS  test_04_budget_vs_actual.sql                      16 assertions
+PASS  test_05_metrics_and_low_utilization.sql           12 assertions
+PASS  test_06_trend_and_concentration.sql               13 assertions
+PASS  test_07_offhours_savings.sql                      14 assertions
+PASS  test_08_constraints_and_pricing_quality.sql       18 assertions
+Negative control (assertion that must fail): exit=1 -> detected
+
+Suite partial_hours: fixture fixture_partial_hours.sql, database cloud_cost_utilization_test_partial_hours
+PASS  test_partial_hours_01_many_short_bins.sql          6 assertions
+PASS  test_partial_hours_02_time_coverage.sql            8 assertions
+PASS  test_partial_hours_03_minimum_boundary.sql         6 assertions
+
+Result: 11/11 test files passed, 136 assertions in total
+ALL TESTS PASSED

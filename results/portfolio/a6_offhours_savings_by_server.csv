@@ -1,0 +1,271 @@
+server_id,hostname,department_name,instance_type,region,uptime_hours,shutdown_window_hours,eligible_cost_usd,potential_savings_usd
+1,dev-plat-0001,Platform Engineering,gp.large,eu-central,1102.95,270.95,249.59,61.23
+3,dev-capp-0003,Customer Applications,gp.medium,na-west,677.77,66.00,72.39,7.00
+5,dev-mktg-0005,Marketing Technology,gp.small,sa-east,106.01,48.76,6.76,3.11
+7,dev-secu-0007,Security Operations,gp.medium,na-east,664.44,81.00,68.55,8.52
+10,dev-paym-0010,Payments,gp.medium,na-east,125.74,70.34,13.00,7.29
+11,dev-itls-0011,Internal Tools,gp.small,na-east,699.68,110.00,36.11,5.73
+12,dev-secu-0012,Security Operations,gp.small,na-east,733.02,151.00,37.90,7.97
+13,dev-paym-0013,Payments,gp.small,eu-central,682.01,92.00,38.54,5.13
+15,dev-plat-0015,Platform Engineering,gp.large,na-east,670.05,92.00,137.38,18.53
+16,dev-capp-0016,Customer Applications,gp.medium,eu-central,2158.17,1326.17,244.52,150.34
+17,dev-data-0017,Data & Analytics,gp.medium,eu-central,715.72,125.00,80.56,13.82
+18,dev-capp-0018,Customer Applications,gp.large,na-east,818.67,221.00,169.18,46.01
+19,dev-secu-0019,Security Operations,gp.large,na-east,2157.80,1325.80,444.50,273.27
+21,dev-paym-0021,Payments,cpu.xlarge,na-east,704.34,92.00,267.65,34.96
+22,dev-capp-0022,Customer Applications,gp.small,eu-central,759.10,129.00,42.95,7.30
+25,dev-capp-0025,Customer Applications,gp.medium,eu-central,69.90,30.80,7.91,3.48
+26,dev-mktg-0026,Marketing Technology,gp.medium,na-east,738.79,114.00,76.32,11.99
+28,dev-data-0028,Data & Analytics,mem.large,na-west,1091.70,259.70,306.55,72.92
+30,dev-plat-0030,Platform Engineering,gp.small,sa-east,635.27,33.00,39.92,2.09
+31,dev-mktg-0031,Marketing Technology,gp.medium,sa-east,1088.26,256.26,136.59,32.14
+32,dev-capp-0032,Customer Applications,gp.medium,na-east,780.83,181.00,80.21,18.48
+33,dev-capp-0033,Customer Applications,gp.large,eu-central,663.21,70.00,150.07,15.55
+35,dev-secu-0035,Security Operations,gp.large,eu-central,642.76,55.00,145.71,12.39
+40,dev-plat-0040,Platform Engineering,gp.medium,sa-east,1089.92,257.92,136.80,32.36
+41,dev-data-0041,Data & Analytics,mem.large,na-east,642.62,33.00,173.51,8.91
+45,dev-data-0045,Data & Analytics,gp.medium,na-east,676.13,77.00,69.57,7.90
+47,dev-data-0047,Data & Analytics,mem.large,na-east,632.62,44.00,170.81,11.88
+48,dev-secu-0048,Security Operations,mem.large,na-west,717.35,107.00,201.43,30.05
+50,dev-plat-0050,Platform Engineering,gp.large,eu-central,737.12,114.00,167.27,26.15
+51,dev-plat-0051,Platform Engineering,gp.medium,eu-central,2156.49,1324.49,244.33,150.15
+52,dev-data-0052,Data & Analytics,gp.large,eu-central,117.41,61.39,26.75,14.01
+55,dev-data-0055,Data & Analytics,gp.medium,na-east,629.02,26.00,64.85,2.76
+58,dev-capp-0058,Customer Applications,gp.medium,na-west,124.98,59.76,13.38,6.34
+59,dev-capp-0059,Customer Applications,gp.large,na-east,693.27,92.00,142.51,18.66
+63,dev-capp-0063,Customer Applications,gp.medium,eu-central,634.34,44.00,71.89,5.13
+64,dev-secu-0064,Security Operations,gp.small,na-east,752.95,114.00,38.66,5.77
+66,dev-capp-0066,Customer Applications,gp.large,na-east,1111.60,279.60,228.75,57.51
+67,dev-capp-0067,Customer Applications,gp.large,na-east,808.62,221.00,166.79,45.83
+68,dev-mktg-0068,Marketing Technology,gp.medium,sa-east,1111.74,279.74,139.64,35.19
+69,dev-paym-0069,Payments,gp.large,sa-east,114.61,49.63,28.79,12.54
+70,dev-mktg-0070,Marketing Technology,mem.large,na-east,97.77,37.27,26.40,10.06
+73,dev-plat-0073,Platform Engineering,mem.large,na-west,634.00,22.00,178.03,6.18
+75,dev-data-0075,Data & Analytics,gp.medium,eu-central,737.84,103.00,83.91,12.01
+76,dev-plat-0076,Platform Engineering,gp.small,sa-east,694.65,92.00,43.46,5.69
+77,dev-plat-0077,Platform Engineering,cpu.xlarge,na-west,1102.98,270.98,435.90,107.09
+78,dev-itls-0078,Internal Tools,gp.small,eu-central,110.53,50.50,6.26,2.86
+81,dev-data-0081,Data & Analytics,gp.medium,na-west,648.82,44.00,69.42,4.71
+83,dev-mktg-0083,Marketing Technology,cpu.xlarge,sa-east,1086.73,254.73,503.81,118.09
+84,dev-secu-0084,Security Operations,gp.small,eu-central,116.89,48.42,6.63,2.76
+88,dev-paym-0088,Payments,mem.large,eu-central,703.33,103.00,203.41,29.56
+90,dev-capp-0090,Customer Applications,gp.large,na-east,604.81,22.00,124.52,4.53
+91,dev-plat-0091,Platform Engineering,gp.small,na-east,0,0,0,0
+92,dev-capp-0092,Customer Applications,mem.large,sa-east,592.08,11.00,195.03,3.62
+95,dev-plat-0095,Platform Engineering,gp.medium,eu-central,592.08,59.00,67.24,6.88
+99,dev-mktg-0099,Marketing Technology,gp.large,sa-east,1099.28,267.28,276.05,67.16
+100,dev-itls-0100,Internal Tools,gp.large,na-east,2156.20,1324.20,444.17,272.93
+101,dev-paym-0101,Payments,gp.medium,na-east,1093.10,261.10,112.50,26.88
+110,dev-data-0110,Data & Analytics,gp.medium,na-east,2157.45,1325.45,222.21,136.60
+111,dev-paym-0111,Payments,gp.small,na-east,1067.50,235.50,54.95,12.14
+113,dev-paym-0113,Payments,gp.medium,eu-central,125.13,47.36,14.20,5.40
+114,dev-capp-0114,Customer Applications,gp.medium,na-west,113.08,44.74,12.23,4.84
+115,dev-capp-0115,Customer Applications,gp.large,na-east,1115.41,283.41,229.49,58.26
+116,dev-itls-0116,Internal Tools,cpu.xlarge,na-east,2156.81,1324.81,819.59,503.43
+119,dev-mktg-0119,Marketing Technology,gp.small,na-east,1097.92,265.92,56.51,13.70
+120,dev-capp-0120,Customer Applications,mem.large,eu-central,646.20,59.00,187.06,16.65
+125,dev-data-0125,Data & Analytics,gp.large,na-east,648.81,77.00,133.19,15.66
+126,dev-mktg-0126,Marketing Technology,gp.small,na-east,2156.18,1324.18,111.04,68.23
+127,dev-mktg-0127,Marketing Technology,gp.large,eu-central,2156.20,1324.20,488.60,300.24
+128,dev-data-0128,Data & Analytics,mem.large,eu-central,683.60,81.00,197.60,23.02
+129,dev-plat-0129,Platform Engineering,gp.small,sa-east,1075.04,243.04,67.51,15.26
+131,dev-data-0131,Data & Analytics,mem.large,na-east,673.31,81.00,181.79,21.87
+132,dev-data-0132,Data & Analytics,gp.large,na-west,774.89,184.00,166.74,40.25
+133,dev-data-0133,Data & Analytics,cpu.xlarge,na-west,2158.34,1326.34,852.98,524.17
+134,dev-paym-0134,Payments,gp.small,na-east,1093.58,261.58,56.24,13.44
+135,dev-data-0135,Data & Analytics,gp.small,na-east,145.24,44.46,7.48,2.30
+138,dev-secu-0138,Security Operations,gp.large,na-east,2157.14,1325.14,444.36,273.12
+145,dev-capp-0145,Customer Applications,gp.small,na-east,679.39,66.00,35.05,3.47
+146,dev-capp-0146,Customer Applications,gp.small,na-east,1081.19,249.19,55.63,12.82
+148,dev-secu-0148,Security Operations,gp.small,na-east,601.00,11.00,30.89,0.55
+152,dev-plat-0152,Platform Engineering,cpu.xlarge,sa-east,1099.81,267.81,509.87,124.16
+155,dev-plat-0155,Platform Engineering,gp.medium,eu-central,110.67,43.02,12.53,4.90
+156,dev-plat-0156,Platform Engineering,cpu.xlarge,na-east,113.57,49.69,43.16,18.88
+160,dev-plat-0160,Platform Engineering,gp.medium,na-west,1126.45,294.45,120.54,31.51
+161,dev-itls-0161,Internal Tools,gp.small,na-east,81.95,31.20,4.20,1.59
+166,dev-capp-0166,Customer Applications,gp.large,eu-central,2156.14,1324.14,488.56,300.20
+167,dev-plat-0167,Platform Engineering,gp.medium,eu-central,1079.58,247.58,122.18,28.00
+171,dev-paym-0171,Payments,gp.small,na-east,721.30,107.00,37.19,5.61
+175,dev-capp-0175,Customer Applications,gp.medium,na-east,703.83,96.00,72.68,10.11
+177,dev-data-0177,Data & Analytics,gp.large,sa-east,123.65,58.99,31.18,15.01
+178,dev-itls-0178,Internal Tools,gp.small,na-west,743.73,121.00,39.62,6.33
+181,dev-paym-0181,Payments,mem.large,na-east,714.44,92.00,192.90,24.84
+183,dev-secu-0183,Security Operations,cpu.xlarge,eu-central,1106.44,274.44,462.49,114.72
+185,dev-capp-0185,Customer Applications,gp.small,sa-east,728.15,114.00,45.86,7.29
+186,dev-mktg-0186,Marketing Technology,gp.medium,na-east,120.60,44.05,12.37,4.57
+187,dev-paym-0187,Payments,gp.small,eu-central,725.43,114.00,40.99,6.38
+188,dev-paym-0188,Payments,gp.medium,eu-central,2155.22,1323.22,244.18,150.00
+189,dev-capp-0189,Customer Applications,gp.large,na-east,633.09,33.00,130.23,6.73
+190,dev-itls-0190,Internal Tools,gp.small,eu-central,769.77,162.00,43.70,9.34
+191,dev-capp-0191,Customer Applications,gp.small,na-east,0,0,0,0
+193,dev-capp-0193,Customer Applications,gp.medium,na-east,733.32,114.00,75.72,11.95
+194,dev-capp-0194,Customer Applications,mem.large,eu-central,2156.28,1324.28,624.46,383.32
+195,dev-mktg-0195,Marketing Technology,gp.large,sa-east,705.25,92.00,177.63,23.63
+197,dev-plat-0197,Platform Engineering,gp.small,eu-central,103.86,39.82,5.88,2.24
+199,dev-mktg-0199,Marketing Technology,gp.small,na-east,2156.43,1324.43,111.05,68.24
+200,dev-itls-0200,Internal Tools,gp.medium,eu-central,86.17,32.25,9.79,3.64
+201,dev-data-0201,Data & Analytics,cpu.xlarge,na-east,721.65,129.00,274.23,49.02
+203,dev-plat-0203,Platform Engineering,cpu.xlarge,eu-central,678.54,92.00,283.63,38.46
+204,dev-data-0204,Data & Analytics,gp.medium,na-east,1096.04,264.04,112.84,27.22
+205,dev-capp-0205,Customer Applications,gp.small,na-east,86.33,29.28,4.48,1.52
+207,dev-mktg-0207,Marketing Technology,gp.small,eu-central,663.86,81.00,37.49,4.49
+211,dev-data-0211,Data & Analytics,gp.medium,na-east,769.89,140.00,79.23,14.42
+212,dev-paym-0212,Payments,gp.medium,na-east,676.20,96.00,69.73,10.04
+213,dev-plat-0213,Platform Engineering,gp.large,na-east,687.63,88.00,141.86,18.44
+214,dev-data-0214,Data & Analytics,gp.medium,na-east,798.52,162.00,82.08,16.60
+216,dev-plat-0216,Platform Engineering,gp.large,na-east,1078.59,259.59,221.83,53.35
+218,dev-paym-0218,Payments,gp.small,na-east,659.29,103.00,33.89,5.25
+219,dev-itls-0219,Internal Tools,gp.small,na-west,672.61,81.00,36.07,4.39
+220,dev-paym-0220,Payments,gp.large,na-east,90.79,38.29,18.83,8.02
+221,dev-data-0221,Data & Analytics,gp.small,eu-central,641.07,33.00,36.32,1.89
+223,dev-paym-0223,Payments,gp.medium,na-east,789.46,162.00,81.21,16.62
+225,dev-capp-0225,Customer Applications,gp.medium,na-west,618.84,29.00,66.15,3.08
+226,dev-data-0226,Data & Analytics,gp.medium,na-east,127.21,53.25,13.12,5.50
+227,dev-itls-0227,Internal Tools,gp.large,eu-central,73.90,39.63,16.72,9.05
+228,dev-secu-0228,Security Operations,gp.large,na-east,1097.97,265.97,226.12,54.89
+229,dev-capp-0229,Customer Applications,gp.small,na-east,587.63,11.00,30.17,0.55
+230,dev-data-0230,Data & Analytics,mem.large,na-west,691.22,99.00,194.10,27.80
+231,dev-data-0231,Data & Analytics,gp.small,na-east,666.60,96.00,34.36,5.06
+232,dev-secu-0232,Security Operations,gp.medium,na-east,690.25,81.00,71.29,8.59
+233,dev-capp-0233,Customer Applications,mem.large,na-east,2158.11,1326.11,582.69,358.05
+234,dev-paym-0234,Payments,gp.small,eu-central,103.96,33.72,5.85,1.89
+235,dev-data-0235,Data & Analytics,gp.medium,eu-central,1084.58,252.58,122.82,28.64
+238,dev-data-0238,Data & Analytics,gp.large,na-east,659.34,55.00,135.77,11.40
+239,dev-data-0239,Data & Analytics,gp.small,na-east,628.58,33.00,32.39,1.72
+240,dev-itls-0240,Internal Tools,gp.large,na-east,127.97,48.88,26.22,10.13
+242,dev-data-0242,Data & Analytics,gp.large,na-east,671.65,81.00,138.55,17.04
+243,dev-data-0243,Data & Analytics,mem.large,eu-central,2158.51,1326.51,625.10,383.96
+244,dev-capp-0244,Customer Applications,cpu.xlarge,eu-central,2158.08,1326.08,902.08,554.30
+250,dev-plat-0250,Platform Engineering,gp.large,na-west,709.66,107.00,151.72,22.72
+251,dev-plat-0251,Platform Engineering,gp.medium,na-east,2158.35,1326.35,222.31,136.70
+253,dev-itls-0253,Internal Tools,gp.medium,na-west,1079.79,247.79,115.59,26.56
+254,dev-plat-0254,Platform Engineering,gp.small,na-west,2157.44,1325.44,115.53,71.02
+256,dev-itls-0256,Internal Tools,gp.large,sa-east,715.86,114.00,180.23,29.00
+257,dev-paym-0257,Payments,gp.large,eu-central,592.07,22.00,134.01,4.84
+259,dev-plat-0259,Platform Engineering,mem.large,na-east,591.69,11.00,159.76,2.97
+262,dev-data-0262,Data & Analytics,gp.medium,eu-central,610.57,22.00,69.11,2.49
+263,dev-capp-0263,Customer Applications,gp.medium,na-east,682.47,118.00,70.18,12.15
+268,dev-plat-0268,Platform Engineering,gp.small,na-east,679.47,81.00,34.93,4.12
+271,dev-plat-0271,Platform Engineering,gp.medium,eu-central,653.51,66.00,73.90,7.33
+275,dev-itls-0275,Internal Tools,mem.large,na-east,715.04,114.00,193.06,30.78
+276,dev-capp-0276,Customer Applications,gp.small,sa-east,699.46,92.00,44.07,5.91
+277,dev-plat-0277,Platform Engineering,mem.large,na-east,94.57,28.73,25.53,7.76
+278,dev-capp-0278,Customer Applications,gp.small,eu-central,111.05,44.14,6.30,2.53
+280,dev-data-0280,Data & Analytics,cpu.xlarge,sa-east,725.22,129.00,336.21,59.80
+281,dev-capp-0281,Customer Applications,mem.large,eu-central,1082.60,250.60,313.91,72.77
+282,dev-paym-0282,Payments,gp.small,na-east,661.47,44.00,34.09,2.30
+284,dev-secu-0284,Security Operations,gp.medium,na-east,667.33,70.00,68.45,7.00
+285,dev-capp-0285,Customer Applications,gp.large,eu-central,107.22,31.98,24.16,7.24
+286,dev-plat-0286,Platform Engineering,mem.large,na-east,788.65,203.00,212.94,54.81
+287,dev-itls-0287,Internal Tools,gp.small,na-west,1105.80,273.80,59.17,14.66
+290,dev-capp-0290,Customer Applications,cpu.xlarge,eu-central,103.07,49.01,43.08,20.49
+292,dev-secu-0292,Security Operations,cpu.xlarge,sa-east,2160.00,1328.00,1001.38,615.66
+296,dev-secu-0296,Security Operations,gp.medium,na-west,2155.75,1323.75,230.88,141.85
+297,dev-plat-0297,Platform Engineering,gp.small,na-west,2155.85,1323.85,115.45,70.93
+299,dev-mktg-0299,Marketing Technology,gp.medium,na-east,691.25,88.00,71.35,9.29
+300,dev-itls-0300,Internal Tools,gp.small,na-west,81.79,41.15,4.46,2.24
+303,dev-data-0303,Data & Analytics,gp.small,eu-central,649.34,44.00,36.74,2.46
+307,dev-plat-0307,Platform Engineering,cpu.xlarge,na-east,672.25,55.00,255.46,20.90
+308,dev-plat-0308,Platform Engineering,mem.large,eu-central,714.23,114.00,206.67,33.04
+310,dev-itls-0310,Internal Tools,gp.large,na-east,109.21,34.40,22.71,7.22
+312,dev-data-0312,Data & Analytics,gp.small,na-west,623.89,33.00,33.40,1.78
+313,dev-capp-0313,Customer Applications,gp.small,na-east,1109.16,277.16,57.09,14.28
+314,dev-itls-0314,Internal Tools,gp.large,na-east,689.21,81.00,141.56,16.46
+316,dev-data-0316,Data & Analytics,gp.medium,eu-central,655.41,70.00,74.51,8.09
+318,dev-capp-0318,Customer Applications,gp.small,na-east,1092.59,260.59,56.19,13.38
+319,dev-paym-0319,Payments,gp.large,sa-east,608.97,22.00,152.54,5.37
+320,dev-mktg-0320,Marketing Technology,gp.large,na-west,707.82,103.00,150.96,21.56
+321,dev-data-0321,Data & Analytics,cpu.xlarge,sa-east,605.80,11.00,280.85,5.10
+324,dev-capp-0324,Customer Applications,mem.large,na-east,100.14,36.42,27.04,9.83
+326,dev-plat-0326,Platform Engineering,gp.medium,eu-central,635.75,22.00,72.01,2.57
+329,dev-data-0329,Data & Analytics,gp.small,na-east,650.39,92.00,33.51,4.78
+331,dev-data-0331,Data & Analytics,gp.medium,na-west,666.41,81.00,71.41,8.83
+332,dev-plat-0332,Platform Engineering,gp.medium,sa-east,608.74,44.00,76.51,5.53
+333,dev-plat-0333,Platform Engineering,gp.small,eu-central,92.36,36.00,5.30,2.05
+334,dev-data-0334,Data & Analytics,gp.small,na-west,103.89,35.87,5.57,1.93
+336,dev-plat-0336,Platform Engineering,gp.small,na-east,746.63,114.00,38.59,6.01
+337,dev-data-0337,Data & Analytics,gp.large,eu-central,2157.75,1325.75,488.94,300.58
+339,dev-paym-0339,Payments,mem.large,na-west,691.42,107.00,194.15,30.05
+343,dev-mktg-0343,Marketing Technology,gp.medium,na-east,0,0,0,0
+344,dev-itls-0344,Internal Tools,gp.small,eu-central,678.62,81.00,38.52,4.69
+348,dev-mktg-0348,Marketing Technology,cpu.xlarge,na-east,796.93,210.00,302.84,79.80
+351,dev-plat-0351,Platform Engineering,gp.medium,na-east,688.88,70.00,71.02,7.35
+352,dev-itls-0352,Internal Tools,cpu.xlarge,sa-east,2159.12,1327.12,1000.97,615.25
+353,dev-mktg-0353,Marketing Technology,gp.large,eu-central,1084.85,252.85,245.67,57.31
+356,dev-secu-0356,Security Operations,gp.large,na-west,784.28,162.00,168.18,34.85
+357,dev-secu-0357,Security Operations,gp.large,na-east,568.37,11.00,116.72,2.20
+358,dev-paym-0358,Payments,gp.small,eu-central,741.55,136.00,42.14,7.82
+364,dev-plat-0364,Platform Engineering,gp.small,eu-central,82.88,29.00,4.69,1.64
+365,dev-capp-0365,Customer Applications,gp.large,na-west,1105.66,273.66,236.90,58.80
+366,dev-secu-0366,Security Operations,gp.small,na-east,84.75,34.55,4.36,1.79
+367,dev-data-0367,Data & Analytics,gp.medium,sa-east,694.65,70.00,87.40,8.97
+368,dev-capp-0368,Customer Applications,gp.medium,eu-central,749.86,177.00,85.06,20.18
+369,dev-itls-0369,Internal Tools,gp.medium,na-east,643.36,44.00,66.40,4.66
+370,dev-paym-0370,Payments,gp.large,na-west,2156.24,1324.24,461.96,283.86
+372,dev-capp-0372,Customer Applications,cpu.xlarge,na-east,1088.29,256.29,413.55,97.39
+373,dev-plat-0373,Platform Engineering,mem.large,sa-east,2158.04,1326.04,710.86,436.80
+375,dev-data-0375,Data & Analytics,gp.small,sa-east,130.86,44.15,8.23,2.77
+376,dev-data-0376,Data & Analytics,gp.medium,na-east,640.32,22.00,66.01,2.33
+377,dev-plat-0377,Platform Engineering,mem.large,na-east,718.59,140.00,194.02,37.80
+378,dev-plat-0378,Platform Engineering,mem.large,na-west,1079.05,247.05,303.00,69.37
+382,dev-capp-0382,Customer Applications,gp.large,na-west,2158.68,1326.68,462.49,284.39
+384,dev-plat-0384,Platform Engineering,gp.large,na-east,692.77,77.00,142.38,15.66
+385,dev-plat-0385,Platform Engineering,gp.large,eu-central,1083.52,251.52,245.31,56.95
+387,dev-mktg-0387,Marketing Technology,gp.medium,na-west,1093.16,261.16,116.92,27.90
+388,dev-mktg-0388,Marketing Technology,mem.large,na-east,774.15,125.00,209.02,33.75
+389,dev-mktg-0389,Marketing Technology,gp.small,na-west,769.78,162.00,41.46,8.89
+391,dev-plat-0391,Platform Engineering,gp.medium,eu-central,777.35,177.00,87.57,19.71
+393,dev-plat-0393,Platform Engineering,gp.medium,na-east,644.98,66.00,66.11,6.67
+398,dev-plat-0398,Platform Engineering,gp.medium,sa-east,98.64,49.61,12.39,6.22
+399,dev-mktg-0399,Marketing Technology,gp.small,sa-east,1092.97,260.97,68.61,16.37
+402,dev-paym-0402,Payments,gp.medium,eu-central,0,0,0,0
+403,dev-paym-0403,Payments,gp.large,sa-east,130.02,49.77,32.62,12.51
+404,dev-data-0404,Data & Analytics,gp.medium,na-east,660.61,70.00,68.15,7.35
+405,dev-mktg-0405,Marketing Technology,gp.small,eu-central,135.50,76.17,7.64,4.28
+406,dev-plat-0406,Platform Engineering,mem.large,na-east,712.18,129.00,192.29,34.83
+407,dev-paym-0407,Payments,gp.large,na-east,750.56,125.00,154.83,26.10
+409,dev-plat-0409,Platform Engineering,gp.medium,sa-east,2157.57,1325.57,271.10,166.65
+411,dev-paym-0411,Payments,gp.medium,eu-central,711.52,114.00,80.89,13.22
+421,dev-secu-0421,Security Operations,cpu.xlarge,na-east,2154.31,1322.31,818.64,502.48
+422,dev-data-0422,Data & Analytics,gp.large,sa-east,2159.43,1327.43,542.66,333.77
+423,dev-itls-0423,Internal Tools,gp.large,eu-central,0,0,0,0
+424,dev-capp-0424,Customer Applications,mem.large,na-east,605.16,22.00,163.39,5.94
+425,dev-secu-0425,Security Operations,gp.small,eu-central,701.20,114.00,39.83,6.56
+426,dev-capp-0426,Customer Applications,gp.small,eu-central,703.93,103.00,39.76,5.74
+427,dev-plat-0427,Platform Engineering,gp.large,na-west,647.06,81.00,138.66,17.59
+433,dev-capp-0433,Customer Applications,gp.medium,na-west,613.30,11.00,65.51,1.14
+435,dev-mktg-0435,Marketing Technology,gp.small,sa-east,730.04,107.00,45.70,6.62
+436,dev-paym-0436,Payments,gp.small,na-east,730.67,103.00,37.74,5.43
+437,dev-secu-0437,Security Operations,gp.small,na-west,136.66,64.52,7.38,3.49
+439,dev-capp-0439,Customer Applications,mem.large,na-west,0,0,0,0
+440,dev-data-0440,Data & Analytics,gp.large,na-west,711.89,114.00,151.95,23.99
+442,dev-capp-0442,Customer Applications,mem.large,sa-east,124.12,53.02,40.89,17.46
+443,dev-paym-0443,Payments,gp.small,sa-east,740.93,140.00,46.55,8.80
+454,dev-capp-0454,Customer Applications,gp.large,eu-central,2156.58,1324.58,488.68,300.32
+456,dev-mktg-0456,Marketing Technology,cpu.xlarge,na-east,604.01,22.00,229.52,8.36
+458,dev-data-0458,Data & Analytics,gp.small,na-east,668.94,70.00,34.52,3.68
+459,dev-plat-0459,Platform Engineering,gp.large,eu-central,2157.65,1325.65,488.94,300.58
+465,dev-mktg-0465,Marketing Technology,gp.medium,na-west,625.14,15.00,66.91,1.65
+467,dev-secu-0467,Security Operations,gp.small,na-east,126.44,54.67,6.52,2.82
+469,dev-itls-0469,Internal Tools,gp.medium,na-east,678.53,81.00,69.92,8.45
+471,dev-itls-0471,Internal Tools,gp.small,na-west,2156.39,1324.39,115.48,70.96
+472,dev-plat-0472,Platform Engineering,gp.small,eu-central,109.79,47.21,6.24,2.67
+473,dev-itls-0473,Internal Tools,gp.medium,na-west,122.38,46.88,13.11,5.08
+474,dev-plat-0474,Platform Engineering,gp.small,na-east,81.46,15.53,4.18,0.79
+475,dev-paym-0475,Payments,gp.large,na-east,0,0,0,0
+476,dev-plat-0476,Platform Engineering,gp.medium,sa-east,90.47,31.60,11.39,3.99
+477,dev-secu-0477,Security Operations,gp.large,eu-central,629.93,44.00,142.55,9.97
+478,dev-mktg-0478,Marketing Technology,gp.medium,na-east,141.81,58.45,14.60,6.03
+479,dev-capp-0479,Customer Applications,cpu.xlarge,na-west,627.80,22.00,248.11,8.69
+480,dev-plat-0480,Platform Engineering,gp.large,na-east,685.59,81.00,141.61,16.99
+481,dev-itls-0481,Internal Tools,gp.large,na-west,586.48,11.00,125.32,2.29
+482,dev-secu-0482,Security Operations,gp.small,na-east,112.49,47.21,5.76,2.41
+485,dev-capp-0485,Customer Applications,cpu.xlarge,sa-east,1122.83,290.83,520.54,134.83
+487,dev-data-0487,Data & Analytics,gp.medium,eu-central,2156.13,1324.13,244.29,150.11
+491,dev-data-0491,Data & Analytics,gp.small,na-west,1082.97,250.97,57.91,13.40
+492,dev-plat-0492,Platform Engineering,gp.large,sa-east,646.66,44.00,162.53,11.06
+496,dev-data-0496,Data & Analytics,gp.medium,na-east,2154.73,1322.73,221.93,136.31
+497,dev-data-0497,Data & Analytics,gp.medium,na-west,2159.35,1327.35,231.27,142.24
+498,dev-capp-0498,Customer Applications,gp.large,eu-central,709.40,103.00,160.92,23.73
+499,dev-itls-0499,Internal Tools,gp.medium,eu-central,110.66,31.50,12.56,3.58
+500,dev-plat-0500,Platform Engineering,gp.large,na-west,0,0,0,0

@@ -1,0 +1,19 @@
+Benchmark on cloud_cost_utilization_portfolio: PostgreSQL 17.11 on aarch64-unknown-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit
+Resources: {'container_runtime': 'Docker Desktop', 'cpus': 8, 'memory_gib': 3.8, 'architecture': 'aarch64'}
+Phase A: optimization index dropped, VACUUM ANALYZE done
+  equivalence q1_server_week_metrics/optimized: rows 165 vs 165, differences 0+0 -> OK
+  equivalence q2_monthly_cost_joins/optimized: rows 165 vs 165, differences 0+0 -> OK
+  equivalence q3_dev_utilization_march/rewrite_only: rows 168 vs 168, differences 0+0 -> OK
+A_without_index: 6 variants x 7 measured runs done
+Phase B: created BRIN index in 33.4 ms, size 24576 bytes
+  equivalence q3_dev_utilization_march/rewrite_plus_brin: rows 168 vs 168, differences 0+0 -> OK
+B_with_index: 1 variants x 7 measured runs done
+
+query                     variant             median ms     IQR  ratio  rows     hit  read   est.cost
+q1_server_week_metrics    baseline                 2.90    0.37   1.00   165    2143     0       4234
+q1_server_week_metrics    optimized                0.31    0.01   0.11   165     172     0        644
+q2_monthly_cost_joins     baseline               363.91    7.91   1.00   165    4739     0      44349
+q2_monthly_cost_joins     optimized              117.57    4.53   0.32   165    4535     0      64909
+q3_dev_utilization_march  baseline                60.47    1.67   1.00   168    5116     0      10589
+q3_dev_utilization_march  rewrite_only            32.18    0.47   0.53   168    5042     0      12092
+q3_dev_utilization_march  rewrite_plus_brin       28.90    0.23   0.48   168    1850     0       9434

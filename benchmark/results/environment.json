@@ -1,0 +1,40 @@
+{
+  "run_date_utc": "2026-10-29",
+  "postgres_version": "PostgreSQL 17.11 on aarch64-unknown-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit",
+  "settings": {
+    "effective_cache_size": "5242888kB",
+    "effective_io_concurrency": "1",
+    "jit": "on",
+    "max_parallel_workers_per_gather": "2",
+    "random_page_cost": "4",
+    "server_version": "17.11",
+    "shared_buffers": "163848kB",
+    "work_mem": "4096kB"
+  },
+  "resources": {
+    "container_runtime": "Docker Desktop",
+    "cpus": 8,
+    "memory_gib": 3.8,
+    "architecture": "aarch64"
+  },
+  "row_counts": {
+    "server_metrics": 679122,
+    "server_hours": 695384,
+    "servers": 500,
+    "pricing": 33
+  },
+  "table_sizes": {
+    "server_hours": "35 MB",
+    "server_hours_pkey": "21 MB",
+    "server_metrics": "40 MB",
+    "server_metrics_pkey": "28 MB"
+  },
+  "measured_runs_per_variant": 7,
+  "warmup_runs_per_variant": 2,
+  "optimization_index": {
+    "index": "brin_server_metrics_hour",
+    "build_ms": 33.4,
+    "size_bytes": 24576,
+    "table_size_bytes": 40910848
+  }
+}

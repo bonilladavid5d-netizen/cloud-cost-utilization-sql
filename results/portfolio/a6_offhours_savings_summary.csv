@@ -1,0 +1,9 @@
+department_name,eligible_servers,eligible_servers_with_activity,uptime_hours,shutdown_window_hours,eligible_cost_usd,potential_savings_usd,savings_share_of_eligible
+Customer Applications,53,51,43705.80,14305.52,8820.45,3240.14,0.3673
+Data & Analytics,51,51,44640.57,14462.09,7864.58,2738.81,0.3482
+Internal Tools,27,26,19311.56,7178.50,3641.51,1671.30,0.4590
+Marketing Technology,28,27,23632.43,7455.42,3731.44,1042.66,0.2794
+Payments,31,29,20860.88,5468.76,2885.54,776.27,0.2690
+Platform Engineering,56,54,45341.50,14532.46,8249.75,2413.32,0.2925
+Security Operations,24,24,21719.50,8415.79,4789.16,2123.66,0.4434
+ALL,270,262,219212.23,71818.55,39982.44,14006.15,0.3503

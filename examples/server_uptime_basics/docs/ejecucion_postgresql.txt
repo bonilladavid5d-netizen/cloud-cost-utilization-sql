@@ -1,0 +1,150 @@
+REGISTRO DE EJECUCIÓN EN POSTGRESQL
+===================================
+
+Fecha de ejecución : 2026-10-28
+Versión            : PostgreSQL 17.11 on aarch64-unknown-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit
+Entorno            : contenedor Docker local (imagen postgres:17-alpine)
+Base de datos      : aws_server_utilization_practice (base de prácticas dedicada,
+                     creada solo para este ejercicio; no se tocaron otras bases)
+Autenticación      : conexión local dentro del contenedor; no se usó ni se
+                     registra ninguna contraseña.
+
+Comando ejecutado (desde la raíz del repositorio)
+-------------------------------------------------
+cat 01_create_table.sql 02_insert_data.sql 03_exploration.sql 04_solution.sql 05_validation.sql \
+  | docker exec -i <contenedor> psql -X -v ON_ERROR_STOP=1 -U <usuario> -d aws_server_utilization_practice
+
+Equivalente con psql local:
+psql -X -v ON_ERROR_STOP=1 -d <base_de_practicas> -f 01_create_table.sql -f 02_insert_data.sql -f 03_exploration.sql -f 04_solution.sql -f 05_validation.sql
+
+Código de salida de psql: 0
+
+Comprobaciones (revisadas manualmente sobre la salida de abajo)
+---------------------------------------------------------------
+[OK] Eventos totales                         : 10
+[OK] Servidores distintos                    : 3
+[OK] Sesiones (eventos start)                : 5   (2 + 1 + 2)
+[OK] Consulta de emparejamiento start->stop  : 0 filas
+[OK] Tiempo por servidor                     : 84 h, 168 h, 120 h
+[OK] Tiempo total                            : 372 h = 15,5 días
+[OK] Resultado final (04_solution.sql)       : 15 días completos
+[OK] FLOOR por sesión antes de sumar         : 14 (procedimiento incorrecto:
+                                               pierde las medias jornadas)
+
+Nota: ON_ERROR_STOP=1 garantiza que psql se detiene ante un error SQL; no
+convierte las consultas diagnósticas en assertions. Los valores anteriores
+se comprobaron leyendo la salida.
+
+Salida completa de psql
+=======================
+DROP TABLE
+CREATE TABLE
+TRUNCATE TABLE
+INSERT 0 10
+ server_id |     status_time     | session_status 
+-----------+---------------------+----------------
+         1 | 2022-08-02 10:00:00 | start
+         1 | 2022-08-04 10:00:00 | stop
+         1 | 2022-08-05 08:00:00 | start
+         1 | 2022-08-06 20:00:00 | stop
+         2 | 2022-08-17 10:00:00 | start
+         2 | 2022-08-24 10:00:00 | stop
+         3 | 2022-08-01 00:00:00 | start
+         3 | 2022-08-03 12:00:00 | stop
+         3 | 2022-08-10 06:00:00 | start
+         3 | 2022-08-12 18:00:00 | stop
+(10 rows)
+
+ server_id |     status_time     | session_status |  next_status_time   
+-----------+---------------------+----------------+---------------------
+         1 | 2022-08-02 10:00:00 | start          | 2022-08-04 10:00:00
+         1 | 2022-08-04 10:00:00 | stop           | 2022-08-05 08:00:00
+         1 | 2022-08-05 08:00:00 | start          | 2022-08-06 20:00:00
+         1 | 2022-08-06 20:00:00 | stop           | 
+         2 | 2022-08-17 10:00:00 | start          | 2022-08-24 10:00:00
+         2 | 2022-08-24 10:00:00 | stop           | 
+         3 | 2022-08-01 00:00:00 | start          | 2022-08-03 12:00:00
+         3 | 2022-08-03 12:00:00 | stop           | 2022-08-10 06:00:00
+         3 | 2022-08-10 06:00:00 | start          | 2022-08-12 18:00:00
+         3 | 2022-08-12 18:00:00 | stop           | 
+(10 rows)
+
+ server_id |     start_time      |      stop_time      
+-----------+---------------------+---------------------
+         1 | 2022-08-02 10:00:00 | 2022-08-04 10:00:00
+         1 | 2022-08-05 08:00:00 | 2022-08-06 20:00:00
+         2 | 2022-08-17 10:00:00 | 2022-08-24 10:00:00
+         3 | 2022-08-01 00:00:00 | 2022-08-03 12:00:00
+         3 | 2022-08-10 06:00:00 | 2022-08-12 18:00:00
+(5 rows)
+
+ server_id |     start_time      |      stop_time      | session_duration 
+-----------+---------------------+---------------------+------------------
+         1 | 2022-08-02 10:00:00 | 2022-08-04 10:00:00 | 2 days
+         1 | 2022-08-05 08:00:00 | 2022-08-06 20:00:00 | 1 day 12:00:00
+         2 | 2022-08-17 10:00:00 | 2022-08-24 10:00:00 | 7 days
+         3 | 2022-08-01 00:00:00 | 2022-08-03 12:00:00 | 2 days 12:00:00
+         3 | 2022-08-10 06:00:00 | 2022-08-12 18:00:00 | 2 days 12:00:00
+(5 rows)
+
+ server_id |     start_time      |      stop_time      | session_seconds |    session_days    
+-----------+---------------------+---------------------+-----------------+--------------------
+         1 | 2022-08-02 10:00:00 | 2022-08-04 10:00:00 |   172800.000000 | 2.0000000000000000
+         1 | 2022-08-05 08:00:00 | 2022-08-06 20:00:00 |   129600.000000 | 1.5000000000000000
+         2 | 2022-08-17 10:00:00 | 2022-08-24 10:00:00 |   604800.000000 | 7.0000000000000000
+         3 | 2022-08-01 00:00:00 | 2022-08-03 12:00:00 |   216000.000000 | 2.5000000000000000
+         3 | 2022-08-10 06:00:00 | 2022-08-12 18:00:00 |   216000.000000 | 2.5000000000000000
+(5 rows)
+
+ total_uptime_days 
+-------------------
+                15
+(1 row)
+
+ total_events 
+--------------
+           10
+(1 row)
+
+ distinct_servers 
+------------------
+                3
+(1 row)
+
+ server_id | start_events | stop_events 
+-----------+--------------+-------------
+         1 |            2 |           2
+         2 |            1 |           1
+         3 |            2 |           2
+(3 rows)
+
+ server_id | status_time | session_status | next_status 
+-----------+-------------+----------------+-------------
+(0 rows)
+
+ server_id |     start_time      |      stop_time      | session_interval |    session_hours     |    session_days    
+-----------+---------------------+---------------------+------------------+----------------------+--------------------
+         1 | 2022-08-02 10:00:00 | 2022-08-04 10:00:00 | 2 days           |  48.0000000000000000 | 2.0000000000000000
+         1 | 2022-08-05 08:00:00 | 2022-08-06 20:00:00 | 1 day 12:00:00   |  36.0000000000000000 | 1.5000000000000000
+         2 | 2022-08-17 10:00:00 | 2022-08-24 10:00:00 | 7 days           | 168.0000000000000000 | 7.0000000000000000
+         3 | 2022-08-01 00:00:00 | 2022-08-03 12:00:00 | 2 days 12:00:00  |  60.0000000000000000 | 2.5000000000000000
+         3 | 2022-08-10 06:00:00 | 2022-08-12 18:00:00 | 2 days 12:00:00  |  60.0000000000000000 | 2.5000000000000000
+(5 rows)
+
+ server_id | session_count |     uptime_hours     |    uptime_days     
+-----------+---------------+----------------------+--------------------
+         1 |             2 |  84.0000000000000000 | 3.5000000000000000
+         2 |             1 | 168.0000000000000000 | 7.0000000000000000
+         3 |             2 | 120.0000000000000000 | 5.0000000000000000
+(3 rows)
+
+ total_seconds  |     total_hours      |     total_days      
+----------------+----------------------+---------------------
+ 1339200.000000 | 372.0000000000000000 | 15.5000000000000000
+(1 row)
+
+ total_uptime_days | floor_per_session_days 
+-------------------+------------------------
+                15 |                     14
+(1 row)
+

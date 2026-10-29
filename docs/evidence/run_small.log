@@ -1,0 +1,42 @@
+[05:55:30] Pipeline size=small seed=20250101 database=cloud_cost_utilization_small
+[05:55:30] Code fingerprint: 942da95889d26ad233b8ad1c22feba1c28e4e2c78438d05036951882d9912cf0
+[05:55:30] generate ...
+[05:55:30] generate done in 0.2 s
+[05:55:30] recreate database ...
+[05:55:30] recreate database done in 0.29 s
+[05:55:30] schema ...
+[05:55:31] schema done in 0.13 s
+[05:55:31] load ...
+[05:55:31] load done in 0.88 s
+[05:55:31] transform ...
+[05:55:32] transform done in 0.36 s
+[05:55:32] views and analyses ...
+[05:55:32] views and analyses done in 0.4 s
+[05:55:32] indexes ...
+[05:55:32] indexes done in 0.05 s
+[05:55:32] vacuum analyze ...
+[05:55:32] vacuum analyze done in 0.18 s
+[05:55:32] quality gate ...
+[05:55:33] quality gate done in 0.21 s
+[05:55:33] Quality gate passed (13 invariants).
+[05:55:33] export ...
+[05:55:33] export done in 0.8 s
+[05:55:34] Rows generated vs loaded:
+[05:55:34]   departments      generated=        8 loaded=        8
+[05:55:34]   servers          generated=       24 loaded=       24
+[05:55:34]   pricing          generated=       33 loaded=       33
+[05:55:34]   budgets          generated=       23 loaded=       23
+[05:55:34]   server_events    generated=    1,752 loaded=    1,752
+[05:55:34]   server_metrics   generated=   30,139 loaded=   30,139
+[05:55:34] Data quality summary:
+[05:55:34]   events_excluded                          4
+[05:55:34]   events_total                             1752
+[05:55:34]   metrics_outside_reconstructed_uptime     33
+[05:55:34]   pricing_gaps                             0
+[05:55:34]   running_hours_without_metrics            651
+[05:55:34]   server_hours_rows                        30757
+[05:55:34]   servers_without_events                   1
+[05:55:34]   sessions                                 874
+[05:55:34]   unpriced_server_hours                    0
+[05:55:34] Results written to results/small/
+[05:55:34] Pipeline finished OK

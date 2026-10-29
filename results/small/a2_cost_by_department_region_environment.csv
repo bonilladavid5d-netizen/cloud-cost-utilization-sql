@@ -1,0 +1,43 @@
+month,department_name,cost_center,region,environment,active_servers,billed_hours,compute_cost_usd
+2025-01-01,Customer Applications,CC-1030,eu-central,development,2,996.31,95.72
+2025-01-01,Customer Applications,CC-1030,na-east,development,1,279.05,55.81
+2025-01-01,Customer Applications,CC-1030,na-west,development,1,273.18,28.41
+2025-01-01,Data & Analytics,CC-1020,eu-central,development,1,316.34,34.80
+2025-01-01,Data & Analytics,CC-1020,na-east,production,5,3709.92,497.26
+2025-01-01,Internal Tools,CC-1060,na-east,development,1,222.98,11.15
+2025-01-01,Internal Tools,CC-1060,na-east,production,1,742.89,37.14
+2025-01-01,Marketing Technology,CC-1050,sa-east,development,1,21.26,1.30
+2025-01-01,Payments,CC-1040,eu-central,development,1,290.14,15.96
+2025-01-01,Payments,CC-1040,na-east,development,2,266.16,90.02
+2025-01-01,Payments,CC-1040,na-east,production,2,1485.80,356.82
+2025-01-01,Platform Engineering,CC-1010,eu-central,development,1,397.21,87.39
+2025-01-01,Platform Engineering,CC-1010,na-east,development,1,300.82,60.16
+2025-01-01,Security Operations,CC-1070,na-east,development,3,1197.57,182.72
+2025-02-01,Customer Applications,CC-1030,eu-central,development,2,914.06,89.78
+2025-02-01,Customer Applications,CC-1030,na-east,development,1,202.27,41.86
+2025-02-01,Customer Applications,CC-1030,na-west,development,1,204.71,21.95
+2025-02-01,Data & Analytics,CC-1020,eu-central,development,1,189.17,21.32
+2025-02-01,Data & Analytics,CC-1020,na-east,production,5,3355.60,457.79
+2025-02-01,Internal Tools,CC-1060,na-east,development,1,246.25,12.74
+2025-02-01,Internal Tools,CC-1060,na-east,production,1,670.95,34.55
+2025-02-01,Marketing Technology,CC-1050,sa-east,development,1,44.30,2.84
+2025-02-01,Payments,CC-1040,eu-central,development,1,192.82,10.98
+2025-02-01,Payments,CC-1040,na-east,development,2,237.68,79.76
+2025-02-01,Payments,CC-1040,na-east,production,2,1341.12,323.48
+2025-02-01,Platform Engineering,CC-1010,eu-central,development,1,352.30,79.78
+2025-02-01,Platform Engineering,CC-1010,na-east,development,1,172.68,35.55
+2025-02-01,Security Operations,CC-1070,na-east,development,3,1027.66,165.45
+2025-03-01,Customer Applications,CC-1030,eu-central,development,2,1006.91,101.97
+2025-03-01,Customer Applications,CC-1030,na-east,development,1,337.35,71.52
+2025-03-01,Customer Applications,CC-1030,na-west,development,1,199.88,22.03
+2025-03-01,Data & Analytics,CC-1020,eu-central,development,1,200.18,23.34
+2025-03-01,Data & Analytics,CC-1020,na-east,production,5,3711.61,515.42
+2025-03-01,Internal Tools,CC-1060,na-east,development,1,209.77,11.12
+2025-03-01,Internal Tools,CC-1060,na-east,production,1,742.68,39.36
+2025-03-01,Marketing Technology,CC-1050,sa-east,development,1,40.45,2.62
+2025-03-01,Payments,CC-1040,eu-central,development,1,199.06,11.61
+2025-03-01,Payments,CC-1040,na-east,development,2,326.25,110.87
+2025-03-01,Payments,CC-1040,na-east,production,2,1485.52,360.84
+2025-03-01,Platform Engineering,CC-1010,eu-central,development,1,353.44,82.42
+2025-03-01,Platform Engineering,CC-1010,na-east,development,1,196.56,41.67
+2025-03-01,Security Operations,CC-1070,na-east,development,3,1330.03,202.79

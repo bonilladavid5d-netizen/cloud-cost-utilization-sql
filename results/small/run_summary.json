@@ -1,0 +1,78 @@
+{
+  "size": "small",
+  "seed": 20250101,
+  "run_date_utc": "2026-10-29",
+  "postgres_version": "PostgreSQL 17.11 on aarch64-unknown-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit",
+  "code_fingerprint": "942da95889d26ad233b8ad1c22feba1c28e4e2c78438d05036951882d9912cf0",
+  "generated_rows": {
+    "departments": 8,
+    "servers": 24,
+    "pricing": 33,
+    "budgets": 23,
+    "server_events": 1752,
+    "server_metrics": 30139
+  },
+  "loaded_rows": {
+    "departments": 8,
+    "servers": 24,
+    "pricing": 33,
+    "budgets": 23,
+    "server_events": 1752,
+    "server_metrics": 30139
+  },
+  "generated_equals_loaded": true,
+  "server_patterns": {
+    "development/always_on": 2,
+    "development/extended_hours": 1,
+    "development/inactive": 1,
+    "development/office_hours": 10,
+    "development/sporadic": 2,
+    "production/always_on": 8
+  },
+  "injected_anomalies": [
+    {
+      "server_id": 11,
+      "kind": "lost_stop",
+      "removed_event_time": "2025-02-28 18:59:33+00"
+    },
+    {
+      "server_id": 17,
+      "kind": "lost_start",
+      "removed_event_time": "2025-01-22 08:37:45+00"
+    }
+  ],
+  "data_quality": {
+    "events_excluded": "4",
+    "events_total": "1752",
+    "metrics_outside_reconstructed_uptime": "33",
+    "pricing_gaps": "0",
+    "running_hours_without_metrics": "651",
+    "server_hours_rows": "30757",
+    "servers_without_events": "1",
+    "sessions": "874",
+    "unpriced_server_hours": "0"
+  },
+  "exported_rows": {
+    "a1_uptime_by_server_month": 72,
+    "a2_cost_by_department_region_environment": 42,
+    "a3_budget_vs_actual": 24,
+    "a4_low_utilization": 24,
+    "a5_spend_trend_concentration": 24,
+    "a6_offhours_savings_by_server": 16,
+    "a6_offhours_savings_summary": 8,
+    "dq_summary": 9,
+    "dq_event_status": 6
+  },
+  "timings_seconds": {
+    "generate": 0.2,
+    "recreate database": 0.29,
+    "schema": 0.13,
+    "load": 0.88,
+    "transform": 0.36,
+    "views and analyses": 0.4,
+    "indexes": 0.05,
+    "vacuum analyze": 0.18,
+    "quality gate": 0.21,
+    "export": 0.8
+  }
+}

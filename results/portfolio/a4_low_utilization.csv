@@ -1,0 +1,501 @@
+server_id,hostname,department_name,environment,is_critical,instance_type,region,active_hour_bins,observed_hour_bins,running_seconds,observed_seconds,uptime_hours,observed_running_hours,metric_coverage,cpu_avg_pct,cpu_p95_pct,mem_avg_pct,compute_cost_usd,utilization_class
+1,dev-plat-0001,Platform Engineering,development,f,gp.large,eu-central,1174,1151,3970618,3896848,1102.95,1082.46,0.9814,68.89,99.50,73.34,249.59,normal
+2,prd-data-0002,Data & Analytics,production,t,mem.large,na-east,2160,2105,7764216,7566216,2156.73,2101.73,0.9745,17.68,30.48,35.63,582.32,normal
+3,dev-capp-0003,Customer Applications,development,f,gp.medium,na-west,738,727,2439971,2400371,677.77,666.77,0.9838,2.82,3.81,24.95,72.39,low_utilization
+4,prd-paym-0004,Payments,production,f,cpu.xlarge,na-east,2159,2130,7758213,7653813,2155.06,2126.06,0.9865,13.00,22.11,25.34,818.92,normal
+5,dev-mktg-0005,Marketing Technology,development,f,gp.small,sa-east,136,134,381629,374973,106.01,104.16,0.9826,41.78,63.82,54.23,6.76,insufficient_data
+6,prd-itls-0006,Internal Tools,production,t,gp.small,na-east,2160,2127,7763473,7644673,2156.52,2123.52,0.9847,35.35,60.59,55.99,111.06,normal
+7,dev-secu-0007,Security Operations,development,f,gp.medium,na-east,731,717,2391968,2345777,664.44,651.60,0.9807,4.18,5.54,27.05,68.55,low_utilization
+8,prd-data-0008,Data & Analytics,production,f,gp.small,na-east,2160,2117,7760356,7605556,2155.65,2112.65,0.9801,57.94,99.50,82.07,111.01,normal
+9,prd-data-0009,Data & Analytics,production,f,gp.medium,na-east,2160,2115,7750643,7588643,2152.96,2107.96,0.9791,3.91,6.68,23.12,221.76,low_utilization
+10,dev-paym-0010,Payments,development,f,gp.medium,na-east,157,151,452671,438117,125.74,121.70,0.9678,10.44,17.80,44.55,13.00,insufficient_data
+11,dev-itls-0011,Internal Tools,development,f,gp.small,na-east,754,742,2518854,2479335,699.68,688.70,0.9843,19.97,27.29,39.69,36.11,normal
+12,dev-secu-0012,Security Operations,development,f,gp.small,na-east,789,769,2638864,2573439,733.02,714.84,0.9752,32.66,45.20,52.98,37.90,normal
+13,dev-paym-0013,Payments,development,f,gp.small,eu-central,742,731,2455237,2415637,682.01,671.01,0.9839,22.62,29.95,33.67,38.54,normal
+14,prd-data-0014,Data & Analytics,production,f,gp.large,na-east,2159,2104,7767135,7569135,2157.54,2102.54,0.9745,40.21,68.93,56.75,444.44,normal
+15,dev-plat-0015,Platform Engineering,development,f,gp.large,na-east,724,712,2412173,2370406,670.05,658.45,0.9827,24.42,32.82,48.62,137.38,normal
+16,dev-capp-0016,Customer Applications,development,f,gp.medium,eu-central,2160,2115,7769424,7607424,2158.17,2113.17,0.9791,3.96,6.75,20.30,244.52,low_utilization
+17,dev-data-0017,Data & Analytics,development,f,gp.medium,eu-central,778,763,2576588,2529355,715.72,702.60,0.9817,58.61,80.22,64.15,80.56,normal
+18,dev-capp-0018,Customer Applications,development,f,gp.large,na-east,879,860,2947208,2884710,818.67,801.31,0.9788,9.56,13.49,33.46,169.18,low_utilization
+19,dev-secu-0019,Security Operations,development,f,gp.large,na-east,2160,2135,7768097,7678097,2157.80,2132.80,0.9884,8.12,13.86,29.74,444.50,low_utilization
+20,prd-data-0020,Data & Analytics,production,t,gp.small,na-east,2159,2114,7755312,7593312,2154.25,2109.25,0.9791,3.07,5.24,22.61,110.94,low_utilization
+21,dev-paym-0021,Payments,development,f,cpu.xlarge,na-east,767,692,2535637,2283279,704.34,634.24,0.9005,51.58,69.73,48.19,267.65,normal
+22,dev-capp-0022,Customer Applications,development,f,gp.small,eu-central,824,811,2732766,2685966,759.10,746.10,0.9829,5.36,7.38,26.89,42.95,low_utilization
+23,prd-paym-0023,Payments,production,f,gp.medium,na-east,2160,2117,7766565,7615853,2157.38,2115.51,0.9806,29.09,49.21,43.14,222.21,normal
+24,prd-capp-0024,Customer Applications,production,t,gp.medium,eu-central,2159,2114,7758150,7596150,2155.04,2110.04,0.9791,16.32,27.92,42.94,244.17,normal
+25,dev-capp-0025,Customer Applications,development,f,gp.medium,eu-central,95,95,251625,251625,69.90,69.90,1.0000,22.22,37.79,61.37,7.91,insufficient_data
+26,dev-mktg-0026,Marketing Technology,development,f,gp.medium,na-east,803,793,2659646,2627470,738.79,729.85,0.9879,4.99,6.81,30.91,76.32,low_utilization
+27,prd-itls-0027,Internal Tools,production,f,gp.medium,eu-central,2159,2124,7762597,7636597,2156.28,2121.28,0.9838,28.22,47.58,60.85,244.30,normal
+28,dev-data-0028,Data & Analytics,development,f,mem.large,na-west,1160,1134,3930110,3836510,1091.70,1065.70,0.9762,5.09,7.70,15.16,306.55,low_utilization
+29,prd-mktg-0029,Marketing Technology,production,t,cpu.xlarge,na-east,2158,2116,7758011,7606811,2155.00,2113.00,0.9805,19.06,32.64,51.58,818.90,normal
+30,dev-plat-0030,Platform Engineering,development,f,gp.small,sa-east,697,686,2286970,2250654,635.27,625.18,0.9841,63.22,81.74,77.03,39.92,normal
+31,dev-mktg-0031,Marketing Technology,development,f,gp.medium,sa-east,1161,1140,3917727,3847820,1088.26,1068.84,0.9822,3.10,4.69,26.29,136.59,low_utilization
+32,dev-capp-0032,Customer Applications,development,f,gp.medium,na-east,837,829,2810979,2784212,780.83,773.39,0.9905,19.20,27.00,29.76,80.21,normal
+33,dev-capp-0033,Customer Applications,development,f,gp.large,eu-central,729,713,2387540,2337306,663.21,649.25,0.9790,18.76,24.93,26.05,150.07,normal
+34,prd-plat-0034,Platform Engineering,production,f,gp.large,na-east,2160,2118,7766758,7615558,2157.43,2115.43,0.9805,28.09,48.10,45.45,444.44,normal
+35,dev-secu-0035,Security Operations,development,f,gp.large,eu-central,702,691,2313943,2281530,642.76,633.76,0.9860,40.63,53.54,41.97,145.71,normal
+36,dev-paym-0036,Payments,development,t,gp.medium,na-east,764,700,2543485,2332482,706.52,647.91,0.9170,3.24,4.48,24.52,72.44,low_utilization
+37,dev-data-0037,Data & Analytics,development,t,gp.large,na-east,707,696,2338316,2303258,649.53,639.79,0.9850,6.49,8.82,16.44,133.86,low_utilization
+38,dev-capp-0038,Customer Applications,development,t,gp.large,na-east,2160,2122,7764013,7627213,2156.67,2118.67,0.9824,16.23,27.57,37.15,444.26,normal
+39,prd-data-0039,Data & Analytics,production,t,gp.large,eu-central,2160,2113,7762393,7596644,2156.22,2110.18,0.9786,31.05,53.42,64.56,488.59,normal
+40,dev-plat-0040,Platform Engineering,development,f,gp.medium,sa-east,1157,1127,3923715,3821628,1089.92,1061.56,0.9740,5.50,8.32,21.49,136.80,low_utilization
+41,dev-data-0041,Data & Analytics,development,f,mem.large,na-east,700,686,2313418,2266656,642.62,629.63,0.9798,19.86,26.19,36.80,173.51,normal
+42,prd-data-0042,Data & Analytics,production,f,gp.large,eu-central,2159,2123,7761327,7631727,2155.92,2119.92,0.9833,15.94,27.30,35.93,488.55,normal
+43,prd-itls-0043,Internal Tools,production,f,gp.small,eu-central,2158,2106,7758792,7571592,2155.22,2103.22,0.9759,42.56,73.42,60.58,122.09,normal
+44,prd-itls-0044,Internal Tools,production,t,gp.large,na-east,2160,2114,7754659,7589059,2154.07,2108.07,0.9786,32.13,55.28,43.90,443.72,normal
+45,dev-data-0045,Data & Analytics,development,f,gp.medium,na-east,739,720,2434066,2368013,676.13,657.78,0.9729,84.20,99.50,84.54,69.57,normal
+46,prd-data-0046,Data & Analytics,production,f,gp.large,sa-east,2160,2115,7756890,7594890,2154.69,2109.69,0.9791,8.61,14.84,49.49,541.46,normal
+47,dev-data-0047,Data & Analytics,development,f,mem.large,na-east,692,680,2277420,2234220,632.62,620.62,0.9810,6.07,7.95,28.32,170.81,low_utilization
+48,dev-secu-0048,Security Operations,development,f,mem.large,na-west,779,761,2582445,2523162,717.35,700.88,0.9770,12.85,17.56,27.16,201.43,normal
+49,prd-capp-0049,Customer Applications,production,t,gp.medium,na-east,2160,2118,7769044,7617844,2158.07,2116.07,0.9805,49.78,85.69,76.68,222.29,normal
+50,dev-plat-0050,Platform Engineering,development,f,gp.large,eu-central,790,777,2653638,2609732,737.12,724.93,0.9835,11.11,15.63,32.04,167.27,normal
+51,dev-plat-0051,Platform Engineering,development,f,gp.medium,eu-central,2159,2106,7763363,7574309,2156.49,2103.97,0.9756,3.27,5.63,22.04,244.33,low_utilization
+52,dev-data-0052,Data & Analytics,development,f,gp.large,eu-central,147,144,422672,412557,117.41,114.60,0.9761,4.17,7.22,21.85,26.75,insufficient_data
+53,dev-data-0053,Data & Analytics,development,t,mem.large,na-east,726,712,2382802,2337749,661.89,649.37,0.9811,6.07,8.01,17.05,178.71,low_utilization
+54,prd-paym-0054,Payments,production,f,gp.medium,eu-central,2160,2122,7765418,7628618,2157.06,2119.06,0.9824,56.47,97.63,81.91,244.39,normal
+55,dev-data-0055,Data & Analytics,development,f,gp.medium,na-east,692,678,2264470,2217685,629.02,616.02,0.9793,5.15,6.77,17.15,64.85,low_utilization
+56,prd-data-0056,Data & Analytics,production,t,gp.large,na-east,2159,2116,7757752,7602952,2154.93,2111.93,0.9800,45.21,77.67,55.48,443.91,normal
+57,prd-paym-0057,Payments,production,t,gp.medium,eu-central,2160,2104,7768714,7567114,2157.98,2101.98,0.9740,3.42,5.86,23.76,244.50,low_utilization
+58,dev-capp-0058,Customer Applications,development,f,gp.medium,na-west,157,155,449942,442742,124.98,122.98,0.9840,63.97,99.50,73.49,13.38,insufficient_data
+59,dev-capp-0059,Customer Applications,development,f,gp.large,na-east,759,742,2495775,2438250,693.27,677.29,0.9770,4.44,6.08,19.38,142.51,low_utilization
+60,prd-capp-0060,Customer Applications,production,t,gp.large,eu-central,2160,2105,7755851,7557851,2154.40,2099.40,0.9745,13.04,22.23,34.75,488.20,normal
+61,prd-mktg-0061,Marketing Technology,production,t,mem.large,eu-central,2160,2111,7754694,7578294,2154.08,2105.08,0.9773,24.38,41.98,53.18,623.83,normal
+62,prd-capp-0062,Customer Applications,production,f,gp.small,na-east,2160,2116,7755235,7596835,2154.23,2110.23,0.9796,22.43,38.54,46.82,110.94,normal
+63,dev-capp-0063,Customer Applications,development,f,gp.medium,eu-central,697,678,2283633,2215233,634.34,615.34,0.9700,10.76,14.37,44.63,71.89,normal
+64,dev-secu-0064,Security Operations,development,f,gp.small,na-east,814,801,2710637,2663837,752.95,739.95,0.9827,5.15,7.06,20.21,38.66,low_utilization
+65,prd-data-0065,Data & Analytics,production,t,cpu.xlarge,na-west,2159,2122,7760988,7627788,2155.83,2118.83,0.9828,36.30,62.98,55.85,851.98,normal
+66,dev-capp-0066,Customer Applications,development,f,gp.large,na-east,1187,1163,4001772,3915372,1111.60,1087.60,0.9784,6.40,9.64,28.38,228.75,low_utilization
+67,dev-capp-0067,Customer Applications,development,f,gp.large,na-east,865,851,2911044,2866863,808.62,796.35,0.9848,2.49,3.53,24.82,166.79,low_utilization
+68,dev-mktg-0068,Marketing Technology,development,f,gp.medium,sa-east,1190,1164,4002269,3919119,1111.74,1088.64,0.9792,46.98,70.88,52.22,139.64,normal
+69,dev-paym-0069,Payments,development,f,gp.large,sa-east,149,147,412581,405381,114.61,112.61,0.9825,15.43,23.44,25.47,28.79,insufficient_data
+70,dev-mktg-0070,Marketing Technology,development,f,mem.large,na-east,126,126,351982,351982,97.77,97.77,1.0000,37.89,59.61,63.59,26.40,insufficient_data
+71,prd-mktg-0071,Marketing Technology,production,t,gp.small,na-east,2158,2107,7757042,7573442,2154.73,2103.73,0.9763,36.71,62.64,50.92,110.96,normal
+72,prd-capp-0072,Customer Applications,production,f,cpu.xlarge,na-west,2160,2123,7768146,7634946,2157.82,2120.82,0.9829,35.33,59.79,59.57,852.77,normal
+73,dev-plat-0073,Platform Engineering,development,f,mem.large,na-west,698,683,2282398,2233418,634.00,620.39,0.9785,6.51,8.46,28.14,178.03,low_utilization
+74,prd-paym-0074,Payments,production,t,gp.small,na-east,2159,2109,7754117,7575660,2153.92,2104.35,0.9770,58.98,99.50,73.61,110.92,normal
+75,dev-data-0075,Data & Analytics,development,f,gp.medium,eu-central,803,724,2656216,2390274,737.84,663.97,0.8999,12.99,17.40,47.84,83.91,normal
+76,dev-plat-0076,Platform Engineering,development,f,gp.small,sa-east,753,738,2500739,2451559,694.65,680.99,0.9803,49.71,68.07,41.28,43.46,normal
+77,dev-plat-0077,Platform Engineering,development,f,cpu.xlarge,na-west,1178,1154,3970723,3888816,1102.98,1080.23,0.9794,25.25,38.41,59.81,435.90,normal
+78,dev-itls-0078,Internal Tools,development,f,gp.small,eu-central,150,143,397898,378126,110.53,105.04,0.9503,29.25,45.48,56.63,6.26,insufficient_data
+79,prd-secu-0079,Security Operations,production,t,gp.small,sa-east,2160,2118,7764051,7612851,2156.68,2114.68,0.9805,13.97,23.93,45.27,135.54,normal
+80,prd-paym-0080,Payments,production,t,gp.small,eu-central,2160,2120,7759345,7615345,2155.37,2115.37,0.9814,2.81,4.77,26.50,122.10,low_utilization
+81,dev-data-0081,Data & Analytics,development,f,gp.medium,na-west,708,691,2335755,2275397,648.82,632.05,0.9742,21.81,28.83,35.36,69.42,normal
+82,prd-mktg-0082,Marketing Technology,production,t,mem.large,na-east,2159,2122,7755423,7622223,2154.28,2117.28,0.9828,42.63,73.44,57.29,581.66,normal
+83,dev-mktg-0083,Marketing Technology,development,f,cpu.xlarge,sa-east,1157,1136,3912225,3840017,1086.73,1066.67,0.9815,16.42,24.48,32.21,503.81,normal
+84,dev-secu-0084,Security Operations,development,f,gp.small,eu-central,151,144,420789,402384,116.89,111.77,0.9563,8.25,13.14,32.65,6.63,insufficient_data
+85,dev-plat-0085,Platform Engineering,development,t,gp.medium,na-west,1168,1147,3947013,3879812,1096.39,1077.73,0.9830,21.08,32.30,39.13,117.29,normal
+86,prd-plat-0086,Platform Engineering,production,f,mem.large,na-east,2159,2118,7757772,7610172,2154.94,2113.94,0.9810,17.96,30.52,38.23,581.83,normal
+87,dev-data-0087,Data & Analytics,development,t,gp.large,eu-central,672,661,2179448,2140311,605.40,594.53,0.9820,4.01,5.21,21.56,137.10,low_utilization
+88,dev-paym-0088,Payments,development,f,mem.large,eu-central,767,753,2531970,2483250,703.33,689.79,0.9808,29.87,40.79,62.77,203.41,normal
+89,prd-itls-0089,Internal Tools,production,t,mem.large,na-east,2160,2121,7765215,7624815,2157.00,2118.00,0.9819,20.28,34.65,62.45,582.39,normal
+90,dev-capp-0090,Customer Applications,development,f,gp.large,na-east,667,657,2177302,2142380,604.81,595.11,0.9840,43.43,56.16,55.44,124.52,normal
+91,dev-plat-0091,Platform Engineering,development,f,gp.small,na-east,0,0,0,0,0.00,0.00,,,,,0,no_activity
+92,dev-capp-0092,Customer Applications,development,f,mem.large,sa-east,658,587,2131501,1905016,592.08,529.17,0.8937,23.78,30.61,31.09,195.03,normal
+93,prd-secu-0093,Security Operations,production,f,gp.medium,na-east,2160,2110,7755754,7575754,2154.38,2104.38,0.9768,16.83,28.78,29.69,221.91,normal
+94,prd-plat-0094,Platform Engineering,production,t,gp.large,eu-central,2160,2110,7763845,7583845,2156.62,2106.62,0.9768,24.07,40.93,50.43,488.70,normal
+95,dev-plat-0095,Platform Engineering,development,f,gp.medium,eu-central,652,638,2131480,2090069,592.08,580.57,0.9806,12.57,16.51,39.56,67.24,normal
+96,prd-plat-0096,Platform Engineering,production,t,gp.large,eu-central,2160,2107,7760915,7570115,2155.81,2102.81,0.9754,12.09,20.57,34.49,488.51,normal
+97,prd-itls-0097,Internal Tools,production,f,gp.medium,na-east,2160,2113,7769485,7600285,2158.19,2111.19,0.9782,61.79,99.50,56.46,222.29,normal
+98,prd-paym-0098,Payments,production,t,gp.large,eu-central,2159,2124,7750276,7624276,2152.85,2117.85,0.9837,10.15,17.40,47.78,487.82,normal
+99,dev-mktg-0099,Marketing Technology,development,f,gp.large,sa-east,1176,1159,3957414,3906057,1099.28,1085.02,0.9870,10.61,16.16,40.46,276.05,normal
+100,dev-itls-0100,Internal Tools,development,f,gp.large,na-east,2159,2113,7762308,7596708,2156.20,2110.20,0.9787,4.66,7.92,18.81,444.17,low_utilization
+101,dev-paym-0101,Payments,development,f,gp.medium,na-east,1168,1134,3935159,3822958,1093.10,1061.93,0.9715,22.13,33.50,41.36,112.50,normal
+102,prd-mktg-0102,Marketing Technology,production,f,gp.small,na-west,2160,2109,7758223,7576798,2155.06,2104.67,0.9766,7.93,13.69,31.06,115.41,low_utilization
+103,prd-mktg-0103,Marketing Technology,production,t,mem.large,na-east,2160,2107,7766084,7575284,2157.25,2104.25,0.9754,30.03,51.71,60.52,582.46,normal
+104,prd-plat-0104,Platform Engineering,production,f,gp.small,eu-central,2158,2122,7758175,7631048,2155.05,2119.74,0.9836,30.81,52.79,60.35,122.08,normal
+105,prd-mktg-0105,Marketing Technology,production,t,gp.small,na-east,2159,2119,7749903,7605903,2152.75,2112.75,0.9814,1.94,3.30,31.33,110.87,low_utilization
+106,prd-mktg-0106,Marketing Technology,production,t,gp.medium,eu-central,2160,2116,7758977,7602315,2155.27,2111.75,0.9798,31.80,54.35,60.58,244.20,normal
+107,prd-plat-0107,Platform Engineering,production,t,cpu.xlarge,na-west,2159,2122,7764765,7631565,2156.88,2119.88,0.9828,42.87,72.60,62.76,852.40,normal
+108,prd-itls-0108,Internal Tools,production,f,gp.small,sa-east,2159,2119,7757386,7613386,2154.83,2114.83,0.9814,46.47,79.63,80.80,135.43,normal
+109,prd-plat-0109,Platform Engineering,production,t,gp.medium,na-east,2160,2109,7763712,7580112,2156.59,2105.59,0.9764,30.50,51.83,61.72,222.12,normal
+110,dev-data-0110,Data & Analytics,development,f,gp.medium,na-east,2160,2116,7766807,7608407,2157.45,2113.45,0.9796,5.23,8.83,26.79,222.21,low_utilization
+111,dev-paym-0111,Payments,development,f,gp.small,na-east,1137,1107,3843006,3741198,1067.50,1039.22,0.9735,28.82,42.69,48.27,54.95,normal
+112,prd-capp-0112,Customer Applications,production,t,gp.small,eu-central,2160,2127,7767583,7648783,2157.66,2124.66,0.9847,28.27,47.87,59.19,122.23,normal
+113,dev-paym-0113,Payments,development,f,gp.medium,eu-central,163,162,450468,446868,125.13,124.13,0.9920,5.53,8.36,19.40,14.20,insufficient_data
+114,dev-capp-0114,Customer Applications,development,f,gp.medium,na-west,141,139,407104,401644,113.08,111.57,0.9866,66.68,99.50,82.33,12.23,insufficient_data
+115,dev-capp-0115,Customer Applications,development,f,gp.large,na-east,1189,1179,4015482,3979482,1115.41,1105.41,0.9910,40.36,60.99,58.54,229.49,normal
+116,dev-itls-0116,Internal Tools,development,f,cpu.xlarge,na-east,2160,2121,7764522,7626192,2156.81,2118.39,0.9822,16.66,28.22,43.32,819.59,normal
+117,dev-itls-0117,Internal Tools,development,t,gp.large,eu-central,2159,2110,7766310,7589910,2157.31,2108.31,0.9773,11.43,19.65,47.62,488.83,normal
+118,prd-capp-0118,Customer Applications,production,f,mem.large,na-east,2160,2115,7765967,7603967,2157.21,2112.21,0.9791,29.94,50.87,44.29,582.45,normal
+119,dev-mktg-0119,Marketing Technology,development,f,gp.small,na-east,1169,1145,3952498,3868641,1097.92,1074.62,0.9788,31.34,47.40,46.64,56.51,normal
+120,dev-capp-0120,Customer Applications,development,f,mem.large,eu-central,713,704,2326317,2297250,646.20,638.13,0.9875,4.25,5.63,31.69,187.06,low_utilization
+121,prd-plat-0121,Platform Engineering,production,t,gp.small,eu-central,2160,2107,7771221,7580421,2158.67,2105.67,0.9754,32.82,56.50,57.47,122.29,normal
+122,prd-paym-0122,Payments,production,t,gp.small,na-west,2160,2127,7769104,7650304,2158.08,2125.08,0.9847,16.16,27.80,25.06,115.57,normal
+123,prd-data-0123,Data & Analytics,production,f,gp.small,eu-central,2160,2118,7764080,7612880,2156.69,2114.69,0.9805,10.54,18.05,42.14,122.17,normal
+124,prd-plat-0124,Platform Engineering,production,f,gp.small,na-west,2158,2102,7760428,7558828,2155.67,2099.67,0.9740,51.98,89.54,63.23,115.44,normal
+125,dev-data-0125,Data & Analytics,development,f,gp.large,na-east,704,695,2335713,2306427,648.81,640.67,0.9875,5.43,7.32,21.12,133.19,low_utilization
+126,dev-mktg-0126,Marketing Technology,development,f,gp.small,na-east,2160,2113,7762259,7594122,2156.18,2109.48,0.9783,3.55,6.07,21.86,111.04,low_utilization
+127,dev-mktg-0127,Marketing Technology,development,f,gp.large,eu-central,2159,2112,7762313,7593113,2156.20,2109.20,0.9782,24.36,41.88,54.43,488.60,normal
+128,dev-data-0128,Data & Analytics,development,f,mem.large,eu-central,740,722,2460950,2402116,683.60,667.25,0.9761,80.08,99.50,84.17,197.60,normal
+129,dev-plat-0129,Platform Engineering,development,f,gp.small,sa-east,1141,1121,3870142,3798443,1075.04,1055.12,0.9815,4.22,6.40,24.09,67.51,low_utilization
+130,prd-data-0130,Data & Analytics,production,t,gp.small,na-east,2160,2122,7761384,7624584,2155.94,2117.94,0.9824,35.31,60.14,43.21,111.03,normal
+131,dev-data-0131,Data & Analytics,development,f,mem.large,na-east,736,717,2423913,2363944,673.31,656.65,0.9753,13.91,18.89,30.86,181.79,normal
+132,dev-data-0132,Data & Analytics,development,f,gp.large,na-west,827,814,2789594,2743419,774.89,762.06,0.9834,21.89,31.27,38.09,166.74,normal
+133,dev-data-0133,Data & Analytics,development,f,cpu.xlarge,na-west,2160,2116,7770019,7611619,2158.34,2114.34,0.9796,14.57,25.11,42.89,852.98,normal
+134,dev-paym-0134,Payments,development,f,gp.small,na-east,1169,1140,3936896,3839211,1093.58,1066.45,0.9752,19.99,30.30,43.76,56.24,normal
+135,dev-data-0135,Data & Analytics,development,f,gp.small,na-east,189,182,522849,504113,145.24,140.03,0.9642,18.48,29.52,31.20,7.48,insufficient_data
+136,prd-plat-0136,Platform Engineering,production,t,gp.small,eu-central,2159,2111,7756228,7583428,2154.51,2106.51,0.9777,20.02,34.54,55.36,122.05,normal
+137,prd-plat-0137,Platform Engineering,production,f,gp.small,eu-central,2159,2125,7767245,7644845,2157.57,2123.57,0.9842,9.47,16.30,39.86,122.22,low_utilization
+138,dev-secu-0138,Security Operations,development,f,gp.large,na-east,2160,2109,7765689,7585547,2157.14,2107.10,0.9768,14.81,25.16,31.75,444.36,normal
+139,prd-itls-0139,Internal Tools,production,t,gp.medium,na-east,2159,2117,7759397,7608197,2155.39,2113.39,0.9805,52.16,89.51,61.30,222.01,normal
+140,dev-paym-0140,Payments,development,t,mem.large,na-east,762,746,2518206,2466079,699.50,685.02,0.9793,4.51,6.10,32.02,188.87,low_utilization
+141,prd-capp-0141,Customer Applications,production,f,gp.medium,na-west,2159,2112,7761698,7592498,2156.03,2109.03,0.9782,50.07,86.42,81.80,230.91,normal
+142,prd-itls-0142,Internal Tools,production,f,mem.large,na-east,2159,2111,7748452,7575652,2152.35,2104.35,0.9777,38.63,66.33,57.80,581.13,normal
+143,dev-data-0143,Data & Analytics,development,t,gp.small,eu-central,798,781,2653337,2599813,737.04,722.17,0.9798,3.03,4.15,18.50,41.78,low_utilization
+144,prd-itls-0144,Internal Tools,production,f,gp.small,sa-east,2159,1876,7759741,6740941,2155.48,1872.48,0.8687,19.05,32.51,58.02,135.47,normal
+145,dev-capp-0145,Customer Applications,development,f,gp.small,na-east,739,723,2445815,2389600,679.39,663.78,0.9770,11.41,15.18,48.85,35.05,normal
+146,dev-capp-0146,Customer Applications,development,f,gp.small,na-east,1154,1127,3892285,3804124,1081.19,1056.70,0.9773,50.73,75.99,77.88,55.63,normal
+147,prd-plat-0147,Platform Engineering,production,t,gp.medium,eu-central,2160,2109,7761651,7578051,2156.01,2105.01,0.9763,48.39,83.17,61.77,244.27,normal
+148,dev-secu-0148,Security Operations,development,f,gp.small,na-east,649,636,2163589,2119645,601.00,588.79,0.9797,2.81,3.61,28.32,30.89,low_utilization
+149,prd-secu-0149,Security Operations,production,f,gp.medium,na-west,2160,2122,7754757,7617957,2154.10,2116.10,0.9824,61.36,99.50,68.44,230.70,normal
+150,prd-itls-0150,Internal Tools,production,f,gp.small,eu-central,2159,2124,7758931,7632931,2155.26,2120.26,0.9838,59.14,99.50,64.25,122.09,normal
+151,prd-paym-0151,Payments,production,f,mem.large,na-west,2160,2122,7757366,7620566,2154.82,2116.82,0.9824,14.56,24.66,38.43,605.07,normal
+152,dev-plat-0152,Platform Engineering,development,f,cpu.xlarge,sa-east,1175,1150,3959306,3875276,1099.81,1076.47,0.9788,14.28,21.78,29.39,509.87,normal
+153,prd-plat-0153,Platform Engineering,production,t,gp.small,na-east,2159,2118,7759850,7612250,2155.51,2114.51,0.9810,26.39,45.21,41.91,111.01,normal
+154,dev-capp-0154,Customer Applications,development,t,mem.large,na-east,736,714,2433853,2366486,676.07,657.36,0.9723,6.94,9.17,30.13,182.54,low_utilization
+155,dev-plat-0155,Platform Engineering,development,f,gp.medium,eu-central,141,139,398403,391595,110.67,108.78,0.9829,43.24,66.77,60.53,12.53,insufficient_data
+156,dev-plat-0156,Platform Engineering,development,f,cpu.xlarge,na-east,143,141,408857,404800,113.57,112.44,0.9901,12.21,19.93,39.05,43.16,insufficient_data
+157,prd-itls-0157,Internal Tools,production,f,cpu.xlarge,na-east,2160,1841,7760627,6613838,2155.73,1837.18,0.8522,3.45,5.89,31.96,819.18,low_utilization
+158,prd-itls-0158,Internal Tools,production,t,gp.large,na-east,2160,2120,7764717,7620717,2156.87,2116.87,0.9815,43.27,73.90,75.04,444.31,normal
+159,prd-secu-0159,Security Operations,production,t,gp.small,eu-central,2159,2120,7749859,7613294,2152.74,2114.80,0.9824,50.27,85.73,69.76,121.95,normal
+160,dev-plat-0160,Platform Engineering,development,f,gp.medium,na-west,1204,1189,4055224,4006273,1126.45,1112.85,0.9879,3.11,4.77,21.43,120.54,low_utilization
+161,dev-itls-0161,Internal Tools,development,f,gp.small,na-east,104,101,295017,289460,81.95,80.41,0.9812,65.49,99.50,72.68,4.20,insufficient_data
+162,prd-plat-0162,Platform Engineering,production,f,gp.medium,eu-central,2160,2121,7761557,7624457,2155.99,2117.90,0.9823,33.03,56.91,41.58,244.27,normal
+163,prd-data-0163,Data & Analytics,production,f,gp.medium,eu-central,2158,2110,7756808,7584008,2154.67,2106.67,0.9777,26.45,45.74,49.44,244.12,normal
+164,dev-data-0164,Data & Analytics,development,t,gp.small,na-east,694,677,2286788,2229342,635.22,619.26,0.9749,26.42,35.49,46.83,32.71,normal
+165,prd-plat-0165,Platform Engineering,production,f,gp.medium,na-east,2160,2115,7759665,7598642,2155.46,2110.73,0.9792,9.14,15.77,32.96,222.01,low_utilization
+166,dev-capp-0166,Customer Applications,development,f,gp.large,eu-central,2158,1999,7762086,7189686,2156.14,1997.14,0.9263,39.48,68.37,54.91,488.56,normal
+167,dev-plat-0167,Platform Engineering,development,f,gp.medium,eu-central,1154,1122,3886470,3772639,1079.58,1047.96,0.9707,20.25,30.59,45.69,122.18,normal
+168,prd-paym-0168,Payments,production,t,gp.small,na-east,2159,2111,7762167,7589584,2156.16,2108.22,0.9778,25.15,43.12,55.50,111.04,normal
+169,prd-capp-0169,Customer Applications,production,t,mem.large,na-east,2158,2114,7752152,7593752,2153.38,2109.38,0.9796,15.27,26.25,49.02,581.41,normal
+170,prd-secu-0170,Security Operations,production,f,gp.large,na-west,2159,2116,7758116,7603316,2155.03,2112.03,0.9800,25.26,42.94,44.26,461.71,normal
+171,dev-paym-0171,Payments,development,f,gp.small,na-east,781,763,2596667,2538455,721.30,705.13,0.9776,6.50,8.97,28.84,37.19,low_utilization
+172,prd-plat-0172,Platform Engineering,production,t,gp.large,na-east,2160,2114,7752252,7586652,2153.40,2107.40,0.9786,43.68,74.32,60.43,443.58,normal
+173,prd-plat-0173,Platform Engineering,production,t,gp.small,na-west,2160,2071,7754263,7433863,2153.96,2064.96,0.9587,17.05,29.38,27.52,115.35,normal
+174,prd-data-0174,Data & Analytics,production,t,gp.small,eu-central,2160,2122,7761978,7625178,2156.11,2118.11,0.9824,29.80,51.04,54.09,122.14,normal
+175,dev-capp-0175,Customer Applications,development,f,gp.medium,na-east,764,757,2533783,2511201,703.83,697.56,0.9911,7.09,9.62,25.51,72.68,low_utilization
+176,prd-data-0176,Data & Analytics,production,f,mem.large,na-east,2160,2116,7761526,7603126,2155.98,2111.98,0.9796,7.68,13.09,48.13,582.11,normal
+177,dev-data-0177,Data & Analytics,development,f,gp.large,sa-east,162,162,445130,445130,123.65,123.65,1.0000,16.42,26.61,49.34,31.18,insufficient_data
+178,dev-itls-0178,Internal Tools,development,f,gp.small,na-west,807,796,2677434,2642341,743.73,733.98,0.9869,10.60,14.44,33.61,39.62,normal
+179,dev-mktg-0179,Marketing Technology,development,t,gp.small,na-east,2159,2118,7760529,7612929,2155.70,2114.70,0.9810,12.46,21.09,26.69,111.02,normal
+180,prd-capp-0180,Customer Applications,production,f,gp.small,na-west,2158,2122,7754341,7624741,2153.98,2117.98,0.9833,5.44,9.36,25.54,115.34,low_utilization
+181,dev-paym-0181,Payments,development,f,mem.large,na-east,780,766,2572001,2523444,714.44,700.96,0.9811,22.31,30.09,39.26,192.90,normal
+182,prd-mktg-0182,Marketing Technology,production,t,cpu.xlarge,na-west,2160,2114,7762771,7597171,2156.33,2110.33,0.9787,56.14,96.71,68.20,852.18,normal
+183,dev-secu-0183,Security Operations,development,f,cpu.xlarge,eu-central,1179,1165,3983186,3937605,1106.44,1093.78,0.9886,3.82,5.77,19.50,462.49,low_utilization
+184,dev-mktg-0184,Marketing Technology,development,t,mem.large,na-west,136,134,377940,373345,104.98,103.71,0.9878,4.08,6.18,21.05,29.48,insufficient_data
+185,dev-capp-0185,Customer Applications,development,f,gp.small,sa-east,786,773,2621332,2579940,728.15,716.65,0.9842,5.08,6.99,30.71,45.86,low_utilization
+186,dev-mktg-0186,Marketing Technology,development,f,gp.medium,na-east,151,151,434159,434159,120.60,120.60,1.0000,24.30,36.10,41.92,12.37,insufficient_data
+187,dev-paym-0187,Payments,development,f,gp.small,eu-central,786,774,2611550,2569853,725.43,713.85,0.9840,43.91,60.21,56.11,40.99,normal
+188,dev-paym-0188,Payments,development,f,gp.medium,eu-central,2160,2120,7758806,7616263,2155.22,2115.63,0.9816,3.93,6.74,15.12,244.18,low_utilization
+189,dev-capp-0189,Customer Applications,development,f,gp.large,na-east,700,684,2279118,2221676,633.09,617.13,0.9748,87.71,99.50,73.46,130.23,normal
+190,dev-itls-0190,Internal Tools,development,f,gp.small,eu-central,828,807,2771186,2698161,769.77,749.49,0.9736,39.83,55.79,56.25,43.70,normal
+191,dev-capp-0191,Customer Applications,development,f,gp.small,na-east,0,0,0,0,0.00,0.00,,,,,0,no_activity
+192,prd-paym-0192,Payments,production,t,gp.small,eu-central,2159,2115,7761717,7603317,2156.03,2112.03,0.9796,52.00,87.77,74.32,122.14,normal
+193,dev-capp-0193,Customer Applications,development,f,gp.medium,na-east,790,775,2639957,2590519,733.32,719.59,0.9813,23.54,32.09,36.26,75.72,normal
+194,dev-capp-0194,Customer Applications,development,f,mem.large,eu-central,2160,2104,7762611,7561011,2156.28,2100.28,0.9740,18.10,30.97,36.16,624.46,normal
+195,dev-mktg-0195,Marketing Technology,development,f,gp.large,sa-east,770,754,2538896,2485104,705.25,690.31,0.9788,5.20,6.98,18.99,177.63,low_utilization
+196,dev-capp-0196,Customer Applications,development,t,gp.large,na-east,769,755,2551056,2506707,708.63,696.31,0.9826,19.65,27.28,39.90,146.49,normal
+197,dev-plat-0197,Platform Engineering,development,f,gp.small,eu-central,138,135,373891,366373,103.86,101.77,0.9799,25.06,38.86,43.77,5.88,insufficient_data
+198,prd-secu-0198,Security Operations,production,t,gp.medium,sa-east,2160,1906,7763808,6849408,2156.61,1902.61,0.8822,16.86,28.74,28.38,270.99,normal
+199,dev-mktg-0199,Marketing Technology,development,f,gp.small,na-east,2160,2105,7763144,7565144,2156.43,2101.43,0.9745,31.05,52.52,49.90,111.05,normal
+200,dev-itls-0200,Internal Tools,development,f,gp.medium,eu-central,110,109,310226,309648,86.17,86.01,0.9981,15.48,23.55,39.36,9.79,insufficient_data
+201,dev-data-0201,Data & Analytics,development,f,cpu.xlarge,na-east,779,675,2597950,2268230,721.65,630.06,0.8731,10.56,14.60,46.82,274.23,normal
+202,prd-capp-0202,Customer Applications,production,f,gp.medium,na-west,2159,2124,7757415,7631415,2154.84,2119.84,0.9838,35.99,60.54,46.97,230.79,normal
+203,dev-plat-0203,Platform Engineering,development,f,cpu.xlarge,eu-central,742,727,2442726,2392885,678.54,664.69,0.9796,4.35,5.85,19.62,283.63,low_utilization
+204,dev-data-0204,Data & Analytics,development,f,gp.medium,na-east,1167,1143,3945735,3863833,1096.04,1073.29,0.9792,2.31,3.50,29.37,112.84,low_utilization
+205,dev-capp-0205,Customer Applications,development,f,gp.small,na-east,113,105,310800,290479,86.33,80.69,0.9346,9.68,15.03,27.96,4.48,insufficient_data
+206,prd-data-0206,Data & Analytics,production,t,mem.large,na-east,2160,2111,7759050,7582650,2155.29,2106.29,0.9773,53.61,91.96,77.18,581.93,normal
+207,dev-mktg-0207,Marketing Technology,development,f,gp.small,eu-central,727,719,2389879,2365724,663.86,657.15,0.9899,17.07,22.27,30.91,37.49,normal
+208,prd-paym-0208,Payments,production,t,gp.small,na-east,2160,2121,7757036,7616636,2154.73,2115.73,0.9819,55.32,95.50,68.23,110.97,normal
+209,prd-capp-0209,Customer Applications,production,t,gp.small,na-east,2159,2123,7760008,7630408,2155.56,2119.56,0.9833,16.22,27.91,27.59,111.01,normal
+210,prd-mktg-0210,Marketing Technology,production,t,gp.large,na-east,2160,2117,7757931,7603131,2154.98,2111.98,0.9800,5.10,8.63,21.95,443.91,low_utilization
+211,dev-data-0211,Data & Analytics,development,f,gp.medium,na-east,834,820,2771589,2721189,769.89,755.89,0.9818,3.18,4.35,30.47,79.23,low_utilization
+212,dev-paym-0212,Payments,development,f,gp.medium,na-east,736,726,2434321,2398321,676.20,666.20,0.9852,53.42,73.36,47.76,69.73,normal
+213,dev-plat-0213,Platform Engineering,development,f,gp.large,na-east,749,737,2475452,2432252,687.63,675.63,0.9825,73.12,98.92,58.43,141.86,normal
+214,dev-data-0214,Data & Analytics,development,f,gp.medium,na-east,856,844,2874680,2833054,798.52,786.96,0.9855,80.70,99.50,55.82,82.08,normal
+215,prd-mktg-0215,Marketing Technology,production,t,gp.small,eu-central,2159,2114,7767436,7605436,2157.62,2112.62,0.9791,9.44,16.15,35.08,122.23,low_utilization
+216,dev-plat-0216,Platform Engineering,development,f,gp.large,na-east,1146,1123,3882912,3804788,1078.59,1056.89,0.9799,21.06,31.56,29.44,221.83,normal
+217,prd-data-0217,Data & Analytics,production,f,gp.medium,eu-central,2159,2112,7757560,7588360,2154.88,2107.88,0.9782,22.79,38.52,52.26,244.15,normal
+218,dev-paym-0218,Payments,development,f,gp.small,na-east,721,709,2373458,2330258,659.29,647.29,0.9818,2.56,3.47,22.55,33.89,low_utilization
+219,dev-itls-0219,Internal Tools,development,f,gp.small,na-west,733,724,2421378,2390330,672.61,663.98,0.9872,24.04,32.45,42.78,36.07,normal
+220,dev-paym-0220,Payments,development,f,gp.large,na-east,117,117,326849,326849,90.79,90.79,1.0000,15.90,27.70,48.18,18.83,insufficient_data
+221,dev-data-0221,Data & Analytics,development,f,gp.small,eu-central,708,696,2307861,2271997,641.07,631.11,0.9845,4.98,6.48,24.78,36.32,low_utilization
+222,prd-plat-0222,Platform Engineering,production,t,mem.large,na-east,2159,2119,7750346,7606346,2152.87,2112.87,0.9814,39.36,67.75,59.48,581.28,normal
+223,dev-paym-0223,Payments,development,f,gp.medium,na-east,853,838,2842070,2796185,789.46,776.72,0.9839,5.10,7.11,24.39,81.21,low_utilization
+224,prd-paym-0224,Payments,production,f,gp.large,na-east,2160,2111,7754695,7580517,2154.08,2105.70,0.9775,19.86,34.12,46.62,443.73,normal
+225,dev-capp-0225,Customer Applications,development,f,gp.medium,na-west,682,668,2227828,2183200,618.84,606.44,0.9800,5.03,6.59,16.04,66.15,low_utilization
+226,dev-data-0226,Data & Analytics,development,f,gp.medium,na-east,157,155,457949,450749,127.21,125.21,0.9843,40.83,60.86,51.11,13.12,insufficient_data
+227,dev-itls-0227,Internal Tools,development,f,gp.large,eu-central,94,91,266025,260342,73.90,72.32,0.9786,2.21,3.94,27.40,16.72,insufficient_data
+228,dev-secu-0228,Security Operations,development,f,gp.large,na-east,1176,1144,3952706,3842299,1097.97,1067.31,0.9721,5.81,8.79,25.32,226.12,low_utilization
+229,dev-capp-0229,Customer Applications,development,f,gp.small,na-east,650,634,2115480,2057880,587.63,571.63,0.9728,7.42,9.58,30.35,30.17,low_utilization
+230,dev-data-0230,Data & Analytics,development,f,mem.large,na-west,748,736,2488401,2448382,691.22,680.11,0.9839,46.68,63.45,44.02,194.10,normal
+231,dev-data-0231,Data & Analytics,development,f,gp.small,na-east,729,711,2399756,2344837,666.60,651.34,0.9771,7.07,9.59,26.31,34.36,low_utilization
+232,dev-secu-0232,Security Operations,development,f,gp.medium,na-east,751,735,2484895,2431058,690.25,675.29,0.9783,5.36,7.21,30.57,71.29,low_utilization
+233,dev-capp-0233,Customer Applications,development,f,mem.large,na-east,2160,2121,7769185,7628785,2158.11,2119.11,0.9819,9.74,16.72,44.45,582.69,normal
+234,dev-paym-0234,Payments,development,f,gp.small,eu-central,139,138,374250,370650,103.96,102.96,0.9904,21.07,32.94,42.35,5.85,insufficient_data
+235,dev-data-0235,Data & Analytics,development,f,gp.medium,eu-central,1155,1131,3904492,3823403,1084.58,1062.06,0.9792,58.81,88.78,73.93,122.82,normal
+236,prd-paym-0236,Payments,production,f,gp.small,na-east,2160,2124,7753069,7623469,2153.63,2117.63,0.9833,14.66,25.12,46.34,110.91,normal
+237,prd-data-0237,Data & Analytics,production,t,cpu.xlarge,na-east,2160,2124,7757309,7627709,2154.81,2118.81,0.9833,53.39,91.12,58.97,818.83,normal
+238,dev-data-0238,Data & Analytics,development,f,gp.large,na-east,716,706,2373610,2340324,659.34,650.09,0.9860,17.67,23.64,33.10,135.77,normal
+239,dev-data-0239,Data & Analytics,development,f,gp.small,na-east,689,675,2262879,2221297,628.58,617.03,0.9816,20.80,27.58,43.06,32.39,normal
+240,dev-itls-0240,Internal Tools,development,f,gp.large,na-east,159,153,460678,439392,127.97,122.05,0.9538,4.26,6.37,24.49,26.22,insufficient_data
+241,prd-paym-0241,Payments,production,t,mem.large,na-east,2160,2117,7767746,7612946,2157.71,2114.71,0.9801,20.13,34.26,45.43,582.58,normal
+242,dev-data-0242,Data & Analytics,development,f,gp.large,na-east,736,725,2417939,2380409,671.65,661.22,0.9845,34.21,46.66,43.26,138.55,normal
+243,dev-data-0243,Data & Analytics,development,f,mem.large,eu-central,2160,2122,7770634,7633834,2158.51,2120.51,0.9824,2.49,4.23,27.06,625.10,low_utilization
+244,dev-capp-0244,Customer Applications,development,f,cpu.xlarge,eu-central,2160,2111,7769080,7592680,2158.08,2109.08,0.9773,2.10,3.62,23.45,902.08,low_utilization
+245,prd-mktg-0245,Marketing Technology,production,f,mem.large,eu-central,2160,2120,7761876,7617876,2156.08,2116.08,0.9814,38.04,65.02,52.64,624.41,normal
+246,prd-itls-0246,Internal Tools,production,f,gp.medium,sa-east,2160,2117,7756636,7601836,2154.62,2111.62,0.9800,37.73,64.25,40.99,270.73,normal
+247,prd-plat-0247,Platform Engineering,production,t,mem.large,eu-central,2158,2113,7759023,7597023,2155.28,2110.28,0.9791,31.30,53.37,52.84,624.15,normal
+248,prd-capp-0248,Customer Applications,production,t,gp.small,na-east,2160,2122,7763517,7627125,2156.53,2118.65,0.9824,4.95,8.49,19.30,111.06,low_utilization
+249,prd-mktg-0249,Marketing Technology,production,f,gp.large,eu-central,2160,2114,7770804,7607911,2158.56,2113.31,0.9790,34.89,59.63,49.78,489.14,normal
+250,dev-plat-0250,Platform Engineering,development,f,gp.large,na-west,772,752,2554771,2490067,709.66,691.69,0.9747,4.26,5.72,22.67,151.72,low_utilization
+251,dev-plat-0251,Platform Engineering,development,f,gp.medium,na-east,2159,2108,7770066,7586466,2158.35,2107.35,0.9764,3.42,5.83,24.27,222.31,low_utilization
+252,prd-data-0252,Data & Analytics,production,f,mem.large,eu-central,2160,2090,7746606,7494606,2151.84,2081.84,0.9675,13.10,22.26,35.30,623.16,normal
+253,dev-itls-0253,Internal Tools,development,f,gp.medium,na-west,1148,1124,3887245,3803565,1079.79,1056.55,0.9785,16.89,25.62,29.78,115.59,normal
+254,dev-plat-0254,Platform Engineering,development,f,gp.small,na-west,2160,2125,7766780,7640780,2157.44,2122.44,0.9838,10.78,18.25,42.82,115.53,normal
+255,prd-itls-0255,Internal Tools,production,t,gp.large,eu-central,2159,2111,7759309,7586509,2155.36,2107.36,0.9777,35.99,61.82,53.44,488.40,normal
+256,dev-itls-0256,Internal Tools,development,f,gp.large,sa-east,769,756,2577087,2531686,715.86,703.25,0.9824,27.28,37.17,48.20,180.23,normal
+257,dev-paym-0257,Payments,development,f,gp.large,eu-central,653,646,2131466,2112521,592.07,586.81,0.9911,44.93,58.40,46.49,134.01,normal
+258,prd-itls-0258,Internal Tools,production,t,gp.medium,sa-east,2160,2121,7769564,7629164,2158.21,2119.21,0.9819,54.66,93.06,76.32,271.18,normal
+259,dev-plat-0259,Platform Engineering,development,f,mem.large,na-east,658,642,2130085,2077500,591.69,577.08,0.9753,6.64,8.55,20.87,159.76,low_utilization
+260,prd-plat-0260,Platform Engineering,production,f,gp.medium,na-east,2160,2117,7767023,7612223,2157.51,2114.51,0.9801,16.81,28.61,40.72,222.23,normal
+261,prd-plat-0261,Platform Engineering,production,t,gp.small,na-east,2157,2115,7750879,7600934,2153.02,2111.37,0.9807,47.24,81.22,78.66,110.88,normal
+262,dev-data-0262,Data & Analytics,development,f,gp.medium,eu-central,675,660,2198068,2146082,610.57,596.13,0.9763,6.46,8.53,21.02,69.11,low_utilization
+263,dev-capp-0263,Customer Applications,development,f,gp.medium,na-east,741,728,2456874,2410074,682.47,669.47,0.9810,21.80,29.64,40.48,70.18,normal
+264,prd-data-0264,Data & Analytics,production,f,gp.medium,na-east,2160,2121,7765494,7625094,2157.08,2118.08,0.9819,3.38,5.77,19.48,222.18,low_utilization
+265,prd-itls-0265,Internal Tools,production,t,mem.large,na-east,2159,2121,7760926,7624126,2155.81,2117.81,0.9824,44.15,75.60,55.36,582.07,normal
+266,prd-data-0266,Data & Analytics,production,t,mem.large,na-east,2160,2126,7764290,7641890,2156.75,2122.75,0.9842,13.70,23.44,48.64,582.32,normal
+267,prd-data-0267,Data & Analytics,production,t,gp.medium,sa-east,2160,2109,7768243,7588193,2157.85,2107.83,0.9768,40.34,68.45,59.44,271.13,normal
+268,dev-plat-0268,Platform Engineering,development,f,gp.small,na-east,742,726,2446107,2394425,679.47,665.12,0.9789,47.77,63.62,46.56,34.93,normal
+269,prd-itls-0269,Internal Tools,production,t,gp.medium,na-east,2160,2116,7772903,7614503,2159.14,2115.14,0.9796,2.00,3.46,26.23,222.39,low_utilization
+270,prd-capp-0270,Customer Applications,production,f,mem.large,eu-central,2160,2114,7756474,7590874,2154.58,2108.58,0.9787,44.56,76.80,64.20,623.99,normal
+271,dev-plat-0271,Platform Engineering,development,f,gp.medium,eu-central,719,706,2352622,2315499,653.51,643.19,0.9842,2.72,3.67,19.15,73.90,low_utilization
+272,prd-mktg-0272,Marketing Technology,production,f,gp.small,na-east,2160,2042,7755418,7333615,2154.28,2037.12,0.9456,25.85,43.50,60.37,110.95,normal
+273,prd-mktg-0273,Marketing Technology,production,f,gp.small,na-east,2158,2112,7756359,7590759,2154.54,2108.54,0.9786,31.39,53.11,41.83,110.95,normal
+274,prd-secu-0274,Security Operations,production,t,gp.small,na-east,2159,2123,7768696,7640718,2157.97,2122.42,0.9835,30.80,52.80,40.41,111.13,normal
+275,dev-itls-0275,Internal Tools,development,f,mem.large,na-east,776,763,2574161,2532684,715.04,703.52,0.9839,5.27,7.22,21.98,193.06,low_utilization
+276,dev-capp-0276,Customer Applications,development,f,gp.small,sa-east,756,741,2518073,2470498,699.46,686.25,0.9811,16.61,22.07,28.94,44.07,normal
+277,dev-plat-0277,Platform Engineering,development,f,mem.large,na-east,124,121,340458,335050,94.57,93.07,0.9841,5.50,8.44,19.88,25.53,insufficient_data
+278,dev-capp-0278,Customer Applications,development,f,gp.small,eu-central,142,138,399795,391650,111.05,108.79,0.9796,4.47,6.74,21.53,6.30,insufficient_data
+279,prd-mktg-0279,Marketing Technology,production,f,gp.large,eu-central,2160,2114,7765261,7599745,2157.02,2111.04,0.9787,28.93,50.01,62.74,488.77,normal
+280,dev-data-0280,Data & Analytics,development,f,cpu.xlarge,sa-east,786,765,2610801,2539413,725.22,705.39,0.9727,36.92,51.12,49.24,336.21,normal
+281,dev-capp-0281,Customer Applications,development,f,mem.large,eu-central,1147,1136,3897346,3862933,1082.60,1073.04,0.9912,18.64,27.94,27.88,313.91,normal
+282,dev-paym-0282,Payments,development,f,gp.small,na-east,722,711,2381306,2348475,661.47,652.35,0.9862,23.40,31.01,44.61,34.09,normal
+283,prd-data-0283,Data & Analytics,production,f,gp.small,na-east,2160,2119,7774309,7626709,2159.53,2118.53,0.9810,30.45,52.21,41.81,111.22,normal
+284,dev-secu-0284,Security Operations,development,f,gp.medium,na-east,725,706,2402401,2342652,667.33,650.74,0.9751,22.79,30.18,45.35,68.45,normal
+285,dev-capp-0285,Customer Applications,development,f,gp.large,eu-central,139,135,385999,371629,107.22,103.23,0.9628,6.02,8.89,22.04,24.16,insufficient_data
+286,dev-plat-0286,Platform Engineering,development,f,mem.large,na-east,852,836,2839145,2785878,788.65,773.86,0.9812,6.53,9.18,19.60,212.94,low_utilization
+287,dev-itls-0287,Internal Tools,development,f,gp.small,na-west,1179,1156,3980896,3899860,1105.80,1083.29,0.9796,72.35,99.50,79.86,59.17,normal
+288,prd-data-0288,Data & Analytics,production,t,gp.large,eu-central,2159,2125,7762172,7639772,2156.16,2122.16,0.9842,8.12,13.79,44.45,488.60,normal
+289,prd-paym-0289,Payments,production,f,gp.small,na-east,2160,2115,7767609,7605609,2157.67,2112.67,0.9791,8.15,13.92,44.13,111.12,normal
+290,dev-capp-0290,Customer Applications,development,f,cpu.xlarge,eu-central,130,117,371037,334193,103.07,92.83,0.9007,2.57,4.03,23.53,43.08,insufficient_data
+291,dev-data-0291,Data & Analytics,development,t,gp.large,eu-central,154,150,446283,433296,123.97,120.36,0.9709,8.85,14.47,30.24,28.05,insufficient_data
+292,dev-secu-0292,Security Operations,development,f,cpu.xlarge,sa-east,2160,2128,7776000,7660800,2160.00,2128.00,0.9852,21.58,36.67,50.35,1001.38,normal
+293,prd-paym-0293,Payments,production,t,mem.large,eu-central,2158,2111,7756061,7586861,2154.46,2107.46,0.9782,64.14,99.50,64.41,623.97,normal
+294,prd-capp-0294,Customer Applications,production,t,gp.medium,eu-central,2157,2125,7752261,7638414,2153.41,2121.78,0.9853,55.03,94.58,66.20,243.98,normal
+295,prd-capp-0295,Customer Applications,production,f,cpu.xlarge,na-west,2159,2115,7764123,7605723,2156.70,2112.70,0.9796,25.85,44.33,41.84,852.33,normal
+296,dev-secu-0296,Security Operations,development,f,gp.medium,na-west,2159,1902,7760688,6835488,2155.75,1898.75,0.8808,2.04,3.49,25.93,230.88,low_utilization
+297,dev-plat-0297,Platform Engineering,development,f,gp.small,na-west,2159,2112,7761074,7593488,2155.85,2109.30,0.9784,8.51,14.64,38.28,115.45,low_utilization
+298,dev-mktg-0298,Marketing Technology,development,t,gp.medium,na-west,727,713,2390646,2345124,664.07,651.42,0.9810,5.25,7.08,16.80,71.17,low_utilization
+299,dev-mktg-0299,Marketing Technology,development,f,gp.medium,na-east,760,750,2488482,2462025,691.25,683.90,0.9894,3.33,4.46,24.74,71.35,low_utilization
+300,dev-itls-0300,Internal Tools,development,f,gp.small,na-west,104,103,294444,293212,81.79,81.45,0.9958,4.46,7.06,27.80,4.46,insufficient_data
+301,prd-capp-0301,Customer Applications,production,t,gp.large,eu-central,2160,2119,7767016,7619416,2157.50,2116.50,0.9810,36.03,61.61,43.34,488.88,normal
+302,prd-capp-0302,Customer Applications,production,t,gp.medium,na-east,2158,2027,7757745,7286145,2154.93,2023.93,0.9392,32.39,54.97,62.65,221.96,normal
+303,dev-data-0303,Data & Analytics,development,f,gp.small,eu-central,710,694,2337636,2284669,649.34,634.63,0.9773,53.64,71.45,44.72,36.74,normal
+304,prd-plat-0304,Platform Engineering,production,t,gp.medium,na-east,2160,2128,7773057,7657857,2159.18,2127.18,0.9852,17.41,29.88,47.30,222.39,normal
+305,prd-plat-0305,Platform Engineering,production,t,gp.large,na-east,2160,2124,7769993,7640806,2158.33,2122.45,0.9834,41.30,69.98,51.88,444.61,normal
+306,prd-paym-0306,Payments,production,f,gp.medium,eu-central,2159,2106,7756000,7565200,2154.44,2101.44,0.9754,7.84,13.39,42.41,244.10,normal
+307,dev-plat-0307,Platform Engineering,development,f,cpu.xlarge,na-east,732,720,2420110,2382820,672.25,661.89,0.9846,11.12,14.67,48.47,255.46,normal
+308,dev-plat-0308,Platform Engineering,development,f,mem.large,eu-central,774,762,2571243,2532211,714.23,703.39,0.9848,13.52,18.42,44.45,206.67,normal
+309,prd-data-0309,Data & Analytics,production,f,gp.large,na-east,2160,2120,7764680,7625484,2156.86,2118.19,0.9821,37.62,64.74,57.75,444.31,normal
+310,dev-itls-0310,Internal Tools,development,f,gp.large,na-east,141,140,393156,389556,109.21,108.21,0.9908,6.24,9.25,26.24,22.71,insufficient_data
+311,prd-data-0311,Data & Analytics,production,t,gp.medium,na-east,2160,2123,7771512,7638312,2158.75,2121.75,0.9829,58.04,99.50,81.27,222.35,normal
+312,dev-data-0312,Data & Analytics,development,f,gp.small,na-west,683,670,2246007,2211024,623.89,614.17,0.9844,10.84,14.21,48.27,33.40,normal
+313,dev-capp-0313,Customer Applications,development,f,gp.small,na-east,1187,1167,3992988,3924224,1109.16,1090.06,0.9828,53.81,80.86,61.07,57.09,normal
+314,dev-itls-0314,Internal Tools,development,f,gp.large,na-east,757,745,2481152,2440092,689.21,677.80,0.9835,7.42,9.83,29.35,141.56,low_utilization
+315,prd-plat-0315,Platform Engineering,production,t,gp.medium,na-east,2160,2116,7755588,7597188,2154.33,2110.33,0.9796,32.43,56.11,63.60,221.90,normal
+316,dev-data-0316,Data & Analytics,development,f,gp.medium,eu-central,721,704,2359490,2308833,655.41,641.34,0.9785,7.49,9.91,29.14,74.51,low_utilization
+317,prd-paym-0317,Payments,production,t,mem.large,na-east,2160,2113,7765217,7596017,2157.00,2110.00,0.9782,10.09,17.44,36.36,582.39,normal
+318,dev-capp-0318,Customer Applications,development,f,gp.small,na-east,1168,1154,3933320,3888943,1092.59,1080.26,0.9887,4.84,7.19,17.01,56.19,low_utilization
+319,dev-paym-0319,Payments,development,f,gp.large,sa-east,672,658,2192300,2144079,608.97,595.58,0.9780,14.82,19.01,45.74,152.54,normal
+320,dev-mktg-0320,Marketing Technology,development,f,gp.large,na-west,762,748,2548169,2500903,707.82,694.70,0.9815,29.47,40.30,61.04,150.96,normal
+321,dev-data-0321,Data & Analytics,development,f,cpu.xlarge,sa-east,672,652,2180892,2122940,605.80,589.71,0.9734,15.57,19.96,47.78,280.85,normal
+322,prd-plat-0322,Platform Engineering,production,t,gp.large,na-west,2160,2118,7770649,7621097,2158.51,2116.97,0.9808,3.39,5.74,24.36,462.46,low_utilization
+323,prd-plat-0323,Platform Engineering,production,t,gp.medium,na-east,2160,2127,7763006,7644206,2156.39,2123.39,0.9847,13.83,23.55,40.06,222.11,normal
+324,dev-capp-0324,Customer Applications,development,f,mem.large,na-east,131,129,360497,355134,100.14,98.65,0.9851,65.01,99.50,65.03,27.04,insufficient_data
+325,prd-itls-0325,Internal Tools,production,t,gp.small,na-east,2159,2120,7761210,7620810,2155.89,2116.89,0.9819,4.65,7.91,16.11,111.03,low_utilization
+326,dev-plat-0326,Platform Engineering,development,f,gp.medium,eu-central,702,655,2288686,2135719,635.75,593.26,0.9332,35.50,45.59,61.30,72.01,normal
+327,dev-data-0327,Data & Analytics,development,t,gp.small,eu-central,126,122,349513,339103,97.09,94.20,0.9702,40.37,69.34,51.90,5.51,insufficient_data
+328,dev-itls-0328,Internal Tools,development,t,gp.medium,sa-east,119,117,317141,313442,88.09,87.07,0.9883,10.20,16.37,34.47,11.03,insufficient_data
+329,dev-data-0329,Data & Analytics,development,f,gp.small,na-east,706,692,2341393,2291997,650.39,636.67,0.9789,18.28,24.76,43.53,33.51,normal
+330,prd-data-0330,Data & Analytics,production,t,gp.small,na-east,2159,2117,7766490,7615290,2157.36,2115.36,0.9805,59.38,99.50,77.96,111.10,normal
+331,dev-data-0331,Data & Analytics,development,f,gp.medium,na-west,728,662,2399088,2193029,666.41,609.17,0.9141,64.89,87.93,71.07,71.41,normal
+332,dev-plat-0332,Platform Engineering,development,f,gp.medium,sa-east,669,653,2191452,2138232,608.74,593.95,0.9757,5.08,6.68,31.53,76.51,low_utilization
+333,dev-plat-0333,Platform Engineering,development,f,gp.small,eu-central,116,113,332481,322654,92.36,89.63,0.9704,46.53,70.21,54.07,5.30,insufficient_data
+334,dev-data-0334,Data & Analytics,development,f,gp.small,na-west,133,127,374005,352405,103.89,97.89,0.9422,3.05,4.61,21.03,5.57,insufficient_data
+335,dev-capp-0335,Customer Applications,development,t,gp.medium,na-east,825,755,2742795,2511476,761.89,697.63,0.9157,6.08,8.38,17.20,78.06,low_utilization
+336,dev-plat-0336,Platform Engineering,development,f,gp.small,na-east,804,748,2687875,2506915,746.63,696.37,0.9327,16.47,22.36,38.66,38.59,normal
+337,dev-data-0337,Data & Analytics,development,f,gp.large,eu-central,2160,2114,7767910,7602560,2157.75,2111.82,0.9787,18.18,30.98,27.39,488.94,normal
+338,prd-plat-0338,Platform Engineering,production,t,gp.small,na-east,2159,2119,7757202,7613202,2154.78,2114.78,0.9814,2.07,3.57,23.62,110.97,low_utilization
+339,dev-paym-0339,Payments,development,f,mem.large,na-west,750,734,2489120,2439481,691.42,677.63,0.9801,4.87,6.62,15.05,194.15,low_utilization
+340,prd-itls-0340,Internal Tools,production,t,gp.medium,eu-central,2160,2111,7765943,7589543,2157.21,2108.21,0.9773,11.30,19.25,28.51,244.40,normal
+341,dev-plat-0341,Platform Engineering,development,t,gp.large,eu-central,716,696,2363765,2298622,656.60,638.51,0.9724,3.61,4.76,31.33,148.40,low_utilization
+342,prd-paym-0342,Payments,production,t,gp.large,na-east,2159,2124,7763190,7637190,2156.44,2121.44,0.9838,23.48,40.12,64.25,444.23,normal
+343,dev-mktg-0343,Marketing Technology,development,f,gp.medium,na-east,0,0,0,0,0.00,0.00,,,,,0,no_activity
+344,dev-itls-0344,Internal Tools,development,f,gp.small,eu-central,740,726,2443042,2397434,678.62,665.95,0.9813,3.46,4.61,22.62,38.52,low_utilization
+345,prd-mktg-0345,Marketing Technology,production,f,cpu.xlarge,na-east,2160,2125,7754119,7628119,2153.92,2118.92,0.9838,24.50,42.11,40.51,818.49,normal
+346,prd-mktg-0346,Marketing Technology,production,t,gp.small,na-west,2160,2042,7764404,7339604,2156.78,2038.78,0.9453,4.43,7.61,15.05,115.50,low_utilization
+347,prd-mktg-0347,Marketing Technology,production,t,gp.small,sa-east,2160,2109,7768588,7584988,2157.94,2106.94,0.9764,51.64,87.96,62.77,135.62,normal
+348,dev-mktg-0348,Marketing Technology,development,f,cpu.xlarge,na-east,850,828,2868964,2795827,796.93,776.62,0.9745,18.33,26.35,44.89,302.84,normal
+349,prd-itls-0349,Internal Tools,production,t,gp.medium,na-east,2159,2114,7755887,7593887,2154.41,2109.41,0.9791,12.65,21.72,41.33,221.91,normal
+350,prd-data-0350,Data & Analytics,production,t,gp.medium,na-east,2160,2119,7759557,7612736,2155.43,2114.65,0.9811,31.53,54.29,52.58,222.01,normal
+351,dev-plat-0351,Platform Engineering,development,f,gp.medium,na-east,754,734,2479951,2414909,688.88,670.81,0.9738,6.02,7.97,16.95,71.02,low_utilization
+352,dev-itls-0352,Internal Tools,development,f,cpu.xlarge,sa-east,2160,2128,7772837,7657637,2159.12,2127.12,0.9852,8.15,14.08,29.44,1000.97,low_utilization
+353,dev-mktg-0353,Marketing Technology,development,f,gp.large,eu-central,1157,1140,3905446,3844246,1084.85,1067.85,0.9843,73.77,99.50,75.59,245.67,normal
+354,prd-data-0354,Data & Analytics,production,t,gp.small,na-east,2160,2118,7769379,7618179,2158.16,2116.16,0.9805,11.18,19.41,30.19,111.14,normal
+355,dev-capp-0355,Customer Applications,development,t,mem.large,na-east,703,692,2322247,2288256,645.07,635.63,0.9854,45.40,59.91,41.52,174.17,normal
+356,dev-secu-0356,Security Operations,development,f,gp.large,na-west,845,830,2823391,2773145,784.28,770.32,0.9822,6.14,8.47,16.05,168.18,low_utilization
+357,dev-secu-0357,Security Operations,development,f,gp.large,na-east,633,628,2046137,2032828,568.37,564.67,0.9935,3.39,4.43,24.22,116.72,low_utilization
+358,dev-paym-0358,Payments,development,f,gp.small,eu-central,801,787,2669563,2621876,741.55,728.30,0.9821,6.20,8.51,20.78,42.14,low_utilization
+359,dev-paym-0359,Payments,development,t,gp.large,na-west,680,663,2238050,2179438,621.68,605.40,0.9738,23.83,31.04,26.86,133.09,normal
+360,prd-itls-0360,Internal Tools,production,t,gp.large,sa-east,2160,2120,7759081,7615081,2155.30,2115.30,0.9814,22.49,38.76,62.85,541.61,normal
+361,prd-capp-0361,Customer Applications,production,t,cpu.xlarge,eu-central,2160,2111,7758879,7586949,2155.24,2107.49,0.9778,43.35,74.45,66.97,900.89,normal
+362,prd-paym-0362,Payments,production,t,gp.small,eu-central,2160,2109,7759574,7575974,2155.44,2104.44,0.9763,13.54,22.97,30.76,122.10,normal
+363,prd-plat-0363,Platform Engineering,production,f,gp.small,na-east,2160,1950,7761997,7005997,2156.11,1946.11,0.9026,12.00,20.40,49.89,111.04,normal
+364,dev-plat-0364,Platform Engineering,development,f,gp.small,eu-central,108,107,298374,296467,82.88,82.35,0.9936,14.77,22.65,39.45,4.69,insufficient_data
+365,dev-capp-0365,Customer Applications,development,f,gp.large,na-west,1178,1140,3980384,3849922,1105.66,1069.42,0.9672,5.76,8.85,31.80,236.90,low_utilization
+366,dev-secu-0366,Security Operations,development,f,gp.small,na-east,110,107,305099,294299,84.75,81.75,0.9646,13.87,21.75,46.46,4.36,insufficient_data
+367,dev-data-0367,Data & Analytics,development,f,gp.medium,sa-east,755,739,2500743,2443143,694.65,678.65,0.9770,32.55,44.06,42.80,87.40,normal
+368,dev-capp-0368,Customer Applications,development,f,gp.medium,eu-central,808,786,2699511,2630990,749.86,730.83,0.9746,17.55,24.59,41.05,85.06,normal
+369,dev-itls-0369,Internal Tools,development,f,gp.medium,na-east,702,688,2316078,2274083,643.36,631.69,0.9819,13.30,17.38,44.47,66.40,normal
+370,dev-paym-0370,Payments,development,f,gp.large,na-west,2160,2114,7762462,7596862,2156.24,2110.24,0.9787,2.46,4.26,16.46,461.96,low_utilization
+371,prd-capp-0371,Customer Applications,production,f,gp.medium,na-west,2160,2119,7756424,7608824,2154.56,2113.56,0.9810,17.94,30.48,33.31,230.75,normal
+372,dev-capp-0372,Customer Applications,development,f,cpu.xlarge,na-east,1157,1137,3917847,3851894,1088.29,1069.97,0.9832,43.78,65.35,40.60,413.55,normal
+373,dev-plat-0373,Platform Engineering,development,f,mem.large,sa-east,2160,2120,7768938,7624938,2158.04,2118.04,0.9815,64.29,99.50,72.13,710.86,normal
+374,prd-paym-0374,Payments,production,f,gp.small,eu-central,2160,2122,7765966,7629166,2157.21,2119.21,0.9824,61.09,99.50,83.85,122.21,normal
+375,dev-data-0375,Data & Analytics,development,f,gp.small,sa-east,176,171,471113,454587,130.86,126.27,0.9649,4.57,7.15,16.36,8.23,insufficient_data
+376,dev-data-0376,Data & Analytics,development,f,gp.medium,na-east,706,685,2305144,2241480,640.32,622.63,0.9724,23.07,29.73,45.37,66.01,normal
+377,dev-plat-0377,Platform Engineering,development,f,mem.large,na-east,777,763,2586908,2543924,718.59,706.65,0.9834,21.56,29.79,30.95,194.02,normal
+378,dev-plat-0378,Platform Engineering,development,f,mem.large,na-west,1152,1126,3884567,3795117,1079.05,1054.20,0.9770,9.08,13.80,25.02,303.00,low_utilization
+379,prd-data-0379,Data & Analytics,production,t,gp.medium,na-east,2158,2042,7756262,7341742,2154.52,2039.37,0.9466,52.87,89.87,55.54,221.92,normal
+380,prd-secu-0380,Security Operations,production,f,gp.medium,na-east,2160,2124,7755344,7625744,2154.26,2118.26,0.9833,17.47,29.85,40.87,221.89,normal
+381,prd-paym-0381,Payments,production,t,gp.small,na-west,2160,2120,7764068,7620068,2156.69,2116.69,0.9815,3.72,6.41,18.76,115.49,low_utilization
+382,dev-capp-0382,Customer Applications,development,f,gp.large,na-west,2160,2123,7771236,7638036,2158.68,2121.68,0.9829,25.11,42.64,59.15,462.49,normal
+383,prd-paym-0383,Payments,production,f,gp.small,eu-central,2158,2121,7757000,7623823,2154.72,2117.73,0.9828,62.09,99.50,61.32,122.07,normal
+384,dev-plat-0384,Platform Engineering,development,f,gp.large,na-east,753,691,2493988,2283280,692.77,634.24,0.9155,76.10,99.50,58.36,142.38,normal
+385,dev-plat-0385,Platform Engineering,development,f,gp.large,eu-central,1158,1137,3900660,3825060,1083.52,1062.52,0.9806,16.32,24.56,29.69,245.31,normal
+386,prd-capp-0386,Customer Applications,production,t,gp.small,na-east,2160,2106,7760229,7568170,2155.62,2102.27,0.9753,27.18,46.54,63.89,111.02,normal
+387,dev-mktg-0387,Marketing Technology,development,f,gp.medium,na-west,1166,1133,3935388,3821128,1093.16,1061.42,0.9710,35.24,53.05,57.97,116.92,normal
+388,dev-mktg-0388,Marketing Technology,development,f,mem.large,na-east,837,812,2786922,2702965,774.15,750.82,0.9699,5.34,7.30,16.73,209.02,low_utilization
+389,dev-mktg-0389,Marketing Technology,development,f,gp.small,na-west,830,811,2771215,2713175,769.78,753.66,0.9791,16.50,22.85,31.62,41.46,normal
+390,prd-data-0390,Data & Analytics,production,t,mem.large,na-east,2160,2122,7762762,7625962,2156.32,2118.32,0.9824,45.95,77.69,58.93,582.21,normal
+391,dev-plat-0391,Platform Engineering,development,f,gp.medium,eu-central,836,818,2798471,2738261,777.35,760.63,0.9785,23.79,34.00,42.96,87.57,normal
+392,prd-capp-0392,Customer Applications,production,t,gp.large,na-west,2157,2110,7753110,7585537,2153.64,2107.09,0.9784,16.75,28.85,30.44,461.40,normal
+393,dev-plat-0393,Platform Engineering,development,f,gp.medium,na-east,702,692,2321936,2288487,644.98,635.69,0.9856,32.66,44.30,53.02,66.11,normal
+394,prd-data-0394,Data & Analytics,production,t,gp.medium,eu-central,2160,2126,7768077,7645677,2157.80,2123.80,0.9842,25.82,44.00,62.05,244.48,normal
+395,dev-capp-0395,Customer Applications,development,t,gp.small,eu-central,794,776,2667068,2609936,740.85,724.98,0.9786,21.63,30.47,36.02,41.87,normal
+396,prd-capp-0396,Customer Applications,production,t,mem.large,eu-central,2158,2119,7756796,7617479,2154.67,2115.97,0.9820,48.91,83.99,71.74,623.99,normal
+397,prd-data-0397,Data & Analytics,production,t,gp.large,na-west,2159,2126,7755063,7636263,2154.18,2121.18,0.9847,10.36,17.54,31.58,461.51,normal
+398,dev-plat-0398,Platform Engineering,development,f,gp.medium,sa-east,128,126,355117,347917,98.64,96.64,0.9797,4.79,7.87,23.36,12.39,insufficient_data
+399,dev-mktg-0399,Marketing Technology,development,f,gp.small,sa-east,1166,1016,3934696,3441735,1092.97,956.04,0.8747,17.15,25.80,44.13,68.61,normal
+400,prd-mktg-0400,Marketing Technology,production,t,gp.medium,na-east,2159,2118,7761202,7613602,2155.89,2114.89,0.9810,17.79,30.56,46.22,222.07,normal
+401,prd-secu-0401,Security Operations,production,t,mem.large,eu-central,2160,2104,7758579,7556979,2155.16,2099.16,0.9740,1.98,3.37,21.25,624.15,low_utilization
+402,dev-paym-0402,Payments,development,f,gp.medium,eu-central,0,0,0,0,0.00,0.00,,,,,0,no_activity
+403,dev-paym-0403,Payments,development,f,gp.large,sa-east,167,162,468077,455673,130.02,126.58,0.9735,5.62,8.54,19.19,32.62,insufficient_data
+404,dev-data-0404,Data & Analytics,development,f,gp.medium,na-east,724,714,2378185,2345457,660.61,651.52,0.9862,48.33,64.10,49.70,68.15,normal
+405,dev-mktg-0405,Marketing Technology,development,f,gp.small,eu-central,170,164,487817,472180,135.50,131.16,0.9679,45.10,73.38,59.74,7.64,insufficient_data
+406,dev-plat-0406,Platform Engineering,development,f,mem.large,na-east,772,760,2563846,2527584,712.18,702.11,0.9859,3.09,4.22,27.08,192.29,low_utilization
+407,dev-paym-0407,Payments,development,f,gp.large,na-east,811,792,2702025,2639651,750.56,733.24,0.9769,4.61,6.25,25.68,154.83,low_utilization
+408,prd-mktg-0408,Marketing Technology,production,t,gp.medium,na-east,2160,2117,7756783,7601983,2154.66,2111.66,0.9800,8.35,14.22,31.60,221.93,low_utilization
+409,dev-plat-0409,Platform Engineering,development,f,gp.medium,sa-east,2160,2107,7767250,7576450,2157.57,2104.57,0.9754,28.47,48.51,61.56,271.10,normal
+410,prd-paym-0410,Payments,production,t,cpu.xlarge,sa-east,2160,2116,7757448,7599048,2154.85,2110.85,0.9796,28.50,48.71,57.68,998.99,normal
+411,dev-paym-0411,Payments,development,f,gp.medium,eu-central,771,756,2561470,2511238,711.52,697.57,0.9804,6.12,8.40,21.78,80.89,low_utilization
+412,prd-data-0412,Data & Analytics,production,f,gp.large,na-west,2160,2117,7768895,7614095,2158.03,2115.03,0.9801,40.72,69.92,51.35,462.36,normal
+413,prd-data-0413,Data & Analytics,production,f,gp.large,na-east,2160,2116,7758617,7600217,2155.17,2111.17,0.9796,48.65,82.86,75.62,443.96,normal
+414,prd-data-0414,Data & Analytics,production,t,gp.large,na-west,2160,2120,7768490,7626858,2157.91,2118.57,0.9818,25.35,43.43,58.58,462.34,normal
+415,prd-secu-0415,Security Operations,production,t,gp.small,na-east,2160,2121,7761390,7621192,2155.94,2117.00,0.9819,22.85,38.95,49.30,111.03,normal
+416,prd-secu-0416,Security Operations,production,f,gp.medium,eu-central,2160,2115,7770664,7608664,2158.52,2113.52,0.9792,46.91,79.96,77.11,244.56,normal
+417,prd-mktg-0417,Marketing Technology,production,t,gp.large,na-east,2159,2063,7752724,7407124,2153.53,2057.53,0.9554,17.78,30.27,30.49,443.63,normal
+418,prd-mktg-0418,Marketing Technology,production,t,gp.small,na-east,2160,2122,7764307,7627507,2156.75,2118.75,0.9824,61.97,99.50,67.36,111.08,normal
+419,prd-plat-0419,Platform Engineering,production,t,gp.medium,na-east,2160,2116,7770829,7612429,2158.56,2114.56,0.9796,33.87,57.84,63.26,222.34,normal
+420,prd-secu-0420,Security Operations,production,t,gp.small,eu-central,2160,2105,7770559,7572559,2158.49,2103.49,0.9745,14.98,25.78,40.87,122.28,normal
+421,dev-secu-0421,Security Operations,development,f,cpu.xlarge,na-east,2160,2109,7755512,7571912,2154.31,2103.31,0.9763,18.19,30.85,30.55,818.64,normal
+422,dev-data-0422,Data & Analytics,development,f,gp.large,sa-east,2160,2121,7773946,7633546,2159.43,2120.43,0.9819,4.10,7.01,18.12,542.66,low_utilization
+423,dev-itls-0423,Internal Tools,development,f,gp.large,eu-central,0,0,0,0,0.00,0.00,,,,,0,no_activity
+424,dev-capp-0424,Customer Applications,development,f,mem.large,na-east,667,654,2178570,2141069,605.16,594.74,0.9828,7.33,9.47,22.60,163.39,low_utilization
+425,dev-secu-0425,Security Operations,development,f,gp.small,eu-central,759,742,2524327,2476838,701.20,688.01,0.9812,4.13,5.76,26.52,39.83,low_utilization
+426,dev-capp-0426,Customer Applications,development,f,gp.small,eu-central,763,746,2534153,2482950,703.93,689.71,0.9798,7.27,9.74,26.24,39.76,low_utilization
+427,dev-plat-0427,Platform Engineering,development,f,gp.large,na-west,704,679,2329401,2246430,647.06,624.01,0.9644,25.01,33.64,36.28,138.66,normal
+428,prd-data-0428,Data & Analytics,production,t,gp.medium,eu-central,2160,2121,7759600,7619200,2155.44,2116.44,0.9819,15.00,25.91,36.17,244.21,normal
+429,dev-plat-0429,Platform Engineering,development,t,gp.medium,na-east,684,669,2243777,2198717,623.27,610.75,0.9799,31.42,41.00,46.47,64.09,normal
+430,prd-itls-0430,Internal Tools,production,t,gp.small,sa-east,2159,2120,7758946,7618546,2155.26,2116.26,0.9819,15.00,25.37,27.71,135.46,normal
+431,prd-capp-0431,Customer Applications,production,t,gp.large,sa-east,2160,2107,7758468,7567668,2155.13,2102.13,0.9754,18.63,31.87,44.74,541.58,normal
+432,prd-paym-0432,Payments,production,t,gp.small,sa-east,2160,2120,7763984,7619984,2156.66,2116.66,0.9815,28.11,47.72,60.68,135.54,normal
+433,dev-capp-0433,Customer Applications,development,f,gp.medium,na-west,679,662,2207873,2149356,613.30,597.04,0.9735,66.24,84.83,65.53,65.51,normal
+434,prd-mktg-0434,Marketing Technology,production,f,gp.medium,eu-central,2159,2113,7755744,7590144,2154.37,2108.37,0.9786,59.09,99.50,63.20,244.10,normal
+435,dev-mktg-0435,Marketing Technology,development,f,gp.small,sa-east,791,765,2628143,2544800,730.04,706.89,0.9683,3.69,4.95,20.66,45.70,low_utilization
+436,dev-paym-0436,Payments,development,f,gp.small,na-east,788,770,2630426,2569436,730.67,713.73,0.9768,5.66,7.78,18.03,37.74,low_utilization
+437,dev-secu-0437,Security Operations,development,f,gp.small,na-west,170,167,491986,483664,136.66,134.35,0.9831,4.16,6.66,21.65,7.38,insufficient_data
+438,prd-mktg-0438,Marketing Technology,production,t,mem.large,na-east,2160,2110,7767685,7590224,2157.69,2108.40,0.9772,14.19,24.44,36.99,582.58,normal
+439,dev-capp-0439,Customer Applications,development,f,mem.large,na-west,0,0,0,0,0.00,0.00,,,,,0,no_activity
+440,dev-data-0440,Data & Analytics,development,f,gp.large,na-west,774,678,2562821,2249817,711.89,624.95,0.8779,4.59,6.34,25.46,151.95,low_utilization
+441,prd-capp-0441,Customer Applications,production,f,gp.small,na-east,2160,2114,7758350,7592750,2155.10,2109.10,0.9787,5.50,9.39,22.31,110.99,low_utilization
+442,dev-capp-0442,Customer Applications,development,f,mem.large,sa-east,158,154,446847,433828,124.12,120.51,0.9709,16.11,25.74,32.71,40.89,insufficient_data
+443,dev-paym-0443,Payments,development,f,gp.small,sa-east,797,787,2667351,2631351,740.93,730.93,0.9865,3.53,4.95,25.78,46.55,low_utilization
+444,prd-plat-0444,Platform Engineering,production,t,gp.small,na-east,2160,2111,7762019,7585619,2156.12,2107.12,0.9773,24.42,41.60,51.06,111.04,normal
+445,prd-plat-0445,Platform Engineering,production,t,gp.small,eu-central,2160,2113,7759803,7590603,2155.50,2108.50,0.9782,40.61,69.22,53.09,122.11,normal
+446,prd-paym-0446,Payments,production,t,gp.large,na-east,2160,2101,7760235,7547835,2155.62,2096.62,0.9726,43.69,74.08,65.18,444.06,normal
+447,prd-itls-0447,Internal Tools,production,t,gp.small,sa-east,2160,1978,7767459,7113069,2157.63,1975.85,0.9158,15.71,26.92,36.68,135.61,normal
+448,prd-capp-0448,Customer Applications,production,f,cpu.xlarge,eu-central,2160,2120,7755852,7611852,2154.40,2114.40,0.9814,44.39,76.84,56.49,900.54,normal
+449,prd-data-0449,Data & Analytics,production,t,gp.medium,na-east,2159,2115,7757152,7600478,2154.76,2111.24,0.9798,10.49,17.87,43.73,221.95,normal
+450,prd-data-0450,Data & Analytics,production,f,mem.large,eu-central,2160,2124,7752421,7622821,2153.45,2117.45,0.9833,9.96,17.03,34.14,623.63,low_utilization
+451,prd-plat-0451,Platform Engineering,production,t,gp.medium,na-east,2160,2130,7766378,7658378,2157.33,2127.33,0.9861,2.10,3.58,18.80,222.20,low_utilization
+452,prd-capp-0452,Customer Applications,production,t,mem.large,sa-east,2159,2118,7766757,7619157,2157.43,2116.43,0.9810,9.13,15.65,32.38,710.66,low_utilization
+453,prd-data-0453,Data & Analytics,production,t,gp.small,na-east,2160,2113,7765707,7596507,2157.14,2110.14,0.9782,13.00,21.98,30.22,111.09,normal
+454,dev-capp-0454,Customer Applications,development,f,gp.large,eu-central,2159,2125,7763688,7644111,2156.58,2123.36,0.9846,2.74,4.70,31.95,488.68,low_utilization
+455,prd-data-0455,Data & Analytics,production,t,gp.medium,na-east,2160,2132,7754587,7653787,2154.05,2126.05,0.9870,3.88,6.58,31.42,221.87,low_utilization
+456,dev-mktg-0456,Marketing Technology,development,f,cpu.xlarge,na-east,669,653,2174442,2120824,604.01,589.12,0.9753,7.63,9.96,15.03,229.52,low_utilization
+457,prd-itls-0457,Internal Tools,production,t,gp.small,na-west,2157,2104,7746922,7556122,2151.92,2098.92,0.9754,3.59,6.13,26.75,115.23,low_utilization
+458,dev-data-0458,Data & Analytics,development,f,gp.small,na-east,735,719,2408168,2356881,668.94,654.69,0.9787,59.01,78.10,61.02,34.52,normal
+459,dev-plat-0459,Platform Engineering,development,f,gp.large,eu-central,2160,2116,7767544,7609144,2157.65,2113.65,0.9796,26.86,46.26,40.57,488.94,normal
+460,prd-plat-0460,Platform Engineering,production,f,gp.small,na-east,2160,2105,7766849,7568849,2157.46,2102.46,0.9745,25.94,43.98,53.02,111.11,normal
+461,prd-plat-0461,Platform Engineering,production,t,gp.small,na-east,2159,2115,7741939,7583539,2150.54,2106.54,0.9795,40.79,69.66,56.19,110.75,normal
+462,prd-capp-0462,Customer Applications,production,f,gp.medium,eu-central,2160,2105,7767863,7569863,2157.74,2102.74,0.9745,46.71,80.22,72.76,244.47,normal
+463,prd-data-0463,Data & Analytics,production,t,gp.small,na-east,2159,2108,7744601,7561001,2151.28,2100.28,0.9763,19.17,32.68,43.14,110.79,normal
+464,prd-data-0464,Data & Analytics,production,t,gp.medium,eu-central,2159,2117,7762825,7611625,2156.34,2114.34,0.9805,38.26,66.42,41.83,244.32,normal
+465,dev-mktg-0465,Marketing Technology,development,f,gp.medium,na-west,694,680,2250488,2213201,625.14,614.78,0.9834,22.09,28.38,34.74,66.91,normal
+466,prd-paym-0466,Payments,production,t,mem.large,sa-east,2160,2131,7761061,7656661,2155.85,2126.85,0.9865,32.40,55.20,45.36,710.14,normal
+467,dev-secu-0467,Security Operations,development,f,gp.small,na-east,164,145,455172,405981,126.44,112.77,0.8919,16.55,27.27,34.08,6.52,insufficient_data
+468,prd-data-0468,Data & Analytics,production,f,gp.small,na-east,2160,2119,7767990,7620390,2157.78,2116.78,0.9810,13.90,23.74,29.97,111.12,normal
+469,dev-itls-0469,Internal Tools,development,f,gp.medium,na-east,742,728,2442722,2392322,678.53,664.53,0.9794,16.27,21.99,45.42,69.92,normal
+470,prd-itls-0470,Internal Tools,production,t,gp.medium,sa-east,2160,2113,7766288,7597088,2157.30,2110.30,0.9782,38.97,66.98,47.69,271.06,normal
+471,dev-itls-0471,Internal Tools,development,f,gp.small,na-west,2159,2119,7763013,7619013,2156.39,2116.39,0.9815,65.19,99.50,74.28,115.48,normal
+472,dev-plat-0472,Platform Engineering,development,f,gp.small,eu-central,143,140,395242,384442,109.79,106.79,0.9727,5.67,8.67,20.47,6.24,insufficient_data
+473,dev-itls-0473,Internal Tools,development,f,gp.medium,na-west,158,153,440574,425560,122.38,118.21,0.9659,68.81,99.50,76.72,13.11,insufficient_data
+474,dev-plat-0474,Platform Engineering,development,f,gp.small,na-east,108,104,293257,278857,81.46,77.46,0.9509,5.28,7.77,15.96,4.18,insufficient_data
+475,dev-paym-0475,Payments,development,f,gp.large,na-east,0,0,0,0,0.00,0.00,,,,,0,no_activity
+476,dev-plat-0476,Platform Engineering,development,f,gp.medium,sa-east,115,114,325690,322090,90.47,89.47,0.9889,28.74,44.53,47.34,11.39,insufficient_data
+477,dev-secu-0477,Security Operations,development,f,gp.large,eu-central,694,678,2267743,2211737,629.93,614.37,0.9753,14.28,18.85,27.88,142.55,normal
+478,dev-mktg-0478,Marketing Technology,development,f,gp.medium,na-east,178,176,510520,505529,141.81,140.42,0.9902,4.55,6.85,28.57,14.60,insufficient_data
+479,dev-capp-0479,Customer Applications,development,f,cpu.xlarge,na-west,691,679,2260071,2219334,627.80,616.48,0.9820,73.02,96.29,71.32,248.11,normal
+480,dev-plat-0480,Platform Engineering,development,f,gp.large,na-east,754,740,2468118,2424423,685.59,673.45,0.9823,4.96,6.63,20.22,141.61,low_utilization
+481,dev-itls-0481,Internal Tools,development,f,gp.large,na-west,650,634,2111310,2057025,586.48,571.40,0.9743,21.50,27.54,40.74,125.32,normal
+482,dev-secu-0482,Security Operations,development,f,gp.small,na-east,145,143,404947,397804,112.49,110.50,0.9824,16.38,27.32,27.11,5.76,insufficient_data
+483,prd-mktg-0483,Marketing Technology,production,t,gp.large,eu-central,2160,2115,7757759,7595759,2154.93,2109.93,0.9791,15.52,26.27,49.12,488.30,normal
+484,prd-data-0484,Data & Analytics,production,f,gp.small,na-east,2160,2122,7767511,7633335,2157.64,2120.37,0.9827,45.17,77.68,79.23,111.12,normal
+485,dev-capp-0485,Customer Applications,development,f,cpu.xlarge,sa-east,1196,1162,4042192,3929348,1122.83,1091.49,0.9721,57.12,87.05,56.71,520.54,normal
+486,prd-data-0486,Data & Analytics,production,t,mem.large,na-east,2160,2120,7765774,7621774,2157.16,2117.16,0.9815,28.22,48.22,61.65,582.43,normal
+487,dev-data-0487,Data & Analytics,development,f,gp.medium,eu-central,2160,2120,7762076,7618076,2156.13,2116.13,0.9814,2.28,3.91,16.17,244.29,low_utilization
+488,prd-capp-0488,Customer Applications,production,t,gp.medium,na-west,2159,2107,7759577,7572377,2155.44,2103.44,0.9759,12.27,20.65,31.74,230.85,normal
+489,prd-plat-0489,Platform Engineering,production,t,gp.large,eu-central,2160,2113,7764807,7595607,2156.89,2109.89,0.9782,25.62,43.61,49.93,488.74,normal
+490,prd-capp-0490,Customer Applications,production,t,gp.medium,na-east,2160,2116,7758825,7600425,2155.23,2111.23,0.9796,39.03,66.55,44.45,221.98,normal
+491,dev-data-0491,Data & Analytics,development,f,gp.small,na-west,1158,1139,3898702,3835707,1082.97,1065.47,0.9838,2.48,3.76,28.79,57.91,low_utilization
+492,dev-plat-0492,Platform Engineering,development,f,gp.large,sa-east,706,687,2327975,2259575,646.66,627.66,0.9706,25.58,33.38,48.79,162.53,normal
+493,prd-data-0493,Data & Analytics,production,t,cpu.xlarge,eu-central,2160,2125,7751045,7626236,2153.07,2118.40,0.9839,31.42,53.73,60.23,899.98,normal
+494,dev-plat-0494,Platform Engineering,development,t,gp.small,na-east,717,709,2351469,2325656,653.19,646.02,0.9890,29.65,39.75,40.89,33.53,normal
+495,dev-plat-0495,Platform Engineering,development,t,gp.medium,na-east,2160,2122,7772550,7635750,2159.04,2121.04,0.9824,27.75,47.57,53.45,222.38,normal
+496,dev-data-0496,Data & Analytics,development,f,gp.medium,na-east,2159,2122,7757028,7626145,2154.73,2118.37,0.9831,17.63,30.20,34.57,221.93,normal
+497,dev-data-0497,Data & Analytics,development,f,gp.medium,na-west,2160,2118,7773656,7622456,2159.35,2117.35,0.9805,4.63,7.83,20.23,231.27,low_utilization
+498,dev-capp-0498,Customer Applications,development,f,gp.large,eu-central,766,750,2553826,2498700,709.40,694.08,0.9784,6.62,8.96,26.21,160.92,low_utilization
+499,dev-itls-0499,Internal Tools,development,f,gp.medium,eu-central,145,144,398371,394771,110.66,109.66,0.9910,23.02,35.29,60.67,12.56,insufficient_data
+500,dev-plat-0500,Platform Engineering,development,f,gp.large,na-west,0,0,0,0,0.00,0.00,,,,,0,no_activity

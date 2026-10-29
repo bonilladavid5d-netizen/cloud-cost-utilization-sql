@@ -1,0 +1,1501 @@
+server_id,hostname,department_name,environment,month,uptime_hours,active_hours,uptime_share_of_month
+1,dev-plat-0001,Platform Engineering,development,2025-01-01,397.21,425,0.5339
+1,dev-plat-0001,Platform Engineering,development,2025-02-01,352.30,375,0.5243
+1,dev-plat-0001,Platform Engineering,development,2025-03-01,353.44,374,0.4751
+2,prd-data-0002,Data & Analytics,production,2025-01-01,741.74,744,0.9970
+2,prd-data-0002,Data & Analytics,production,2025-02-01,672.00,672,1.0000
+2,prd-data-0002,Data & Analytics,production,2025-03-01,742.99,744,0.9986
+3,dev-capp-0003,Customer Applications,development,2025-01-01,273.18,291,0.3672
+3,dev-capp-0003,Customer Applications,development,2025-02-01,204.71,226,0.3046
+3,dev-capp-0003,Customer Applications,development,2025-03-01,199.88,221,0.2687
+4,prd-paym-0004,Payments,production,2025-01-01,743.70,744,0.9996
+4,prd-paym-0004,Payments,production,2025-02-01,669.12,672,0.9957
+4,prd-paym-0004,Payments,production,2025-03-01,742.24,743,0.9976
+5,dev-mktg-0005,Marketing Technology,development,2025-01-01,21.26,28,0.0286
+5,dev-mktg-0005,Marketing Technology,development,2025-02-01,44.30,56,0.0659
+5,dev-mktg-0005,Marketing Technology,development,2025-03-01,40.45,52,0.0544
+6,prd-itls-0006,Internal Tools,production,2025-01-01,742.89,744,0.9985
+6,prd-itls-0006,Internal Tools,production,2025-02-01,670.95,672,0.9984
+6,prd-itls-0006,Internal Tools,production,2025-03-01,742.68,744,0.9982
+7,dev-secu-0007,Security Operations,development,2025-01-01,226.62,248,0.3046
+7,dev-secu-0007,Security Operations,development,2025-02-01,168.91,191,0.2513
+7,dev-secu-0007,Security Operations,development,2025-03-01,268.92,292,0.3614
+8,prd-data-0008,Data & Analytics,production,2025-01-01,742.64,744,0.9982
+8,prd-data-0008,Data & Analytics,production,2025-02-01,670.38,672,0.9976
+8,prd-data-0008,Data & Analytics,production,2025-03-01,742.64,744,0.9982
+9,prd-data-0009,Data & Analytics,production,2025-01-01,740.84,744,0.9957
+9,prd-data-0009,Data & Analytics,production,2025-02-01,670.56,672,0.9979
+9,prd-data-0009,Data & Analytics,production,2025-03-01,741.56,744,0.9967
+10,dev-paym-0010,Payments,development,2025-01-01,39.71,50,0.0534
+10,dev-paym-0010,Payments,development,2025-02-01,38.20,49,0.0568
+10,dev-paym-0010,Payments,development,2025-03-01,47.83,58,0.0643
+11,dev-itls-0011,Internal Tools,development,2025-01-01,222.98,243,0.2997
+11,dev-itls-0011,Internal Tools,development,2025-02-01,256.75,274,0.3821
+11,dev-itls-0011,Internal Tools,development,2025-03-01,219.95,237,0.2956
+12,dev-secu-0012,Security Operations,development,2025-01-01,227.56,250,0.3059
+12,dev-secu-0012,Security Operations,development,2025-02-01,186.75,202,0.2779
+12,dev-secu-0012,Security Operations,development,2025-03-01,318.71,337,0.4284
+13,dev-paym-0013,Payments,development,2025-01-01,290.14,311,0.3900
+13,dev-paym-0013,Payments,development,2025-02-01,192.82,210,0.2869
+13,dev-paym-0013,Payments,development,2025-03-01,199.06,221,0.2675
+14,prd-data-0014,Data & Analytics,production,2025-01-01,743.62,744,0.9995
+14,prd-data-0014,Data & Analytics,production,2025-02-01,670.66,671,0.9980
+14,prd-data-0014,Data & Analytics,production,2025-03-01,743.25,744,0.9990
+15,dev-plat-0015,Platform Engineering,development,2025-01-01,300.82,322,0.4043
+15,dev-plat-0015,Platform Engineering,development,2025-02-01,172.68,188,0.2570
+15,dev-plat-0015,Platform Engineering,development,2025-03-01,196.56,214,0.2642
+16,dev-capp-0016,Customer Applications,development,2025-01-01,744.00,744,1.0000
+16,dev-capp-0016,Customer Applications,development,2025-02-01,672.00,672,1.0000
+16,dev-capp-0016,Customer Applications,development,2025-03-01,742.17,744,0.9975
+17,dev-data-0017,Data & Analytics,development,2025-01-01,326.37,348,0.4387
+17,dev-data-0017,Data & Analytics,development,2025-02-01,189.17,208,0.2815
+17,dev-data-0017,Data & Analytics,development,2025-03-01,200.18,222,0.2691
+18,dev-capp-0018,Customer Applications,development,2025-01-01,279.05,300,0.3751
+18,dev-capp-0018,Customer Applications,development,2025-02-01,202.27,223,0.3010
+18,dev-capp-0018,Customer Applications,development,2025-03-01,337.35,356,0.4534
+19,dev-secu-0019,Security Operations,development,2025-01-01,743.40,744,0.9992
+19,dev-secu-0019,Security Operations,development,2025-02-01,672.00,672,1.0000
+19,dev-secu-0019,Security Operations,development,2025-03-01,742.41,744,0.9979
+20,prd-data-0020,Data & Analytics,production,2025-01-01,741.08,743,0.9961
+20,prd-data-0020,Data & Analytics,production,2025-02-01,672.00,672,1.0000
+20,prd-data-0020,Data & Analytics,production,2025-03-01,741.17,744,0.9962
+21,dev-paym-0021,Payments,development,2025-01-01,226.45,247,0.3044
+21,dev-paym-0021,Payments,development,2025-02-01,199.48,221,0.2968
+21,dev-paym-0021,Payments,development,2025-03-01,278.42,299,0.3742
+22,dev-capp-0022,Customer Applications,development,2025-01-01,252.31,276,0.3391
+22,dev-capp-0022,Customer Applications,development,2025-02-01,242.06,260,0.3602
+22,dev-capp-0022,Customer Applications,development,2025-03-01,264.74,288,0.3558
+23,prd-paym-0023,Payments,production,2025-01-01,742.10,744,0.9974
+23,prd-paym-0023,Payments,production,2025-02-01,672.00,672,1.0000
+23,prd-paym-0023,Payments,production,2025-03-01,743.28,744,0.9990
+24,prd-capp-0024,Customer Applications,production,2025-01-01,741.50,743,0.9966
+24,prd-capp-0024,Customer Applications,production,2025-02-01,669.54,672,0.9963
+24,prd-capp-0024,Customer Applications,production,2025-03-01,744.00,744,1.0000
+25,dev-capp-0025,Customer Applications,development,2025-01-01,29.40,38,0.0395
+25,dev-capp-0025,Customer Applications,development,2025-02-01,21.97,31,0.0327
+25,dev-capp-0025,Customer Applications,development,2025-03-01,18.52,26,0.0249
+26,dev-mktg-0026,Marketing Technology,development,2025-01-01,228.58,253,0.3072
+26,dev-mktg-0026,Marketing Technology,development,2025-02-01,312.72,331,0.4654
+26,dev-mktg-0026,Marketing Technology,development,2025-03-01,197.50,219,0.2655
+27,prd-itls-0027,Internal Tools,production,2025-01-01,742.73,744,0.9983
+27,prd-itls-0027,Internal Tools,production,2025-02-01,669.84,671,0.9968
+27,prd-itls-0027,Internal Tools,production,2025-03-01,743.71,744,0.9996
+28,dev-data-0028,Data & Analytics,development,2025-01-01,398.36,424,0.5354
+28,dev-data-0028,Data & Analytics,development,2025-02-01,342.19,362,0.5092
+28,dev-data-0028,Data & Analytics,development,2025-03-01,351.15,374,0.4720
+29,prd-mktg-0029,Marketing Technology,production,2025-01-01,743.09,744,0.9988
+29,prd-mktg-0029,Marketing Technology,production,2025-02-01,669.61,671,0.9964
+29,prd-mktg-0029,Marketing Technology,production,2025-03-01,742.30,743,0.9977
+30,dev-plat-0030,Platform Engineering,development,2025-01-01,223.65,244,0.3006
+30,dev-plat-0030,Platform Engineering,development,2025-02-01,192.38,214,0.2863
+30,dev-plat-0030,Platform Engineering,development,2025-03-01,219.24,239,0.2947
+31,dev-mktg-0031,Marketing Technology,development,2025-01-01,392.62,419,0.5277
+31,dev-mktg-0031,Marketing Technology,development,2025-02-01,338.25,360,0.5034
+31,dev-mktg-0031,Marketing Technology,development,2025-03-01,357.39,382,0.4804
+32,dev-capp-0032,Customer Applications,development,2025-01-01,340.19,358,0.4572
+32,dev-capp-0032,Customer Applications,development,2025-02-01,174.65,192,0.2599
+32,dev-capp-0032,Customer Applications,development,2025-03-01,265.99,287,0.3575
+33,dev-capp-0033,Customer Applications,development,2025-01-01,195.91,218,0.2633
+33,dev-capp-0033,Customer Applications,development,2025-02-01,262.55,283,0.3907
+33,dev-capp-0033,Customer Applications,development,2025-03-01,204.74,228,0.2752
+34,prd-plat-0034,Platform Engineering,production,2025-01-01,743.11,744,0.9988
+34,prd-plat-0034,Platform Engineering,production,2025-02-01,671.27,672,0.9989
+34,prd-plat-0034,Platform Engineering,production,2025-03-01,743.06,744,0.9987
+35,dev-secu-0035,Security Operations,development,2025-01-01,248.29,272,0.3337
+35,dev-secu-0035,Security Operations,development,2025-02-01,172.30,187,0.2564
+35,dev-secu-0035,Security Operations,development,2025-03-01,222.17,243,0.2986
+36,dev-paym-0036,Payments,development,2025-01-01,292.65,313,0.3933
+36,dev-paym-0036,Payments,development,2025-02-01,226.90,247,0.3376
+36,dev-paym-0036,Payments,development,2025-03-01,186.97,204,0.2513
+37,dev-data-0037,Data & Analytics,development,2025-01-01,208.46,234,0.2802
+37,dev-data-0037,Data & Analytics,development,2025-02-01,185.56,205,0.2761
+37,dev-data-0037,Data & Analytics,development,2025-03-01,255.52,268,0.3434
+38,dev-capp-0038,Customer Applications,development,2025-01-01,743.28,744,0.9990
+38,dev-capp-0038,Customer Applications,development,2025-02-01,672.00,672,1.0000
+38,dev-capp-0038,Customer Applications,development,2025-03-01,741.39,744,0.9965
+39,prd-data-0039,Data & Analytics,production,2025-01-01,742.82,744,0.9984
+39,prd-data-0039,Data & Analytics,production,2025-02-01,670.81,672,0.9982
+39,prd-data-0039,Data & Analytics,production,2025-03-01,742.58,744,0.9981
+40,dev-plat-0040,Platform Engineering,development,2025-01-01,396.57,421,0.5330
+40,dev-plat-0040,Platform Engineering,development,2025-02-01,335.94,355,0.4999
+40,dev-plat-0040,Platform Engineering,development,2025-03-01,357.40,381,0.4804
+41,dev-data-0041,Data & Analytics,development,2025-01-01,255.12,275,0.3429
+41,dev-data-0041,Data & Analytics,development,2025-02-01,189.22,211,0.2816
+41,dev-data-0041,Data & Analytics,development,2025-03-01,198.28,214,0.2665
+42,prd-data-0042,Data & Analytics,production,2025-01-01,741.82,743,0.9971
+42,prd-data-0042,Data & Analytics,production,2025-02-01,670.10,672,0.9972
+42,prd-data-0042,Data & Analytics,production,2025-03-01,744.00,744,1.0000
+43,prd-itls-0043,Internal Tools,production,2025-01-01,742.31,743,0.9977
+43,prd-itls-0043,Internal Tools,production,2025-02-01,670.51,671,0.9978
+43,prd-itls-0043,Internal Tools,production,2025-03-01,742.40,744,0.9979
+44,prd-itls-0044,Internal Tools,production,2025-01-01,742.84,744,0.9984
+44,prd-itls-0044,Internal Tools,production,2025-02-01,670.04,672,0.9971
+44,prd-itls-0044,Internal Tools,production,2025-03-01,741.20,744,0.9962
+45,dev-data-0045,Data & Analytics,development,2025-01-01,243.29,267,0.3270
+45,dev-data-0045,Data & Analytics,development,2025-02-01,205.86,223,0.3063
+45,dev-data-0045,Data & Analytics,development,2025-03-01,226.98,249,0.3051
+46,prd-data-0046,Data & Analytics,production,2025-01-01,742.10,744,0.9975
+46,prd-data-0046,Data & Analytics,production,2025-02-01,670.43,672,0.9977
+46,prd-data-0046,Data & Analytics,production,2025-03-01,742.15,744,0.9975
+47,dev-data-0047,Data & Analytics,development,2025-01-01,214.96,239,0.2889
+47,dev-data-0047,Data & Analytics,development,2025-02-01,194.64,213,0.2896
+47,dev-data-0047,Data & Analytics,development,2025-03-01,223.02,240,0.2998
+48,dev-secu-0048,Security Operations,development,2025-01-01,264.31,287,0.3553
+48,dev-secu-0048,Security Operations,development,2025-02-01,255.12,273,0.3796
+48,dev-secu-0048,Security Operations,development,2025-03-01,197.92,219,0.2660
+49,prd-capp-0049,Customer Applications,production,2025-01-01,743.54,744,0.9994
+49,prd-capp-0049,Customer Applications,production,2025-02-01,670.53,672,0.9978
+49,prd-capp-0049,Customer Applications,production,2025-03-01,744.00,744,1.0000
+50,dev-plat-0050,Platform Engineering,development,2025-01-01,235.00,258,0.3159
+50,dev-plat-0050,Platform Engineering,development,2025-02-01,214.04,229,0.3185
+50,dev-plat-0050,Platform Engineering,development,2025-03-01,288.08,303,0.3872
+51,dev-plat-0051,Platform Engineering,development,2025-01-01,742.80,743,0.9984
+51,dev-plat-0051,Platform Engineering,development,2025-02-01,670.77,672,0.9982
+51,dev-plat-0051,Platform Engineering,development,2025-03-01,742.92,744,0.9985
+52,dev-data-0052,Data & Analytics,development,2025-01-01,31.93,41,0.0429
+52,dev-data-0052,Data & Analytics,development,2025-02-01,37.80,46,0.0562
+52,dev-data-0052,Data & Analytics,development,2025-03-01,47.68,60,0.0641
+53,dev-data-0053,Data & Analytics,development,2025-01-01,274.52,294,0.3690
+53,dev-data-0053,Data & Analytics,development,2025-02-01,178.21,202,0.2652
+53,dev-data-0053,Data & Analytics,development,2025-03-01,209.16,230,0.2811
+54,prd-paym-0054,Payments,production,2025-01-01,742.94,744,0.9986
+54,prd-paym-0054,Payments,production,2025-02-01,672.00,672,1.0000
+54,prd-paym-0054,Payments,production,2025-03-01,742.12,744,0.9975
+55,dev-data-0055,Data & Analytics,development,2025-01-01,217.73,238,0.2926
+55,dev-data-0055,Data & Analytics,development,2025-02-01,181.90,202,0.2707
+55,dev-data-0055,Data & Analytics,development,2025-03-01,229.39,252,0.3083
+56,prd-data-0056,Data & Analytics,production,2025-01-01,742.54,743,0.9980
+56,prd-data-0056,Data & Analytics,production,2025-02-01,671.11,672,0.9987
+56,prd-data-0056,Data & Analytics,production,2025-03-01,741.28,744,0.9963
+57,prd-paym-0057,Payments,production,2025-01-01,742.92,744,0.9985
+57,prd-paym-0057,Payments,production,2025-02-01,671.73,672,0.9996
+57,prd-paym-0057,Payments,production,2025-03-01,743.32,744,0.9991
+58,dev-capp-0058,Customer Applications,development,2025-01-01,42.36,51,0.0569
+58,dev-capp-0058,Customer Applications,development,2025-02-01,34.92,45,0.0520
+58,dev-capp-0058,Customer Applications,development,2025-03-01,47.71,61,0.0641
+59,dev-capp-0059,Customer Applications,development,2025-01-01,260.55,281,0.3502
+59,dev-capp-0059,Customer Applications,development,2025-02-01,218.30,241,0.3249
+59,dev-capp-0059,Customer Applications,development,2025-03-01,214.42,237,0.2882
+60,prd-capp-0060,Customer Applications,production,2025-01-01,741.56,744,0.9967
+60,prd-capp-0060,Customer Applications,production,2025-02-01,670.83,672,0.9983
+60,prd-capp-0060,Customer Applications,production,2025-03-01,742.01,744,0.9973
+61,prd-mktg-0061,Marketing Technology,production,2025-01-01,741.70,744,0.9969
+61,prd-mktg-0061,Marketing Technology,production,2025-02-01,670.33,672,0.9975
+61,prd-mktg-0061,Marketing Technology,production,2025-03-01,742.05,744,0.9974
+62,prd-capp-0062,Customer Applications,production,2025-01-01,743.37,744,0.9991
+62,prd-capp-0062,Customer Applications,production,2025-02-01,671.18,672,0.9988
+62,prd-capp-0062,Customer Applications,production,2025-03-01,739.68,744,0.9942
+63,dev-capp-0063,Customer Applications,development,2025-01-01,214.49,239,0.2883
+63,dev-capp-0063,Customer Applications,development,2025-02-01,198.98,218,0.2961
+63,dev-capp-0063,Customer Applications,development,2025-03-01,220.88,240,0.2969
+64,dev-secu-0064,Security Operations,development,2025-01-01,290.01,311,0.3898
+64,dev-secu-0064,Security Operations,development,2025-02-01,238.74,256,0.3553
+64,dev-secu-0064,Security Operations,development,2025-03-01,224.20,247,0.3013
+65,prd-data-0065,Data & Analytics,production,2025-01-01,740.85,743,0.9958
+65,prd-data-0065,Data & Analytics,production,2025-02-01,672.00,672,1.0000
+65,prd-data-0065,Data & Analytics,production,2025-03-01,742.98,744,0.9986
+66,dev-capp-0066,Customer Applications,development,2025-01-01,407.55,436,0.5478
+66,dev-capp-0066,Customer Applications,development,2025-02-01,340.97,362,0.5074
+66,dev-capp-0066,Customer Applications,development,2025-03-01,363.08,389,0.4880
+67,dev-capp-0067,Customer Applications,development,2025-01-01,229.29,247,0.3082
+67,dev-capp-0067,Customer Applications,development,2025-02-01,296.41,317,0.4411
+67,dev-capp-0067,Customer Applications,development,2025-03-01,282.92,301,0.3803
+68,dev-mktg-0068,Marketing Technology,development,2025-01-01,391.37,418,0.5260
+68,dev-mktg-0068,Marketing Technology,development,2025-02-01,348.05,373,0.5179
+68,dev-mktg-0068,Marketing Technology,development,2025-03-01,372.32,399,0.5004
+69,dev-paym-0069,Payments,development,2025-01-01,43.11,54,0.0579
+69,dev-paym-0069,Payments,development,2025-02-01,34.61,46,0.0515
+69,dev-paym-0069,Payments,development,2025-03-01,36.89,49,0.0496
+70,dev-mktg-0070,Marketing Technology,development,2025-01-01,26.60,35,0.0357
+70,dev-mktg-0070,Marketing Technology,development,2025-02-01,29.05,38,0.0432
+70,dev-mktg-0070,Marketing Technology,development,2025-03-01,42.13,53,0.0566
+71,prd-mktg-0071,Marketing Technology,production,2025-01-01,742.68,743,0.9982
+71,prd-mktg-0071,Marketing Technology,production,2025-02-01,671.57,672,0.9994
+71,prd-mktg-0071,Marketing Technology,production,2025-03-01,740.48,743,0.9953
+72,prd-capp-0072,Customer Applications,production,2025-01-01,743.60,744,0.9995
+72,prd-capp-0072,Customer Applications,production,2025-02-01,670.97,672,0.9985
+72,prd-capp-0072,Customer Applications,production,2025-03-01,743.24,744,0.9990
+73,dev-plat-0073,Platform Engineering,development,2025-01-01,210.94,234,0.2835
+73,dev-plat-0073,Platform Engineering,development,2025-02-01,223.46,243,0.3325
+73,dev-plat-0073,Platform Engineering,development,2025-03-01,199.61,221,0.2683
+74,prd-paym-0074,Payments,production,2025-01-01,741.90,743,0.9972
+74,prd-paym-0074,Payments,production,2025-02-01,671.28,672,0.9989
+74,prd-paym-0074,Payments,production,2025-03-01,740.74,744,0.9956
+75,dev-data-0075,Data & Analytics,development,2025-01-01,227.95,251,0.3064
+75,dev-data-0075,Data & Analytics,development,2025-02-01,268.03,288,0.3989
+75,dev-data-0075,Data & Analytics,development,2025-03-01,241.85,264,0.3251
+76,dev-plat-0076,Platform Engineering,development,2025-01-01,239.15,263,0.3214
+76,dev-plat-0076,Platform Engineering,development,2025-02-01,258.12,278,0.3841
+76,dev-plat-0076,Platform Engineering,development,2025-03-01,197.39,212,0.2653
+77,dev-plat-0077,Platform Engineering,development,2025-01-01,393.18,419,0.5285
+77,dev-plat-0077,Platform Engineering,development,2025-02-01,342.49,366,0.5097
+77,dev-plat-0077,Platform Engineering,development,2025-03-01,367.31,393,0.4937
+78,dev-itls-0078,Internal Tools,development,2025-01-01,35.59,47,0.0478
+78,dev-itls-0078,Internal Tools,development,2025-02-01,35.86,51,0.0534
+78,dev-itls-0078,Internal Tools,development,2025-03-01,39.07,52,0.0525
+79,prd-secu-0079,Security Operations,production,2025-01-01,743.25,744,0.9990
+79,prd-secu-0079,Security Operations,production,2025-02-01,671.65,672,0.9995
+79,prd-secu-0079,Security Operations,production,2025-03-01,741.78,744,0.9970
+80,prd-paym-0080,Payments,production,2025-01-01,741.89,744,0.9972
+80,prd-paym-0080,Payments,production,2025-02-01,671.18,672,0.9988
+80,prd-paym-0080,Payments,production,2025-03-01,742.30,744,0.9977
+81,dev-data-0081,Data & Analytics,development,2025-01-01,250.41,270,0.3366
+81,dev-data-0081,Data & Analytics,development,2025-02-01,165.82,183,0.2468
+81,dev-data-0081,Data & Analytics,development,2025-03-01,232.59,255,0.3126
+82,prd-mktg-0082,Marketing Technology,production,2025-01-01,741.86,744,0.9971
+82,prd-mktg-0082,Marketing Technology,production,2025-02-01,670.56,671,0.9979
+82,prd-mktg-0082,Marketing Technology,production,2025-03-01,741.86,744,0.9971
+83,dev-mktg-0083,Marketing Technology,development,2025-01-01,388.26,415,0.5219
+83,dev-mktg-0083,Marketing Technology,development,2025-02-01,336.18,356,0.5003
+83,dev-mktg-0083,Marketing Technology,development,2025-03-01,362.29,386,0.4869
+84,dev-secu-0084,Security Operations,development,2025-01-01,26.00,34,0.0349
+84,dev-secu-0084,Security Operations,development,2025-02-01,46.28,62,0.0689
+84,dev-secu-0084,Security Operations,development,2025-03-01,44.61,55,0.0600
+85,dev-plat-0085,Platform Engineering,development,2025-01-01,399.29,427,0.5367
+85,dev-plat-0085,Platform Engineering,development,2025-02-01,336.21,357,0.5003
+85,dev-plat-0085,Platform Engineering,development,2025-03-01,360.90,384,0.4851
+86,prd-plat-0086,Platform Engineering,production,2025-01-01,742.86,744,0.9985
+86,prd-plat-0086,Platform Engineering,production,2025-02-01,669.71,672,0.9966
+86,prd-plat-0086,Platform Engineering,production,2025-03-01,742.37,743,0.9978
+87,dev-data-0087,Data & Analytics,development,2025-01-01,215.99,239,0.2903
+87,dev-data-0087,Data & Analytics,development,2025-02-01,203.42,224,0.3027
+87,dev-data-0087,Data & Analytics,development,2025-03-01,185.99,209,0.2500
+88,dev-paym-0088,Payments,development,2025-01-01,256.98,279,0.3454
+88,dev-paym-0088,Payments,development,2025-02-01,198.74,217,0.2957
+88,dev-paym-0088,Payments,development,2025-03-01,247.60,271,0.3328
+89,prd-itls-0089,Internal Tools,production,2025-01-01,743.10,744,0.9988
+89,prd-itls-0089,Internal Tools,production,2025-02-01,670.82,672,0.9982
+89,prd-itls-0089,Internal Tools,production,2025-03-01,743.09,744,0.9988
+90,dev-capp-0090,Customer Applications,development,2025-01-01,208.28,230,0.2799
+90,dev-capp-0090,Customer Applications,development,2025-02-01,210.45,231,0.3132
+90,dev-capp-0090,Customer Applications,development,2025-03-01,186.07,206,0.2501
+91,dev-plat-0091,Platform Engineering,development,2025-01-01,0.00,0,0.0000
+91,dev-plat-0091,Platform Engineering,development,2025-02-01,0.00,0,0.0000
+91,dev-plat-0091,Platform Engineering,development,2025-03-01,0.00,0,0.0000
+92,dev-capp-0092,Customer Applications,development,2025-01-01,210.42,236,0.2828
+92,dev-capp-0092,Customer Applications,development,2025-02-01,178.31,198,0.2653
+92,dev-capp-0092,Customer Applications,development,2025-03-01,203.36,224,0.2733
+93,prd-secu-0093,Security Operations,production,2025-01-01,741.55,744,0.9967
+93,prd-secu-0093,Security Operations,production,2025-02-01,670.61,672,0.9979
+93,prd-secu-0093,Security Operations,production,2025-03-01,742.21,744,0.9976
+94,prd-plat-0094,Platform Engineering,production,2025-01-01,741.35,744,0.9964
+94,prd-plat-0094,Platform Engineering,production,2025-02-01,672.00,672,1.0000
+94,prd-plat-0094,Platform Engineering,production,2025-03-01,743.28,744,0.9990
+95,dev-plat-0095,Platform Engineering,development,2025-01-01,189.36,214,0.2545
+95,dev-plat-0095,Platform Engineering,development,2025-02-01,238.58,256,0.3550
+95,dev-plat-0095,Platform Engineering,development,2025-03-01,164.14,182,0.2206
+96,prd-plat-0096,Platform Engineering,production,2025-01-01,741.96,744,0.9973
+96,prd-plat-0096,Platform Engineering,production,2025-02-01,670.23,672,0.9974
+96,prd-plat-0096,Platform Engineering,production,2025-03-01,743.63,744,0.9995
+97,prd-itls-0097,Internal Tools,production,2025-01-01,743.34,744,0.9991
+97,prd-itls-0097,Internal Tools,production,2025-02-01,671.69,672,0.9995
+97,prd-itls-0097,Internal Tools,production,2025-03-01,743.15,744,0.9989
+98,prd-paym-0098,Payments,production,2025-01-01,742.60,744,0.9981
+98,prd-paym-0098,Payments,production,2025-02-01,670.43,672,0.9977
+98,prd-paym-0098,Payments,production,2025-03-01,739.82,743,0.9944
+99,dev-mktg-0099,Marketing Technology,development,2025-01-01,397.28,423,0.5340
+99,dev-mktg-0099,Marketing Technology,development,2025-02-01,341.62,365,0.5084
+99,dev-mktg-0099,Marketing Technology,development,2025-03-01,360.38,388,0.4844
+100,dev-itls-0100,Internal Tools,development,2025-01-01,744.00,744,1.0000
+100,dev-itls-0100,Internal Tools,development,2025-02-01,670.61,672,0.9979
+100,dev-itls-0100,Internal Tools,development,2025-03-01,741.59,743,0.9968
+101,dev-paym-0101,Payments,development,2025-01-01,384.36,411,0.5166
+101,dev-paym-0101,Payments,development,2025-02-01,351.97,377,0.5238
+101,dev-paym-0101,Payments,development,2025-03-01,356.77,380,0.4795
+102,prd-mktg-0102,Marketing Technology,production,2025-01-01,742.84,744,0.9984
+102,prd-mktg-0102,Marketing Technology,production,2025-02-01,669.63,672,0.9965
+102,prd-mktg-0102,Marketing Technology,production,2025-03-01,742.59,744,0.9981
+103,prd-mktg-0103,Marketing Technology,production,2025-01-01,742.84,744,0.9984
+103,prd-mktg-0103,Marketing Technology,production,2025-02-01,671.47,672,0.9992
+103,prd-mktg-0103,Marketing Technology,production,2025-03-01,742.93,744,0.9986
+104,prd-plat-0104,Platform Engineering,production,2025-01-01,742.49,743,0.9980
+104,prd-plat-0104,Platform Engineering,production,2025-02-01,670.96,672,0.9984
+104,prd-plat-0104,Platform Engineering,production,2025-03-01,741.60,743,0.9968
+105,prd-mktg-0105,Marketing Technology,production,2025-01-01,742.27,744,0.9977
+105,prd-mktg-0105,Marketing Technology,production,2025-02-01,670.52,672,0.9978
+105,prd-mktg-0105,Marketing Technology,production,2025-03-01,739.96,743,0.9946
+106,prd-mktg-0106,Marketing Technology,production,2025-01-01,742.37,744,0.9978
+106,prd-mktg-0106,Marketing Technology,production,2025-02-01,670.03,672,0.9971
+106,prd-mktg-0106,Marketing Technology,production,2025-03-01,742.87,744,0.9985
+107,prd-plat-0107,Platform Engineering,production,2025-01-01,744.00,744,1.0000
+107,prd-plat-0107,Platform Engineering,production,2025-02-01,672.00,672,1.0000
+107,prd-plat-0107,Platform Engineering,production,2025-03-01,740.88,743,0.9958
+108,prd-itls-0108,Internal Tools,production,2025-01-01,741.39,743,0.9965
+108,prd-itls-0108,Internal Tools,production,2025-02-01,670.80,672,0.9982
+108,prd-itls-0108,Internal Tools,production,2025-03-01,742.64,744,0.9982
+109,prd-plat-0109,Platform Engineering,production,2025-01-01,744.00,744,1.0000
+109,prd-plat-0109,Platform Engineering,production,2025-02-01,670.98,672,0.9985
+109,prd-plat-0109,Platform Engineering,production,2025-03-01,741.61,744,0.9968
+110,dev-data-0110,Data & Analytics,development,2025-01-01,743.10,744,0.9988
+110,dev-data-0110,Data & Analytics,development,2025-02-01,672.00,672,1.0000
+110,dev-data-0110,Data & Analytics,development,2025-03-01,742.35,744,0.9978
+111,dev-paym-0111,Payments,development,2025-01-01,377.46,406,0.5073
+111,dev-paym-0111,Payments,development,2025-02-01,330.48,350,0.4918
+111,dev-paym-0111,Payments,development,2025-03-01,359.56,381,0.4833
+112,prd-capp-0112,Customer Applications,production,2025-01-01,744.00,744,1.0000
+112,prd-capp-0112,Customer Applications,production,2025-02-01,670.35,672,0.9975
+112,prd-capp-0112,Customer Applications,production,2025-03-01,743.32,744,0.9991
+113,dev-paym-0113,Payments,development,2025-01-01,37.80,51,0.0508
+113,dev-paym-0113,Payments,development,2025-02-01,42.07,53,0.0626
+113,dev-paym-0113,Payments,development,2025-03-01,45.26,59,0.0608
+114,dev-capp-0114,Customer Applications,development,2025-01-01,27.01,34,0.0363
+114,dev-capp-0114,Customer Applications,development,2025-02-01,36.12,46,0.0538
+114,dev-capp-0114,Customer Applications,development,2025-03-01,49.95,61,0.0671
+115,dev-capp-0115,Customer Applications,development,2025-01-01,401.47,425,0.5396
+115,dev-capp-0115,Customer Applications,development,2025-02-01,347.50,372,0.5171
+115,dev-capp-0115,Customer Applications,development,2025-03-01,366.44,392,0.4925
+116,dev-itls-0116,Internal Tools,development,2025-01-01,742.51,744,0.9980
+116,dev-itls-0116,Internal Tools,development,2025-02-01,671.69,672,0.9995
+116,dev-itls-0116,Internal Tools,development,2025-03-01,742.61,744,0.9981
+117,dev-itls-0117,Internal Tools,development,2025-01-01,744.00,744,1.0000
+117,dev-itls-0117,Internal Tools,development,2025-02-01,672.00,672,1.0000
+117,dev-itls-0117,Internal Tools,development,2025-03-01,741.31,743,0.9964
+118,prd-capp-0118,Customer Applications,production,2025-01-01,743.42,744,0.9992
+118,prd-capp-0118,Customer Applications,production,2025-02-01,669.80,672,0.9967
+118,prd-capp-0118,Customer Applications,production,2025-03-01,744.00,744,1.0000
+119,dev-mktg-0119,Marketing Technology,development,2025-01-01,382.66,404,0.5143
+119,dev-mktg-0119,Marketing Technology,development,2025-02-01,360.13,384,0.5359
+119,dev-mktg-0119,Marketing Technology,development,2025-03-01,355.13,381,0.4773
+120,dev-capp-0120,Customer Applications,development,2025-01-01,221.63,247,0.2979
+120,dev-capp-0120,Customer Applications,development,2025-02-01,183.53,204,0.2731
+120,dev-capp-0120,Customer Applications,development,2025-03-01,241.03,262,0.3240
+121,prd-plat-0121,Platform Engineering,production,2025-01-01,743.73,744,0.9996
+121,prd-plat-0121,Platform Engineering,production,2025-02-01,670.94,672,0.9984
+121,prd-plat-0121,Platform Engineering,production,2025-03-01,744.00,744,1.0000
+122,prd-paym-0122,Payments,production,2025-01-01,742.55,744,0.9981
+122,prd-paym-0122,Payments,production,2025-02-01,671.70,672,0.9996
+122,prd-paym-0122,Payments,production,2025-03-01,743.83,744,0.9998
+123,prd-data-0123,Data & Analytics,production,2025-01-01,744.00,744,1.0000
+123,prd-data-0123,Data & Analytics,production,2025-02-01,671.35,672,0.9990
+123,prd-data-0123,Data & Analytics,production,2025-03-01,741.34,744,0.9964
+124,prd-plat-0124,Platform Engineering,production,2025-01-01,741.94,743,0.9972
+124,prd-plat-0124,Platform Engineering,production,2025-02-01,672.00,672,1.0000
+124,prd-plat-0124,Platform Engineering,production,2025-03-01,741.74,743,0.9970
+125,dev-data-0125,Data & Analytics,development,2025-01-01,254.44,274,0.3420
+125,dev-data-0125,Data & Analytics,development,2025-02-01,207.67,224,0.3090
+125,dev-data-0125,Data & Analytics,development,2025-03-01,186.70,206,0.2509
+126,dev-mktg-0126,Marketing Technology,development,2025-01-01,743.70,744,0.9996
+126,dev-mktg-0126,Marketing Technology,development,2025-02-01,671.00,672,0.9985
+126,dev-mktg-0126,Marketing Technology,development,2025-03-01,741.48,744,0.9966
+127,dev-mktg-0127,Marketing Technology,development,2025-01-01,742.74,744,0.9983
+127,dev-mktg-0127,Marketing Technology,development,2025-02-01,670.80,672,0.9982
+127,dev-mktg-0127,Marketing Technology,development,2025-03-01,742.66,743,0.9982
+128,dev-data-0128,Data & Analytics,development,2025-01-01,219.51,239,0.2950
+128,dev-data-0128,Data & Analytics,development,2025-02-01,262.87,280,0.3912
+128,dev-data-0128,Data & Analytics,development,2025-03-01,201.22,221,0.2705
+129,dev-plat-0129,Platform Engineering,development,2025-01-01,385.12,411,0.5176
+129,dev-plat-0129,Platform Engineering,development,2025-02-01,334.76,355,0.4982
+129,dev-plat-0129,Platform Engineering,development,2025-03-01,355.16,375,0.4774
+130,prd-data-0130,Data & Analytics,production,2025-01-01,741.86,744,0.9971
+130,prd-data-0130,Data & Analytics,production,2025-02-01,670.86,672,0.9983
+130,prd-data-0130,Data & Analytics,production,2025-03-01,743.21,744,0.9989
+131,dev-data-0131,Data & Analytics,development,2025-01-01,282.03,303,0.3791
+131,dev-data-0131,Data & Analytics,development,2025-02-01,209.18,229,0.3113
+131,dev-data-0131,Data & Analytics,development,2025-03-01,182.10,204,0.2448
+132,dev-data-0132,Data & Analytics,development,2025-01-01,216.10,237,0.2905
+132,dev-data-0132,Data & Analytics,development,2025-02-01,280.15,298,0.4169
+132,dev-data-0132,Data & Analytics,development,2025-03-01,278.64,292,0.3745
+133,dev-data-0133,Data & Analytics,development,2025-01-01,743.51,744,0.9993
+133,dev-data-0133,Data & Analytics,development,2025-02-01,670.83,672,0.9983
+133,dev-data-0133,Data & Analytics,development,2025-03-01,744.00,744,1.0000
+134,dev-paym-0134,Payments,development,2025-01-01,398.46,427,0.5356
+134,dev-paym-0134,Payments,development,2025-02-01,341.99,365,0.5089
+134,dev-paym-0134,Payments,development,2025-03-01,353.12,377,0.4746
+135,dev-data-0135,Data & Analytics,development,2025-01-01,30.92,42,0.0416
+135,dev-data-0135,Data & Analytics,development,2025-02-01,66.65,81,0.0992
+135,dev-data-0135,Data & Analytics,development,2025-03-01,47.66,66,0.0641
+136,prd-plat-0136,Platform Engineering,production,2025-01-01,741.70,744,0.9969
+136,prd-plat-0136,Platform Engineering,production,2025-02-01,670.27,672,0.9974
+136,prd-plat-0136,Platform Engineering,production,2025-03-01,742.54,743,0.9980
+137,prd-plat-0137,Platform Engineering,production,2025-01-01,743.39,744,0.9992
+137,prd-plat-0137,Platform Engineering,production,2025-02-01,671.64,672,0.9995
+137,prd-plat-0137,Platform Engineering,production,2025-03-01,742.54,743,0.9980
+138,dev-secu-0138,Security Operations,development,2025-01-01,744.00,744,1.0000
+138,dev-secu-0138,Security Operations,development,2025-02-01,671.56,672,0.9993
+138,dev-secu-0138,Security Operations,development,2025-03-01,741.58,744,0.9967
+139,prd-itls-0139,Internal Tools,production,2025-01-01,741.11,744,0.9961
+139,prd-itls-0139,Internal Tools,production,2025-02-01,672.00,672,1.0000
+139,prd-itls-0139,Internal Tools,production,2025-03-01,742.28,743,0.9977
+140,dev-paym-0140,Payments,development,2025-01-01,246.24,273,0.3310
+140,dev-paym-0140,Payments,development,2025-02-01,211.72,229,0.3151
+140,dev-paym-0140,Payments,development,2025-03-01,241.54,260,0.3247
+141,prd-capp-0141,Customer Applications,production,2025-01-01,742.23,744,0.9976
+141,prd-capp-0141,Customer Applications,production,2025-02-01,670.69,671,0.9981
+141,prd-capp-0141,Customer Applications,production,2025-03-01,743.10,744,0.9988
+142,prd-itls-0142,Internal Tools,production,2025-01-01,741.17,743,0.9962
+142,prd-itls-0142,Internal Tools,production,2025-02-01,671.83,672,0.9997
+142,prd-itls-0142,Internal Tools,production,2025-03-01,739.35,744,0.9938
+143,dev-data-0143,Data & Analytics,development,2025-01-01,235.05,258,0.3159
+143,dev-data-0143,Data & Analytics,development,2025-02-01,239.10,259,0.3558
+143,dev-data-0143,Data & Analytics,development,2025-03-01,262.88,281,0.3533
+144,prd-itls-0144,Internal Tools,production,2025-01-01,741.93,744,0.9972
+144,prd-itls-0144,Internal Tools,production,2025-02-01,672.00,672,1.0000
+144,prd-itls-0144,Internal Tools,production,2025-03-01,741.55,743,0.9967
+145,dev-capp-0145,Customer Applications,development,2025-01-01,232.88,257,0.3130
+145,dev-capp-0145,Customer Applications,development,2025-02-01,208.53,225,0.3103
+145,dev-capp-0145,Customer Applications,development,2025-03-01,237.98,257,0.3199
+146,dev-capp-0146,Customer Applications,development,2025-01-01,389.94,416,0.5241
+146,dev-capp-0146,Customer Applications,development,2025-02-01,336.18,360,0.5003
+146,dev-capp-0146,Customer Applications,development,2025-03-01,355.07,378,0.4772
+147,prd-plat-0147,Platform Engineering,production,2025-01-01,743.22,744,0.9989
+147,prd-plat-0147,Platform Engineering,production,2025-02-01,671.41,672,0.9991
+147,prd-plat-0147,Platform Engineering,production,2025-03-01,741.39,744,0.9965
+148,dev-secu-0148,Security Operations,development,2025-01-01,220.48,242,0.2963
+148,dev-secu-0148,Security Operations,development,2025-02-01,184.04,195,0.2739
+148,dev-secu-0148,Security Operations,development,2025-03-01,196.48,212,0.2641
+149,prd-secu-0149,Security Operations,production,2025-01-01,741.76,744,0.9970
+149,prd-secu-0149,Security Operations,production,2025-02-01,669.37,672,0.9961
+149,prd-secu-0149,Security Operations,production,2025-03-01,742.96,744,0.9986
+150,prd-itls-0150,Internal Tools,production,2025-01-01,743.82,744,0.9998
+150,prd-itls-0150,Internal Tools,production,2025-02-01,670.43,672,0.9977
+150,prd-itls-0150,Internal Tools,production,2025-03-01,741.01,743,0.9960
+151,prd-paym-0151,Payments,production,2025-01-01,742.66,744,0.9982
+151,prd-paym-0151,Payments,production,2025-02-01,669.20,672,0.9958
+151,prd-paym-0151,Payments,production,2025-03-01,742.96,744,0.9986
+152,dev-plat-0152,Platform Engineering,development,2025-01-01,394.67,421,0.5305
+152,dev-plat-0152,Platform Engineering,development,2025-02-01,339.66,365,0.5054
+152,dev-plat-0152,Platform Engineering,development,2025-03-01,365.48,389,0.4912
+153,prd-plat-0153,Platform Engineering,production,2025-01-01,740.80,743,0.9957
+153,prd-plat-0153,Platform Engineering,production,2025-02-01,671.73,672,0.9996
+153,prd-plat-0153,Platform Engineering,production,2025-03-01,742.98,744,0.9986
+154,dev-capp-0154,Customer Applications,development,2025-01-01,261.24,281,0.3511
+154,dev-capp-0154,Customer Applications,development,2025-02-01,195.28,216,0.2906
+154,dev-capp-0154,Customer Applications,development,2025-03-01,219.56,239,0.2951
+155,dev-plat-0155,Platform Engineering,development,2025-01-01,40.78,54,0.0548
+155,dev-plat-0155,Platform Engineering,development,2025-02-01,38.35,46,0.0571
+155,dev-plat-0155,Platform Engineering,development,2025-03-01,31.54,41,0.0424
+156,dev-plat-0156,Platform Engineering,development,2025-01-01,44.16,55,0.0594
+156,dev-plat-0156,Platform Engineering,development,2025-02-01,40.22,49,0.0598
+156,dev-plat-0156,Platform Engineering,development,2025-03-01,29.19,39,0.0392
+157,prd-itls-0157,Internal Tools,production,2025-01-01,742.39,744,0.9978
+157,prd-itls-0157,Internal Tools,production,2025-02-01,669.63,672,0.9965
+157,prd-itls-0157,Internal Tools,production,2025-03-01,743.71,744,0.9996
+158,prd-itls-0158,Internal Tools,production,2025-01-01,743.45,744,0.9993
+158,prd-itls-0158,Internal Tools,production,2025-02-01,670.34,672,0.9975
+158,prd-itls-0158,Internal Tools,production,2025-03-01,743.07,744,0.9988
+159,prd-secu-0159,Security Operations,production,2025-01-01,741.45,743,0.9966
+159,prd-secu-0159,Security Operations,production,2025-02-01,670.08,672,0.9971
+159,prd-secu-0159,Security Operations,production,2025-03-01,741.21,744,0.9963
+160,dev-plat-0160,Platform Engineering,development,2025-01-01,406.74,434,0.5467
+160,dev-plat-0160,Platform Engineering,development,2025-02-01,340.16,365,0.5062
+160,dev-plat-0160,Platform Engineering,development,2025-03-01,379.55,405,0.5101
+161,dev-itls-0161,Internal Tools,development,2025-01-01,27.11,34,0.0364
+161,dev-itls-0161,Internal Tools,development,2025-02-01,38.69,51,0.0576
+161,dev-itls-0161,Internal Tools,development,2025-03-01,16.15,19,0.0217
+162,prd-plat-0162,Platform Engineering,production,2025-01-01,743.59,744,0.9995
+162,prd-plat-0162,Platform Engineering,production,2025-02-01,669.63,672,0.9965
+162,prd-plat-0162,Platform Engineering,production,2025-03-01,742.77,744,0.9983
+163,prd-data-0163,Data & Analytics,production,2025-01-01,742.55,744,0.9980
+163,prd-data-0163,Data & Analytics,production,2025-02-01,669.36,670,0.9961
+163,prd-data-0163,Data & Analytics,production,2025-03-01,742.76,744,0.9983
+164,dev-data-0164,Data & Analytics,development,2025-01-01,225.41,247,0.3030
+164,dev-data-0164,Data & Analytics,development,2025-02-01,187.52,203,0.2790
+164,dev-data-0164,Data & Analytics,development,2025-03-01,222.30,244,0.2988
+165,prd-plat-0165,Platform Engineering,production,2025-01-01,743.22,744,0.9990
+165,prd-plat-0165,Platform Engineering,production,2025-02-01,670.38,672,0.9976
+165,prd-plat-0165,Platform Engineering,production,2025-03-01,741.87,744,0.9971
+166,dev-capp-0166,Customer Applications,development,2025-01-01,743.34,744,0.9991
+166,dev-capp-0166,Customer Applications,development,2025-02-01,670.51,671,0.9978
+166,dev-capp-0166,Customer Applications,development,2025-03-01,742.29,743,0.9977
+167,dev-plat-0167,Platform Engineering,development,2025-01-01,395.64,423,0.5318
+167,dev-plat-0167,Platform Engineering,development,2025-02-01,331.91,355,0.4939
+167,dev-plat-0167,Platform Engineering,development,2025-03-01,352.02,376,0.4731
+168,prd-paym-0168,Payments,production,2025-01-01,743.81,744,0.9997
+168,prd-paym-0168,Payments,production,2025-02-01,669.55,671,0.9963
+168,prd-paym-0168,Payments,production,2025-03-01,742.80,744,0.9984
+169,prd-capp-0169,Customer Applications,production,2025-01-01,742.79,744,0.9984
+169,prd-capp-0169,Customer Applications,production,2025-02-01,669.78,671,0.9967
+169,prd-capp-0169,Customer Applications,production,2025-03-01,740.81,743,0.9957
+170,prd-secu-0170,Security Operations,production,2025-01-01,742.12,743,0.9975
+170,prd-secu-0170,Security Operations,production,2025-02-01,669.63,672,0.9965
+170,prd-secu-0170,Security Operations,production,2025-03-01,743.27,744,0.9990
+171,dev-paym-0171,Payments,development,2025-01-01,221.72,244,0.2980
+171,dev-paym-0171,Payments,development,2025-02-01,233.36,253,0.3473
+171,dev-paym-0171,Payments,development,2025-03-01,266.22,284,0.3578
+172,prd-plat-0172,Platform Engineering,production,2025-01-01,742.11,744,0.9975
+172,prd-plat-0172,Platform Engineering,production,2025-02-01,671.33,672,0.9990
+172,prd-plat-0172,Platform Engineering,production,2025-03-01,739.96,744,0.9946
+173,prd-plat-0173,Platform Engineering,production,2025-01-01,741.78,744,0.9970
+173,prd-plat-0173,Platform Engineering,production,2025-02-01,669.91,672,0.9969
+173,prd-plat-0173,Platform Engineering,production,2025-03-01,742.27,744,0.9977
+174,prd-data-0174,Data & Analytics,production,2025-01-01,743.35,744,0.9991
+174,prd-data-0174,Data & Analytics,production,2025-02-01,670.55,672,0.9978
+174,prd-data-0174,Data & Analytics,production,2025-03-01,742.21,744,0.9976
+175,dev-capp-0175,Customer Applications,development,2025-01-01,235.55,258,0.3166
+175,dev-capp-0175,Customer Applications,development,2025-02-01,185.14,208,0.2755
+175,dev-capp-0175,Customer Applications,development,2025-03-01,283.13,298,0.3806
+176,prd-data-0176,Data & Analytics,production,2025-01-01,742.29,744,0.9977
+176,prd-data-0176,Data & Analytics,production,2025-02-01,672.00,672,1.0000
+176,prd-data-0176,Data & Analytics,production,2025-03-01,741.69,744,0.9969
+177,dev-data-0177,Data & Analytics,development,2025-01-01,41.35,55,0.0556
+177,dev-data-0177,Data & Analytics,development,2025-02-01,45.32,57,0.0674
+177,dev-data-0177,Data & Analytics,development,2025-03-01,36.98,50,0.0497
+178,dev-itls-0178,Internal Tools,development,2025-01-01,324.99,346,0.4368
+178,dev-itls-0178,Internal Tools,development,2025-02-01,209.66,231,0.3120
+178,dev-itls-0178,Internal Tools,development,2025-03-01,209.08,230,0.2810
+179,dev-mktg-0179,Marketing Technology,development,2025-01-01,743.01,744,0.9987
+179,dev-mktg-0179,Marketing Technology,development,2025-02-01,669.87,672,0.9968
+179,dev-mktg-0179,Marketing Technology,development,2025-03-01,742.83,743,0.9984
+180,prd-capp-0180,Customer Applications,production,2025-01-01,742.73,743,0.9983
+180,prd-capp-0180,Customer Applications,production,2025-02-01,670.54,671,0.9978
+180,prd-capp-0180,Customer Applications,production,2025-03-01,740.72,744,0.9956
+181,dev-paym-0181,Payments,development,2025-01-01,255.40,277,0.3433
+181,dev-paym-0181,Payments,development,2025-02-01,185.02,208,0.2753
+181,dev-paym-0181,Payments,development,2025-03-01,274.03,295,0.3683
+182,prd-mktg-0182,Marketing Technology,production,2025-01-01,742.45,744,0.9979
+182,prd-mktg-0182,Marketing Technology,production,2025-02-01,670.28,672,0.9974
+182,prd-mktg-0182,Marketing Technology,production,2025-03-01,743.59,744,0.9995
+183,dev-secu-0183,Security Operations,development,2025-01-01,402.74,432,0.5413
+183,dev-secu-0183,Security Operations,development,2025-02-01,341.32,361,0.5079
+183,dev-secu-0183,Security Operations,development,2025-03-01,362.38,386,0.4871
+184,dev-mktg-0184,Marketing Technology,development,2025-01-01,28.52,36,0.0383
+184,dev-mktg-0184,Marketing Technology,development,2025-02-01,24.38,33,0.0363
+184,dev-mktg-0184,Marketing Technology,development,2025-03-01,52.08,67,0.0700
+185,dev-capp-0185,Customer Applications,development,2025-01-01,232.95,259,0.3131
+185,dev-capp-0185,Customer Applications,development,2025-02-01,199.60,216,0.2970
+185,dev-capp-0185,Customer Applications,development,2025-03-01,295.60,311,0.3973
+186,dev-mktg-0186,Marketing Technology,development,2025-01-01,51.87,62,0.0697
+186,dev-mktg-0186,Marketing Technology,development,2025-02-01,32.13,40,0.0478
+186,dev-mktg-0186,Marketing Technology,development,2025-03-01,36.60,49,0.0492
+187,dev-paym-0187,Payments,development,2025-01-01,294.85,315,0.3963
+187,dev-paym-0187,Payments,development,2025-02-01,231.71,248,0.3448
+187,dev-paym-0187,Payments,development,2025-03-01,198.88,223,0.2673
+188,dev-paym-0188,Payments,development,2025-01-01,743.39,744,0.9992
+188,dev-paym-0188,Payments,development,2025-02-01,670.51,672,0.9978
+188,dev-paym-0188,Payments,development,2025-03-01,741.33,744,0.9964
+189,dev-capp-0189,Customer Applications,development,2025-01-01,227.49,253,0.3058
+189,dev-capp-0189,Customer Applications,development,2025-02-01,213.33,234,0.3174
+189,dev-capp-0189,Customer Applications,development,2025-03-01,192.27,213,0.2584
+190,dev-itls-0190,Internal Tools,development,2025-01-01,242.36,265,0.3257
+190,dev-itls-0190,Internal Tools,development,2025-02-01,267.19,286,0.3976
+190,dev-itls-0190,Internal Tools,development,2025-03-01,260.22,277,0.3498
+191,dev-capp-0191,Customer Applications,development,2025-01-01,0.00,0,0.0000
+191,dev-capp-0191,Customer Applications,development,2025-02-01,0.00,0,0.0000
+191,dev-capp-0191,Customer Applications,development,2025-03-01,0.00,0,0.0000
+192,prd-paym-0192,Payments,production,2025-01-01,742.35,744,0.9978
+192,prd-paym-0192,Payments,production,2025-02-01,672.00,672,1.0000
+192,prd-paym-0192,Payments,production,2025-03-01,741.68,743,0.9969
+193,dev-capp-0193,Customer Applications,development,2025-01-01,228.01,249,0.3065
+193,dev-capp-0193,Customer Applications,development,2025-02-01,195.16,211,0.2904
+193,dev-capp-0193,Customer Applications,development,2025-03-01,310.15,330,0.4169
+194,dev-capp-0194,Customer Applications,development,2025-01-01,743.62,744,0.9995
+194,dev-capp-0194,Customer Applications,development,2025-02-01,669.91,672,0.9969
+194,dev-capp-0194,Customer Applications,development,2025-03-01,742.75,744,0.9983
+195,dev-mktg-0195,Marketing Technology,development,2025-01-01,217.15,246,0.2919
+195,dev-mktg-0195,Marketing Technology,development,2025-02-01,191.56,211,0.2851
+195,dev-mktg-0195,Marketing Technology,development,2025-03-01,296.54,313,0.3986
+196,dev-capp-0196,Customer Applications,development,2025-01-01,204.43,226,0.2748
+196,dev-capp-0196,Customer Applications,development,2025-02-01,214.18,234,0.3187
+196,dev-capp-0196,Customer Applications,development,2025-03-01,290.01,309,0.3898
+197,dev-plat-0197,Platform Engineering,development,2025-01-01,43.52,58,0.0585
+197,dev-plat-0197,Platform Engineering,development,2025-02-01,18.95,26,0.0282
+197,dev-plat-0197,Platform Engineering,development,2025-03-01,41.39,54,0.0556
+198,prd-secu-0198,Security Operations,production,2025-01-01,741.28,744,0.9963
+198,prd-secu-0198,Security Operations,production,2025-02-01,671.60,672,0.9994
+198,prd-secu-0198,Security Operations,production,2025-03-01,743.73,744,0.9996
+199,dev-mktg-0199,Marketing Technology,development,2025-01-01,743.48,744,0.9993
+199,dev-mktg-0199,Marketing Technology,development,2025-02-01,670.93,672,0.9984
+199,dev-mktg-0199,Marketing Technology,development,2025-03-01,742.02,744,0.9973
+200,dev-itls-0200,Internal Tools,development,2025-01-01,34.33,45,0.0461
+200,dev-itls-0200,Internal Tools,development,2025-02-01,20.25,27,0.0301
+200,dev-itls-0200,Internal Tools,development,2025-03-01,31.59,38,0.0425
+201,dev-data-0201,Data & Analytics,development,2025-01-01,260.86,280,0.3506
+201,dev-data-0201,Data & Analytics,development,2025-02-01,217.60,238,0.3238
+201,dev-data-0201,Data & Analytics,development,2025-03-01,243.19,261,0.3269
+202,prd-capp-0202,Customer Applications,production,2025-01-01,741.84,744,0.9971
+202,prd-capp-0202,Customer Applications,production,2025-02-01,669.18,671,0.9958
+202,prd-capp-0202,Customer Applications,production,2025-03-01,743.82,744,0.9998
+203,dev-plat-0203,Platform Engineering,development,2025-01-01,276.88,298,0.3722
+203,dev-plat-0203,Platform Engineering,development,2025-02-01,202.68,223,0.3016
+203,dev-plat-0203,Platform Engineering,development,2025-03-01,198.97,221,0.2674
+204,dev-data-0204,Data & Analytics,development,2025-01-01,388.80,415,0.5226
+204,dev-data-0204,Data & Analytics,development,2025-02-01,347.79,371,0.5175
+204,dev-data-0204,Data & Analytics,development,2025-03-01,359.45,381,0.4831
+205,dev-capp-0205,Customer Applications,development,2025-01-01,11.92,16,0.0160
+205,dev-capp-0205,Customer Applications,development,2025-02-01,39.91,53,0.0594
+205,dev-capp-0205,Customer Applications,development,2025-03-01,34.51,44,0.0464
+206,prd-data-0206,Data & Analytics,production,2025-01-01,742.01,744,0.9973
+206,prd-data-0206,Data & Analytics,production,2025-02-01,669.50,672,0.9963
+206,prd-data-0206,Data & Analytics,production,2025-03-01,743.78,744,0.9997
+207,dev-mktg-0207,Marketing Technology,development,2025-01-01,211.26,232,0.2840
+207,dev-mktg-0207,Marketing Technology,development,2025-02-01,239.91,259,0.3570
+207,dev-mktg-0207,Marketing Technology,development,2025-03-01,212.69,236,0.2859
+208,prd-paym-0208,Payments,production,2025-01-01,740.89,744,0.9958
+208,prd-paym-0208,Payments,production,2025-02-01,670.21,672,0.9973
+208,prd-paym-0208,Payments,production,2025-03-01,743.64,744,0.9995
+209,prd-capp-0209,Customer Applications,production,2025-01-01,743.62,744,0.9995
+209,prd-capp-0209,Customer Applications,production,2025-02-01,671.29,672,0.9989
+209,prd-capp-0209,Customer Applications,production,2025-03-01,740.65,743,0.9955
+210,prd-mktg-0210,Marketing Technology,production,2025-01-01,742.52,744,0.9980
+210,prd-mktg-0210,Marketing Technology,production,2025-02-01,671.39,672,0.9991
+210,prd-mktg-0210,Marketing Technology,production,2025-03-01,741.07,744,0.9961
+211,dev-data-0211,Data & Analytics,development,2025-01-01,298.62,322,0.4014
+211,dev-data-0211,Data & Analytics,development,2025-02-01,190.92,212,0.2841
+211,dev-data-0211,Data & Analytics,development,2025-03-01,280.35,300,0.3768
+212,dev-paym-0212,Payments,development,2025-01-01,221.37,243,0.2975
+212,dev-paym-0212,Payments,development,2025-02-01,191.37,211,0.2848
+212,dev-paym-0212,Payments,development,2025-03-01,263.47,282,0.3541
+213,dev-plat-0213,Platform Engineering,development,2025-01-01,241.07,263,0.3240
+213,dev-plat-0213,Platform Engineering,development,2025-02-01,197.63,217,0.2941
+213,dev-plat-0213,Platform Engineering,development,2025-03-01,248.93,269,0.3346
+214,dev-data-0214,Data & Analytics,development,2025-01-01,330.13,348,0.4437
+214,dev-data-0214,Data & Analytics,development,2025-02-01,263.47,282,0.3921
+214,dev-data-0214,Data & Analytics,development,2025-03-01,204.92,226,0.2754
+215,prd-mktg-0215,Marketing Technology,production,2025-01-01,743.24,744,0.9990
+215,prd-mktg-0215,Marketing Technology,production,2025-02-01,670.75,671,0.9981
+215,prd-mktg-0215,Marketing Technology,production,2025-03-01,743.63,744,0.9995
+216,dev-plat-0216,Platform Engineering,development,2025-01-01,397.85,420,0.5347
+216,dev-plat-0216,Platform Engineering,development,2025-02-01,320.38,341,0.4768
+216,dev-plat-0216,Platform Engineering,development,2025-03-01,360.36,385,0.4844
+217,prd-data-0217,Data & Analytics,production,2025-01-01,741.99,744,0.9973
+217,prd-data-0217,Data & Analytics,production,2025-02-01,670.53,672,0.9978
+217,prd-data-0217,Data & Analytics,production,2025-03-01,742.36,743,0.9978
+218,dev-paym-0218,Payments,development,2025-01-01,187.82,209,0.2524
+218,dev-paym-0218,Payments,development,2025-02-01,266.09,285,0.3960
+218,dev-paym-0218,Payments,development,2025-03-01,205.39,227,0.2761
+219,dev-itls-0219,Internal Tools,development,2025-01-01,218.20,241,0.2933
+219,dev-itls-0219,Internal Tools,development,2025-02-01,199.59,218,0.2970
+219,dev-itls-0219,Internal Tools,development,2025-03-01,254.81,274,0.3425
+220,dev-paym-0220,Payments,development,2025-01-01,25.61,33,0.0344
+220,dev-paym-0220,Payments,development,2025-02-01,26.82,34,0.0399
+220,dev-paym-0220,Payments,development,2025-03-01,38.35,50,0.0516
+221,dev-data-0221,Data & Analytics,development,2025-01-01,223.97,246,0.3010
+221,dev-data-0221,Data & Analytics,development,2025-02-01,194.13,216,0.2889
+221,dev-data-0221,Data & Analytics,development,2025-03-01,222.97,246,0.2997
+222,prd-plat-0222,Platform Engineering,production,2025-01-01,741.34,743,0.9964
+222,prd-plat-0222,Platform Engineering,production,2025-02-01,669.83,672,0.9968
+222,prd-plat-0222,Platform Engineering,production,2025-03-01,741.70,744,0.9969
+223,dev-paym-0223,Payments,development,2025-01-01,311.65,334,0.4189
+223,dev-paym-0223,Payments,development,2025-02-01,201.66,223,0.3001
+223,dev-paym-0223,Payments,development,2025-03-01,276.16,296,0.3712
+224,prd-paym-0224,Payments,production,2025-01-01,743.02,744,0.9987
+224,prd-paym-0224,Payments,production,2025-02-01,670.09,672,0.9972
+224,prd-paym-0224,Payments,production,2025-03-01,740.98,744,0.9959
+225,dev-capp-0225,Customer Applications,development,2025-01-01,219.45,243,0.2950
+225,dev-capp-0225,Customer Applications,development,2025-02-01,209.72,227,0.3121
+225,dev-capp-0225,Customer Applications,development,2025-03-01,189.67,212,0.2549
+226,dev-data-0226,Data & Analytics,development,2025-01-01,42.62,48,0.0573
+226,dev-data-0226,Data & Analytics,development,2025-02-01,46.84,61,0.0697
+226,dev-data-0226,Data & Analytics,development,2025-03-01,37.75,48,0.0507
+227,dev-itls-0227,Internal Tools,development,2025-01-01,29.03,38,0.0390
+227,dev-itls-0227,Internal Tools,development,2025-02-01,16.61,21,0.0247
+227,dev-itls-0227,Internal Tools,development,2025-03-01,28.26,35,0.0380
+228,dev-secu-0228,Security Operations,development,2025-01-01,387.11,416,0.5203
+228,dev-secu-0228,Security Operations,development,2025-02-01,342.17,365,0.5092
+228,dev-secu-0228,Security Operations,development,2025-03-01,368.69,395,0.4956
+229,dev-capp-0229,Customer Applications,development,2025-01-01,226.53,249,0.3045
+229,dev-capp-0229,Customer Applications,development,2025-02-01,177.13,197,0.2636
+229,dev-capp-0229,Customer Applications,development,2025-03-01,183.97,204,0.2473
+230,dev-data-0230,Data & Analytics,development,2025-01-01,217.25,240,0.2920
+230,dev-data-0230,Data & Analytics,development,2025-02-01,297.88,313,0.4433
+230,dev-data-0230,Data & Analytics,development,2025-03-01,176.09,195,0.2367
+231,dev-data-0231,Data & Analytics,development,2025-01-01,233.68,258,0.3141
+231,dev-data-0231,Data & Analytics,development,2025-02-01,166.48,187,0.2477
+231,dev-data-0231,Data & Analytics,development,2025-03-01,266.44,284,0.3581
+232,dev-secu-0232,Security Operations,development,2025-01-01,214.05,238,0.2877
+232,dev-secu-0232,Security Operations,development,2025-02-01,186.84,206,0.2780
+232,dev-secu-0232,Security Operations,development,2025-03-01,289.35,307,0.3889
+233,dev-capp-0233,Customer Applications,development,2025-01-01,743.08,744,0.9988
+233,dev-capp-0233,Customer Applications,development,2025-02-01,672.00,672,1.0000
+233,dev-capp-0233,Customer Applications,development,2025-03-01,743.02,744,0.9987
+234,dev-paym-0234,Payments,development,2025-01-01,29.78,39,0.0400
+234,dev-paym-0234,Payments,development,2025-02-01,51.12,66,0.0761
+234,dev-paym-0234,Payments,development,2025-03-01,23.06,34,0.0310
+235,dev-data-0235,Data & Analytics,development,2025-01-01,386.41,412,0.5194
+235,dev-data-0235,Data & Analytics,development,2025-02-01,332.91,354,0.4954
+235,dev-data-0235,Data & Analytics,development,2025-03-01,365.26,389,0.4909
+236,prd-paym-0236,Payments,production,2025-01-01,742.07,744,0.9974
+236,prd-paym-0236,Payments,production,2025-02-01,671.58,672,0.9994
+236,prd-paym-0236,Payments,production,2025-03-01,739.98,744,0.9946
+237,prd-data-0237,Data & Analytics,production,2025-01-01,741.86,744,0.9971
+237,prd-data-0237,Data & Analytics,production,2025-02-01,670.39,672,0.9976
+237,prd-data-0237,Data & Analytics,production,2025-03-01,742.56,744,0.9981
+238,dev-data-0238,Data & Analytics,development,2025-01-01,218.99,242,0.2943
+238,dev-data-0238,Data & Analytics,development,2025-02-01,243.43,258,0.3622
+238,dev-data-0238,Data & Analytics,development,2025-03-01,196.92,216,0.2647
+239,dev-data-0239,Data & Analytics,development,2025-01-01,224.78,244,0.3021
+239,dev-data-0239,Data & Analytics,development,2025-02-01,190.03,211,0.2828
+239,dev-data-0239,Data & Analytics,development,2025-03-01,213.77,234,0.2873
+240,dev-itls-0240,Internal Tools,development,2025-01-01,53.12,67,0.0714
+240,dev-itls-0240,Internal Tools,development,2025-02-01,48.31,58,0.0719
+240,dev-itls-0240,Internal Tools,development,2025-03-01,26.53,34,0.0357
+241,prd-paym-0241,Payments,production,2025-01-01,742.95,744,0.9986
+241,prd-paym-0241,Payments,production,2025-02-01,672.00,672,1.0000
+241,prd-paym-0241,Payments,production,2025-03-01,742.76,744,0.9983
+242,dev-data-0242,Data & Analytics,development,2025-01-01,234.44,258,0.3151
+242,dev-data-0242,Data & Analytics,development,2025-02-01,184.09,205,0.2739
+242,dev-data-0242,Data & Analytics,development,2025-03-01,253.12,273,0.3402
+243,dev-data-0243,Data & Analytics,development,2025-01-01,743.00,744,0.9987
+243,dev-data-0243,Data & Analytics,development,2025-02-01,672.00,672,1.0000
+243,dev-data-0243,Data & Analytics,development,2025-03-01,743.51,744,0.9993
+244,dev-capp-0244,Customer Applications,development,2025-01-01,744.00,744,1.0000
+244,dev-capp-0244,Customer Applications,development,2025-02-01,671.52,672,0.9993
+244,dev-capp-0244,Customer Applications,development,2025-03-01,742.56,744,0.9981
+245,prd-mktg-0245,Marketing Technology,production,2025-01-01,742.41,744,0.9979
+245,prd-mktg-0245,Marketing Technology,production,2025-02-01,671.64,672,0.9995
+245,prd-mktg-0245,Marketing Technology,production,2025-03-01,742.04,744,0.9974
+246,prd-itls-0246,Internal Tools,production,2025-01-01,741.59,744,0.9968
+246,prd-itls-0246,Internal Tools,production,2025-02-01,671.20,672,0.9988
+246,prd-itls-0246,Internal Tools,production,2025-03-01,741.83,744,0.9971
+247,prd-plat-0247,Platform Engineering,production,2025-01-01,741.77,743,0.9970
+247,prd-plat-0247,Platform Engineering,production,2025-02-01,669.84,671,0.9968
+247,prd-plat-0247,Platform Engineering,production,2025-03-01,743.68,744,0.9996
+248,prd-capp-0248,Customer Applications,production,2025-01-01,742.89,744,0.9985
+248,prd-capp-0248,Customer Applications,production,2025-02-01,670.38,672,0.9976
+248,prd-capp-0248,Customer Applications,production,2025-03-01,743.26,744,0.9990
+249,prd-mktg-0249,Marketing Technology,production,2025-01-01,742.56,744,0.9981
+249,prd-mktg-0249,Marketing Technology,production,2025-02-01,672.00,672,1.0000
+249,prd-mktg-0249,Marketing Technology,production,2025-03-01,744.00,744,1.0000
+250,dev-plat-0250,Platform Engineering,development,2025-01-01,283.80,307,0.3814
+250,dev-plat-0250,Platform Engineering,development,2025-02-01,220.31,241,0.3278
+250,dev-plat-0250,Platform Engineering,development,2025-03-01,205.55,224,0.2763
+251,dev-plat-0251,Platform Engineering,development,2025-01-01,742.68,743,0.9982
+251,dev-plat-0251,Platform Engineering,development,2025-02-01,672.00,672,1.0000
+251,dev-plat-0251,Platform Engineering,development,2025-03-01,743.68,744,0.9996
+252,prd-data-0252,Data & Analytics,production,2025-01-01,741.02,744,0.9960
+252,prd-data-0252,Data & Analytics,production,2025-02-01,670.36,672,0.9976
+252,prd-data-0252,Data & Analytics,production,2025-03-01,740.45,744,0.9952
+253,dev-itls-0253,Internal Tools,development,2025-01-01,383.15,404,0.5150
+253,dev-itls-0253,Internal Tools,development,2025-02-01,340.90,366,0.5073
+253,dev-itls-0253,Internal Tools,development,2025-03-01,355.74,378,0.4781
+254,dev-plat-0254,Platform Engineering,development,2025-01-01,744.00,744,1.0000
+254,dev-plat-0254,Platform Engineering,development,2025-02-01,669.72,672,0.9966
+254,dev-plat-0254,Platform Engineering,development,2025-03-01,743.72,744,0.9996
+255,prd-itls-0255,Internal Tools,production,2025-01-01,743.20,744,0.9989
+255,prd-itls-0255,Internal Tools,production,2025-02-01,669.60,672,0.9964
+255,prd-itls-0255,Internal Tools,production,2025-03-01,742.56,743,0.9981
+256,dev-itls-0256,Internal Tools,development,2025-01-01,227.89,248,0.3063
+256,dev-itls-0256,Internal Tools,development,2025-02-01,264.07,278,0.3930
+256,dev-itls-0256,Internal Tools,development,2025-03-01,223.90,243,0.3009
+257,dev-paym-0257,Payments,development,2025-01-01,199.83,221,0.2686
+257,dev-paym-0257,Payments,development,2025-02-01,205.35,226,0.3056
+257,dev-paym-0257,Payments,development,2025-03-01,186.89,206,0.2512
+258,prd-itls-0258,Internal Tools,production,2025-01-01,743.70,744,0.9996
+258,prd-itls-0258,Internal Tools,production,2025-02-01,671.10,672,0.9987
+258,prd-itls-0258,Internal Tools,production,2025-03-01,743.41,744,0.9992
+259,dev-plat-0259,Platform Engineering,development,2025-01-01,209.93,233,0.2822
+259,dev-plat-0259,Platform Engineering,development,2025-02-01,171.38,192,0.2550
+259,dev-plat-0259,Platform Engineering,development,2025-03-01,210.37,233,0.2828
+260,prd-plat-0260,Platform Engineering,production,2025-01-01,741.69,744,0.9969
+260,prd-plat-0260,Platform Engineering,production,2025-02-01,672.00,672,1.0000
+260,prd-plat-0260,Platform Engineering,production,2025-03-01,743.82,744,0.9998
+261,prd-plat-0261,Platform Engineering,production,2025-01-01,742.78,744,0.9984
+261,prd-plat-0261,Platform Engineering,production,2025-02-01,670.10,671,0.9972
+261,prd-plat-0261,Platform Engineering,production,2025-03-01,740.14,742,0.9948
+262,dev-data-0262,Data & Analytics,development,2025-01-01,236.12,261,0.3174
+262,dev-data-0262,Data & Analytics,development,2025-02-01,177.81,198,0.2646
+262,dev-data-0262,Data & Analytics,development,2025-03-01,196.65,216,0.2643
+263,dev-capp-0263,Customer Applications,development,2025-01-01,260.39,278,0.3500
+263,dev-capp-0263,Customer Applications,development,2025-02-01,179.48,200,0.2671
+263,dev-capp-0263,Customer Applications,development,2025-03-01,242.60,263,0.3261
+264,prd-data-0264,Data & Analytics,production,2025-01-01,742.94,744,0.9986
+264,prd-data-0264,Data & Analytics,production,2025-02-01,670.80,672,0.9982
+264,prd-data-0264,Data & Analytics,production,2025-03-01,743.35,744,0.9991
+265,prd-itls-0265,Internal Tools,production,2025-01-01,742.85,744,0.9985
+265,prd-itls-0265,Internal Tools,production,2025-02-01,672.00,672,1.0000
+265,prd-itls-0265,Internal Tools,production,2025-03-01,740.96,743,0.9959
+266,prd-data-0266,Data & Analytics,production,2025-01-01,741.81,744,0.9971
+266,prd-data-0266,Data & Analytics,production,2025-02-01,672.00,672,1.0000
+266,prd-data-0266,Data & Analytics,production,2025-03-01,742.94,744,0.9986
+267,prd-data-0267,Data & Analytics,production,2025-01-01,743.49,744,0.9993
+267,prd-data-0267,Data & Analytics,production,2025-02-01,672.00,672,1.0000
+267,prd-data-0267,Data & Analytics,production,2025-03-01,742.36,744,0.9978
+268,dev-plat-0268,Platform Engineering,development,2025-01-01,265.81,288,0.3573
+268,dev-plat-0268,Platform Engineering,development,2025-02-01,193.30,214,0.2877
+268,dev-plat-0268,Platform Engineering,development,2025-03-01,220.36,240,0.2962
+269,prd-itls-0269,Internal Tools,production,2025-01-01,744.00,744,1.0000
+269,prd-itls-0269,Internal Tools,production,2025-02-01,671.14,672,0.9987
+269,prd-itls-0269,Internal Tools,production,2025-03-01,744.00,744,1.0000
+270,prd-capp-0270,Customer Applications,production,2025-01-01,744.00,744,1.0000
+270,prd-capp-0270,Customer Applications,production,2025-02-01,668.43,672,0.9947
+270,prd-capp-0270,Customer Applications,production,2025-03-01,742.15,744,0.9975
+271,dev-plat-0271,Platform Engineering,development,2025-01-01,247.90,268,0.3332
+271,dev-plat-0271,Platform Engineering,development,2025-02-01,205.75,227,0.3062
+271,dev-plat-0271,Platform Engineering,development,2025-03-01,199.85,224,0.2686
+272,prd-mktg-0272,Marketing Technology,production,2025-01-01,741.24,744,0.9963
+272,prd-mktg-0272,Marketing Technology,production,2025-02-01,669.64,672,0.9965
+272,prd-mktg-0272,Marketing Technology,production,2025-03-01,743.40,744,0.9992
+273,prd-mktg-0273,Marketing Technology,production,2025-01-01,743.43,744,0.9992
+273,prd-mktg-0273,Marketing Technology,production,2025-02-01,670.07,671,0.9971
+273,prd-mktg-0273,Marketing Technology,production,2025-03-01,741.05,743,0.9960
+274,prd-secu-0274,Security Operations,production,2025-01-01,743.19,744,0.9989
+274,prd-secu-0274,Security Operations,production,2025-02-01,672.00,672,1.0000
+274,prd-secu-0274,Security Operations,production,2025-03-01,742.78,743,0.9984
+275,dev-itls-0275,Internal Tools,development,2025-01-01,216.64,240,0.2912
+275,dev-itls-0275,Internal Tools,development,2025-02-01,253.25,270,0.3769
+275,dev-itls-0275,Internal Tools,development,2025-03-01,245.15,266,0.3295
+276,dev-capp-0276,Customer Applications,development,2025-01-01,209.67,232,0.2818
+276,dev-capp-0276,Customer Applications,development,2025-02-01,215.40,233,0.3205
+276,dev-capp-0276,Customer Applications,development,2025-03-01,274.39,291,0.3688
+277,dev-plat-0277,Platform Engineering,development,2025-01-01,22.23,30,0.0299
+277,dev-plat-0277,Platform Engineering,development,2025-02-01,37.03,48,0.0551
+277,dev-plat-0277,Platform Engineering,development,2025-03-01,35.31,46,0.0475
+278,dev-capp-0278,Customer Applications,development,2025-01-01,34.15,45,0.0459
+278,dev-capp-0278,Customer Applications,development,2025-02-01,32.82,41,0.0488
+278,dev-capp-0278,Customer Applications,development,2025-03-01,44.08,56,0.0593
+279,prd-mktg-0279,Marketing Technology,production,2025-01-01,743.28,744,0.9990
+279,prd-mktg-0279,Marketing Technology,production,2025-02-01,672.00,672,1.0000
+279,prd-mktg-0279,Marketing Technology,production,2025-03-01,741.74,744,0.9970
+280,dev-data-0280,Data & Analytics,development,2025-01-01,283.71,308,0.3813
+280,dev-data-0280,Data & Analytics,development,2025-02-01,259.75,278,0.3865
+280,dev-data-0280,Data & Analytics,development,2025-03-01,181.77,200,0.2443
+281,dev-capp-0281,Customer Applications,development,2025-01-01,392.45,415,0.5275
+281,dev-capp-0281,Customer Applications,development,2025-02-01,342.37,363,0.5095
+281,dev-capp-0281,Customer Applications,development,2025-03-01,347.77,369,0.4674
+282,dev-paym-0282,Payments,development,2025-01-01,220.08,240,0.2958
+282,dev-paym-0282,Payments,development,2025-02-01,223.73,243,0.3329
+282,dev-paym-0282,Payments,development,2025-03-01,217.66,239,0.2926
+283,prd-data-0283,Data & Analytics,production,2025-01-01,743.73,744,0.9996
+283,prd-data-0283,Data & Analytics,production,2025-02-01,672.00,672,1.0000
+283,prd-data-0283,Data & Analytics,production,2025-03-01,743.80,744,0.9997
+284,dev-secu-0284,Security Operations,development,2025-01-01,233.22,253,0.3135
+284,dev-secu-0284,Security Operations,development,2025-02-01,251.45,269,0.3742
+284,dev-secu-0284,Security Operations,development,2025-03-01,182.67,203,0.2455
+285,dev-capp-0285,Customer Applications,development,2025-01-01,52.95,67,0.0712
+285,dev-capp-0285,Customer Applications,development,2025-02-01,28.21,37,0.0420
+285,dev-capp-0285,Customer Applications,development,2025-03-01,26.06,35,0.0350
+286,dev-plat-0286,Platform Engineering,development,2025-01-01,266.21,289,0.3578
+286,dev-plat-0286,Platform Engineering,development,2025-02-01,247.25,267,0.3679
+286,dev-plat-0286,Platform Engineering,development,2025-03-01,275.19,296,0.3699
+287,dev-itls-0287,Internal Tools,development,2025-01-01,394.37,421,0.5301
+287,dev-itls-0287,Internal Tools,development,2025-02-01,340.54,365,0.5068
+287,dev-itls-0287,Internal Tools,development,2025-03-01,370.90,393,0.4985
+288,prd-data-0288,Data & Analytics,production,2025-01-01,741.10,743,0.9961
+288,prd-data-0288,Data & Analytics,production,2025-02-01,671.06,672,0.9986
+288,prd-data-0288,Data & Analytics,production,2025-03-01,744.00,744,1.0000
+289,prd-paym-0289,Payments,production,2025-01-01,743.63,744,0.9995
+289,prd-paym-0289,Payments,production,2025-02-01,672.00,672,1.0000
+289,prd-paym-0289,Payments,production,2025-03-01,742.04,744,0.9974
+290,dev-capp-0290,Customer Applications,development,2025-01-01,16.99,23,0.0228
+290,dev-capp-0290,Customer Applications,development,2025-02-01,43.26,54,0.0644
+290,dev-capp-0290,Customer Applications,development,2025-03-01,42.82,53,0.0575
+291,dev-data-0291,Data & Analytics,development,2025-01-01,35.55,46,0.0478
+291,dev-data-0291,Data & Analytics,development,2025-02-01,47.01,56,0.0700
+291,dev-data-0291,Data & Analytics,development,2025-03-01,41.41,52,0.0557
+292,dev-secu-0292,Security Operations,development,2025-01-01,744.00,744,1.0000
+292,dev-secu-0292,Security Operations,development,2025-02-01,672.00,672,1.0000
+292,dev-secu-0292,Security Operations,development,2025-03-01,744.00,744,1.0000
+293,prd-paym-0293,Payments,production,2025-01-01,743.47,744,0.9993
+293,prd-paym-0293,Payments,production,2025-02-01,671.60,672,0.9994
+293,prd-paym-0293,Payments,production,2025-03-01,739.40,742,0.9938
+294,prd-capp-0294,Customer Applications,production,2025-01-01,741.46,743,0.9966
+294,prd-capp-0294,Customer Applications,production,2025-02-01,671.49,672,0.9992
+294,prd-capp-0294,Customer Applications,production,2025-03-01,740.46,742,0.9952
+295,prd-capp-0295,Customer Applications,production,2025-01-01,743.29,744,0.9990
+295,prd-capp-0295,Customer Applications,production,2025-02-01,669.66,671,0.9965
+295,prd-capp-0295,Customer Applications,production,2025-03-01,743.75,744,0.9997
+296,dev-secu-0296,Security Operations,development,2025-01-01,742.52,743,0.9980
+296,dev-secu-0296,Security Operations,development,2025-02-01,672.00,672,1.0000
+296,dev-secu-0296,Security Operations,development,2025-03-01,741.22,744,0.9963
+297,dev-plat-0297,Platform Engineering,development,2025-01-01,742.16,744,0.9975
+297,dev-plat-0297,Platform Engineering,development,2025-02-01,670.95,671,0.9984
+297,dev-plat-0297,Platform Engineering,development,2025-03-01,742.74,744,0.9983
+298,dev-mktg-0298,Marketing Technology,development,2025-01-01,247.65,272,0.3329
+298,dev-mktg-0298,Marketing Technology,development,2025-02-01,170.31,187,0.2534
+298,dev-mktg-0298,Marketing Technology,development,2025-03-01,246.11,268,0.3308
+299,dev-mktg-0299,Marketing Technology,development,2025-01-01,225.66,254,0.3033
+299,dev-mktg-0299,Marketing Technology,development,2025-02-01,199.02,218,0.2962
+299,dev-mktg-0299,Marketing Technology,development,2025-03-01,266.56,288,0.3583
+300,dev-itls-0300,Internal Tools,development,2025-01-01,9.41,15,0.0126
+300,dev-itls-0300,Internal Tools,development,2025-02-01,28.19,35,0.0419
+300,dev-itls-0300,Internal Tools,development,2025-03-01,44.19,54,0.0594
+301,prd-capp-0301,Customer Applications,production,2025-01-01,743.76,744,0.9997
+301,prd-capp-0301,Customer Applications,production,2025-02-01,671.16,672,0.9987
+301,prd-capp-0301,Customer Applications,production,2025-03-01,742.59,744,0.9981
+302,prd-capp-0302,Customer Applications,production,2025-01-01,742.62,743,0.9981
+302,prd-capp-0302,Customer Applications,production,2025-02-01,669.13,671,0.9957
+302,prd-capp-0302,Customer Applications,production,2025-03-01,743.18,744,0.9989
+303,dev-data-0303,Data & Analytics,development,2025-01-01,224.89,244,0.3023
+303,dev-data-0303,Data & Analytics,development,2025-02-01,207.64,231,0.3090
+303,dev-data-0303,Data & Analytics,development,2025-03-01,216.81,235,0.2914
+304,prd-plat-0304,Platform Engineering,production,2025-01-01,744.00,744,1.0000
+304,prd-plat-0304,Platform Engineering,production,2025-02-01,672.00,672,1.0000
+304,prd-plat-0304,Platform Engineering,production,2025-03-01,743.18,744,0.9989
+305,prd-plat-0305,Platform Engineering,production,2025-01-01,744.00,744,1.0000
+305,prd-plat-0305,Platform Engineering,production,2025-02-01,670.74,672,0.9981
+305,prd-plat-0305,Platform Engineering,production,2025-03-01,743.59,744,0.9995
+306,prd-paym-0306,Payments,production,2025-01-01,742.45,744,0.9979
+306,prd-paym-0306,Payments,production,2025-02-01,670.76,671,0.9981
+306,prd-paym-0306,Payments,production,2025-03-01,741.24,744,0.9963
+307,dev-plat-0307,Platform Engineering,development,2025-01-01,250.52,272,0.3367
+307,dev-plat-0307,Platform Engineering,development,2025-02-01,195.21,216,0.2905
+307,dev-plat-0307,Platform Engineering,development,2025-03-01,226.53,244,0.3045
+308,dev-plat-0308,Platform Engineering,development,2025-01-01,195.04,217,0.2622
+308,dev-plat-0308,Platform Engineering,development,2025-02-01,250.58,271,0.3729
+308,dev-plat-0308,Platform Engineering,development,2025-03-01,268.61,286,0.3610
+309,prd-data-0309,Data & Analytics,production,2025-01-01,742.90,744,0.9985
+309,prd-data-0309,Data & Analytics,production,2025-02-01,671.61,672,0.9994
+309,prd-data-0309,Data & Analytics,production,2025-03-01,742.35,744,0.9978
+310,dev-itls-0310,Internal Tools,development,2025-01-01,29.49,38,0.0396
+310,dev-itls-0310,Internal Tools,development,2025-02-01,40.69,52,0.0606
+310,dev-itls-0310,Internal Tools,development,2025-03-01,39.02,51,0.0525
+311,prd-data-0311,Data & Analytics,production,2025-01-01,744.00,744,1.0000
+311,prd-data-0311,Data & Analytics,production,2025-02-01,672.00,672,1.0000
+311,prd-data-0311,Data & Analytics,production,2025-03-01,742.75,744,0.9983
+312,dev-data-0312,Data & Analytics,development,2025-01-01,215.77,236,0.2900
+312,dev-data-0312,Data & Analytics,development,2025-02-01,210.72,230,0.3136
+312,dev-data-0312,Data & Analytics,development,2025-03-01,197.40,217,0.2653
+313,dev-capp-0313,Customer Applications,development,2025-01-01,391.27,419,0.5259
+313,dev-capp-0313,Customer Applications,development,2025-02-01,350.32,375,0.5213
+313,dev-capp-0313,Customer Applications,development,2025-03-01,367.58,393,0.4941
+314,dev-itls-0314,Internal Tools,development,2025-01-01,221.94,248,0.2983
+314,dev-itls-0314,Internal Tools,development,2025-02-01,229.77,250,0.3419
+314,dev-itls-0314,Internal Tools,development,2025-03-01,237.50,259,0.3192
+315,prd-plat-0315,Platform Engineering,production,2025-01-01,742.55,744,0.9981
+315,prd-plat-0315,Platform Engineering,production,2025-02-01,668.92,672,0.9954
+315,prd-plat-0315,Platform Engineering,production,2025-03-01,742.86,744,0.9985
+316,dev-data-0316,Data & Analytics,development,2025-01-01,216.18,240,0.2906
+316,dev-data-0316,Data & Analytics,development,2025-02-01,165.97,185,0.2470
+316,dev-data-0316,Data & Analytics,development,2025-03-01,273.27,296,0.3673
+317,prd-paym-0317,Payments,production,2025-01-01,743.57,744,0.9994
+317,prd-paym-0317,Payments,production,2025-02-01,670.81,672,0.9982
+317,prd-paym-0317,Payments,production,2025-03-01,742.63,744,0.9982
+318,dev-capp-0318,Customer Applications,development,2025-01-01,402.82,434,0.5414
+318,dev-capp-0318,Customer Applications,development,2025-02-01,336.48,359,0.5007
+318,dev-capp-0318,Customer Applications,development,2025-03-01,353.29,375,0.4748
+319,dev-paym-0319,Payments,development,2025-01-01,224.93,248,0.3023
+319,dev-paym-0319,Payments,development,2025-02-01,207.66,228,0.3090
+319,dev-paym-0319,Payments,development,2025-03-01,176.37,196,0.2371
+320,dev-mktg-0320,Marketing Technology,development,2025-01-01,224.27,246,0.3014
+320,dev-mktg-0320,Marketing Technology,development,2025-02-01,281.98,298,0.4196
+320,dev-mktg-0320,Marketing Technology,development,2025-03-01,201.58,218,0.2709
+321,dev-data-0321,Data & Analytics,development,2025-01-01,199.52,224,0.2682
+321,dev-data-0321,Data & Analytics,development,2025-02-01,189.48,211,0.2820
+321,dev-data-0321,Data & Analytics,development,2025-03-01,216.80,237,0.2914
+322,prd-plat-0322,Platform Engineering,production,2025-01-01,743.07,744,0.9988
+322,prd-plat-0322,Platform Engineering,production,2025-02-01,672.00,672,1.0000
+322,prd-plat-0322,Platform Engineering,production,2025-03-01,743.44,744,0.9993
+323,prd-plat-0323,Platform Engineering,production,2025-01-01,742.76,744,0.9983
+323,prd-plat-0323,Platform Engineering,production,2025-02-01,670.66,672,0.9980
+323,prd-plat-0323,Platform Engineering,production,2025-03-01,742.98,744,0.9986
+324,dev-capp-0324,Customer Applications,development,2025-01-01,33.06,45,0.0444
+324,dev-capp-0324,Customer Applications,development,2025-02-01,31.20,40,0.0464
+324,dev-capp-0324,Customer Applications,development,2025-03-01,35.89,46,0.0482
+325,prd-itls-0325,Internal Tools,production,2025-01-01,744.00,744,1.0000
+325,prd-itls-0325,Internal Tools,production,2025-02-01,671.02,672,0.9985
+325,prd-itls-0325,Internal Tools,production,2025-03-01,740.87,743,0.9958
+326,dev-plat-0326,Platform Engineering,development,2025-01-01,219.33,242,0.2948
+326,dev-plat-0326,Platform Engineering,development,2025-02-01,204.63,225,0.3045
+326,dev-plat-0326,Platform Engineering,development,2025-03-01,211.79,235,0.2847
+327,dev-data-0327,Data & Analytics,development,2025-01-01,29.32,37,0.0394
+327,dev-data-0327,Data & Analytics,development,2025-02-01,30.99,41,0.0461
+327,dev-data-0327,Data & Analytics,development,2025-03-01,36.78,48,0.0494
+328,dev-itls-0328,Internal Tools,development,2025-01-01,32.89,45,0.0442
+328,dev-itls-0328,Internal Tools,development,2025-02-01,34.90,46,0.0519
+328,dev-itls-0328,Internal Tools,development,2025-03-01,20.30,28,0.0273
+329,dev-data-0329,Data & Analytics,development,2025-01-01,212.44,233,0.2855
+329,dev-data-0329,Data & Analytics,development,2025-02-01,265.47,283,0.3950
+329,dev-data-0329,Data & Analytics,development,2025-03-01,172.47,190,0.2318
+330,prd-data-0330,Data & Analytics,production,2025-01-01,744.00,744,1.0000
+330,prd-data-0330,Data & Analytics,production,2025-02-01,671.24,672,0.9989
+330,prd-data-0330,Data & Analytics,production,2025-03-01,742.12,743,0.9975
+331,dev-data-0331,Data & Analytics,development,2025-01-01,214.51,238,0.2883
+331,dev-data-0331,Data & Analytics,development,2025-02-01,248.90,267,0.3704
+331,dev-data-0331,Data & Analytics,development,2025-03-01,203.00,223,0.2729
+332,dev-plat-0332,Platform Engineering,development,2025-01-01,213.35,238,0.2868
+332,dev-plat-0332,Platform Engineering,development,2025-02-01,200.23,219,0.2980
+332,dev-plat-0332,Platform Engineering,development,2025-03-01,195.15,212,0.2623
+333,dev-plat-0333,Platform Engineering,development,2025-01-01,20.87,26,0.0280
+333,dev-plat-0333,Platform Engineering,development,2025-02-01,25.84,33,0.0385
+333,dev-plat-0333,Platform Engineering,development,2025-03-01,45.65,57,0.0614
+334,dev-data-0334,Data & Analytics,development,2025-01-01,33.45,48,0.0450
+334,dev-data-0334,Data & Analytics,development,2025-02-01,25.57,30,0.0381
+334,dev-data-0334,Data & Analytics,development,2025-03-01,44.86,55,0.0603
+335,dev-capp-0335,Customer Applications,development,2025-01-01,354.38,374,0.4763
+335,dev-capp-0335,Customer Applications,development,2025-02-01,201.71,224,0.3002
+335,dev-capp-0335,Customer Applications,development,2025-03-01,205.80,227,0.2766
+336,dev-plat-0336,Platform Engineering,development,2025-01-01,216.67,238,0.2912
+336,dev-plat-0336,Platform Engineering,development,2025-02-01,222.76,242,0.3315
+336,dev-plat-0336,Platform Engineering,development,2025-03-01,307.20,324,0.4129
+337,dev-data-0337,Data & Analytics,development,2025-01-01,744.00,744,1.0000
+337,dev-data-0337,Data & Analytics,development,2025-02-01,671.05,672,0.9986
+337,dev-data-0337,Data & Analytics,development,2025-03-01,742.71,744,0.9983
+338,prd-plat-0338,Platform Engineering,production,2025-01-01,741.82,744,0.9971
+338,prd-plat-0338,Platform Engineering,production,2025-02-01,670.02,672,0.9971
+338,prd-plat-0338,Platform Engineering,production,2025-03-01,742.93,743,0.9986
+339,dev-paym-0339,Payments,development,2025-01-01,242.10,263,0.3254
+339,dev-paym-0339,Payments,development,2025-02-01,192.30,214,0.2862
+339,dev-paym-0339,Payments,development,2025-03-01,257.03,273,0.3455
+340,prd-itls-0340,Internal Tools,production,2025-01-01,744.00,744,1.0000
+340,prd-itls-0340,Internal Tools,production,2025-02-01,672.00,672,1.0000
+340,prd-itls-0340,Internal Tools,production,2025-03-01,741.21,744,0.9962
+341,dev-plat-0341,Platform Engineering,development,2025-01-01,263.91,285,0.3547
+341,dev-plat-0341,Platform Engineering,development,2025-02-01,180.39,198,0.2684
+341,dev-plat-0341,Platform Engineering,development,2025-03-01,212.30,233,0.2854
+342,prd-paym-0342,Payments,production,2025-01-01,742.32,744,0.9977
+342,prd-paym-0342,Payments,production,2025-02-01,672.00,672,1.0000
+342,prd-paym-0342,Payments,production,2025-03-01,742.12,743,0.9975
+343,dev-mktg-0343,Marketing Technology,development,2025-01-01,0.00,0,0.0000
+343,dev-mktg-0343,Marketing Technology,development,2025-02-01,0.00,0,0.0000
+343,dev-mktg-0343,Marketing Technology,development,2025-03-01,0.00,0,0.0000
+344,dev-itls-0344,Internal Tools,development,2025-01-01,220.20,244,0.2960
+344,dev-itls-0344,Internal Tools,development,2025-02-01,191.03,209,0.2843
+344,dev-itls-0344,Internal Tools,development,2025-03-01,267.39,287,0.3594
+345,prd-mktg-0345,Marketing Technology,production,2025-01-01,743.77,744,0.9997
+345,prd-mktg-0345,Marketing Technology,production,2025-02-01,669.67,672,0.9965
+345,prd-mktg-0345,Marketing Technology,production,2025-03-01,740.48,744,0.9953
+346,prd-mktg-0346,Marketing Technology,production,2025-01-01,741.43,744,0.9965
+346,prd-mktg-0346,Marketing Technology,production,2025-02-01,672.00,672,1.0000
+346,prd-mktg-0346,Marketing Technology,production,2025-03-01,743.35,744,0.9991
+347,prd-mktg-0347,Marketing Technology,production,2025-01-01,743.65,744,0.9995
+347,prd-mktg-0347,Marketing Technology,production,2025-02-01,670.29,672,0.9975
+347,prd-mktg-0347,Marketing Technology,production,2025-03-01,744.00,744,1.0000
+348,dev-mktg-0348,Marketing Technology,development,2025-01-01,213.58,237,0.2871
+348,dev-mktg-0348,Marketing Technology,development,2025-02-01,242.73,256,0.3612
+348,dev-mktg-0348,Marketing Technology,development,2025-03-01,340.63,357,0.4578
+349,prd-itls-0349,Internal Tools,production,2025-01-01,740.92,743,0.9959
+349,prd-itls-0349,Internal Tools,production,2025-02-01,671.72,672,0.9996
+349,prd-itls-0349,Internal Tools,production,2025-03-01,741.77,744,0.9970
+350,prd-data-0350,Data & Analytics,production,2025-01-01,743.44,744,0.9993
+350,prd-data-0350,Data & Analytics,production,2025-02-01,668.71,672,0.9951
+350,prd-data-0350,Data & Analytics,production,2025-03-01,743.28,744,0.9990
+351,dev-plat-0351,Platform Engineering,development,2025-01-01,234.40,257,0.3151
+351,dev-plat-0351,Platform Engineering,development,2025-02-01,197.93,221,0.2945
+351,dev-plat-0351,Platform Engineering,development,2025-03-01,256.54,276,0.3448
+352,dev-itls-0352,Internal Tools,development,2025-01-01,744.00,744,1.0000
+352,dev-itls-0352,Internal Tools,development,2025-02-01,671.12,672,0.9987
+352,dev-itls-0352,Internal Tools,development,2025-03-01,744.00,744,1.0000
+353,dev-mktg-0353,Marketing Technology,development,2025-01-01,386.78,414,0.5199
+353,dev-mktg-0353,Marketing Technology,development,2025-02-01,338.39,360,0.5036
+353,dev-mktg-0353,Marketing Technology,development,2025-03-01,359.68,383,0.4834
+354,prd-data-0354,Data & Analytics,production,2025-01-01,744.00,744,1.0000
+354,prd-data-0354,Data & Analytics,production,2025-02-01,671.21,672,0.9988
+354,prd-data-0354,Data & Analytics,production,2025-03-01,742.95,744,0.9986
+355,dev-capp-0355,Customer Applications,development,2025-01-01,216.76,236,0.2913
+355,dev-capp-0355,Customer Applications,development,2025-02-01,203.47,220,0.3028
+355,dev-capp-0355,Customer Applications,development,2025-03-01,224.84,247,0.3022
+356,dev-secu-0356,Security Operations,development,2025-01-01,298.24,319,0.4009
+356,dev-secu-0356,Security Operations,development,2025-02-01,200.90,220,0.2990
+356,dev-secu-0356,Security Operations,development,2025-03-01,285.13,306,0.3832
+357,dev-secu-0357,Security Operations,development,2025-01-01,227.18,250,0.3054
+357,dev-secu-0357,Security Operations,development,2025-02-01,186.48,209,0.2775
+357,dev-secu-0357,Security Operations,development,2025-03-01,154.71,174,0.2079
+358,dev-paym-0358,Payments,development,2025-01-01,241.21,263,0.3242
+358,dev-paym-0358,Payments,development,2025-02-01,263.56,282,0.3922
+358,dev-paym-0358,Payments,development,2025-03-01,236.77,256,0.3182
+359,dev-paym-0359,Payments,development,2025-01-01,211.72,230,0.2846
+359,dev-paym-0359,Payments,development,2025-02-01,217.25,235,0.3233
+359,dev-paym-0359,Payments,development,2025-03-01,192.71,215,0.2590
+360,prd-itls-0360,Internal Tools,production,2025-01-01,742.75,744,0.9983
+360,prd-itls-0360,Internal Tools,production,2025-02-01,670.46,672,0.9977
+360,prd-itls-0360,Internal Tools,production,2025-03-01,742.09,744,0.9974
+361,prd-capp-0361,Customer Applications,production,2025-01-01,742.72,744,0.9983
+361,prd-capp-0361,Customer Applications,production,2025-02-01,670.55,672,0.9978
+361,prd-capp-0361,Customer Applications,production,2025-03-01,741.97,744,0.9973
+362,prd-paym-0362,Payments,production,2025-01-01,742.41,744,0.9979
+362,prd-paym-0362,Payments,production,2025-02-01,672.00,672,1.0000
+362,prd-paym-0362,Payments,production,2025-03-01,741.02,744,0.9960
+363,prd-plat-0363,Platform Engineering,production,2025-01-01,742.52,744,0.9980
+363,prd-plat-0363,Platform Engineering,production,2025-02-01,670.70,672,0.9981
+363,prd-plat-0363,Platform Engineering,production,2025-03-01,742.90,744,0.9985
+364,dev-plat-0364,Platform Engineering,development,2025-01-01,30.72,40,0.0413
+364,dev-plat-0364,Platform Engineering,development,2025-02-01,14.38,19,0.0214
+364,dev-plat-0364,Platform Engineering,development,2025-03-01,37.78,49,0.0508
+365,dev-capp-0365,Customer Applications,development,2025-01-01,383.78,407,0.5158
+365,dev-capp-0365,Customer Applications,development,2025-02-01,352.64,377,0.5248
+365,dev-capp-0365,Customer Applications,development,2025-03-01,369.25,394,0.4963
+366,dev-secu-0366,Security Operations,development,2025-01-01,34.53,44,0.0464
+366,dev-secu-0366,Security Operations,development,2025-02-01,27.59,38,0.0410
+366,dev-secu-0366,Security Operations,development,2025-03-01,22.64,28,0.0304
+367,dev-data-0367,Data & Analytics,development,2025-01-01,217.98,240,0.2930
+367,dev-data-0367,Data & Analytics,development,2025-02-01,213.60,231,0.3179
+367,dev-data-0367,Data & Analytics,development,2025-03-01,263.08,284,0.3536
+368,dev-capp-0368,Customer Applications,development,2025-01-01,214.35,234,0.2881
+368,dev-capp-0368,Customer Applications,development,2025-02-01,283.60,304,0.4220
+368,dev-capp-0368,Customer Applications,development,2025-03-01,251.91,270,0.3386
+369,dev-itls-0369,Internal Tools,development,2025-01-01,215.14,240,0.2892
+369,dev-itls-0369,Internal Tools,development,2025-02-01,190.31,205,0.2832
+369,dev-itls-0369,Internal Tools,development,2025-03-01,237.90,257,0.3198
+370,dev-paym-0370,Payments,development,2025-01-01,743.58,744,0.9994
+370,dev-paym-0370,Payments,development,2025-02-01,672.00,672,1.0000
+370,dev-paym-0370,Payments,development,2025-03-01,740.66,744,0.9955
+371,prd-capp-0371,Customer Applications,production,2025-01-01,741.42,744,0.9965
+371,prd-capp-0371,Customer Applications,production,2025-02-01,671.06,672,0.9986
+371,prd-capp-0371,Customer Applications,production,2025-03-01,742.08,744,0.9974
+372,dev-capp-0372,Customer Applications,development,2025-01-01,389.28,413,0.5232
+372,dev-capp-0372,Customer Applications,development,2025-02-01,345.18,366,0.5137
+372,dev-capp-0372,Customer Applications,development,2025-03-01,353.83,378,0.4756
+373,dev-plat-0373,Platform Engineering,development,2025-01-01,744.00,744,1.0000
+373,dev-plat-0373,Platform Engineering,development,2025-02-01,671.20,672,0.9988
+373,dev-plat-0373,Platform Engineering,development,2025-03-01,742.84,744,0.9984
+374,prd-paym-0374,Payments,production,2025-01-01,742.67,744,0.9982
+374,prd-paym-0374,Payments,production,2025-02-01,671.55,672,0.9993
+374,prd-paym-0374,Payments,production,2025-03-01,743.00,744,0.9987
+375,dev-data-0375,Data & Analytics,development,2025-01-01,46.41,63,0.0624
+375,dev-data-0375,Data & Analytics,development,2025-02-01,41.59,56,0.0619
+375,dev-data-0375,Data & Analytics,development,2025-03-01,42.87,57,0.0576
+376,dev-data-0376,Data & Analytics,development,2025-01-01,224.66,250,0.3020
+376,dev-data-0376,Data & Analytics,development,2025-02-01,187.28,208,0.2787
+376,dev-data-0376,Data & Analytics,development,2025-03-01,228.38,248,0.3070
+377,dev-plat-0377,Platform Engineering,development,2025-01-01,269.54,289,0.3623
+377,dev-plat-0377,Platform Engineering,development,2025-02-01,229.31,249,0.3412
+377,dev-plat-0377,Platform Engineering,development,2025-03-01,219.73,239,0.2953
+378,dev-plat-0378,Platform Engineering,development,2025-01-01,388.74,415,0.5225
+378,dev-plat-0378,Platform Engineering,development,2025-02-01,338.24,360,0.5033
+378,dev-plat-0378,Platform Engineering,development,2025-03-01,352.07,377,0.4732
+379,prd-data-0379,Data & Analytics,production,2025-01-01,741.87,744,0.9971
+379,prd-data-0379,Data & Analytics,production,2025-02-01,670.90,671,0.9984
+379,prd-data-0379,Data & Analytics,production,2025-03-01,741.75,743,0.9970
+380,prd-secu-0380,Security Operations,production,2025-01-01,741.00,744,0.9960
+380,prd-secu-0380,Security Operations,production,2025-02-01,671.16,672,0.9988
+380,prd-secu-0380,Security Operations,production,2025-03-01,742.10,744,0.9974
+381,prd-paym-0381,Payments,production,2025-01-01,743.05,744,0.9987
+381,prd-paym-0381,Payments,production,2025-02-01,671.83,672,0.9997
+381,prd-paym-0381,Payments,production,2025-03-01,741.80,744,0.9970
+382,dev-capp-0382,Customer Applications,development,2025-01-01,744.00,744,1.0000
+382,dev-capp-0382,Customer Applications,development,2025-02-01,671.18,672,0.9988
+382,dev-capp-0382,Customer Applications,development,2025-03-01,743.49,744,0.9993
+383,prd-paym-0383,Payments,production,2025-01-01,741.19,743,0.9962
+383,prd-paym-0383,Payments,production,2025-02-01,669.80,671,0.9967
+383,prd-paym-0383,Payments,production,2025-03-01,743.73,744,0.9996
+384,dev-plat-0384,Platform Engineering,development,2025-01-01,249.21,270,0.3350
+384,dev-plat-0384,Platform Engineering,development,2025-02-01,209.08,228,0.3111
+384,dev-plat-0384,Platform Engineering,development,2025-03-01,234.48,255,0.3152
+385,dev-plat-0385,Platform Engineering,development,2025-01-01,392.55,420,0.5276
+385,dev-plat-0385,Platform Engineering,development,2025-02-01,335.26,357,0.4989
+385,dev-plat-0385,Platform Engineering,development,2025-03-01,355.70,381,0.4781
+386,prd-capp-0386,Customer Applications,production,2025-01-01,741.10,744,0.9961
+386,prd-capp-0386,Customer Applications,production,2025-02-01,671.31,672,0.9990
+386,prd-capp-0386,Customer Applications,production,2025-03-01,743.21,744,0.9989
+387,dev-mktg-0387,Marketing Technology,development,2025-01-01,396.62,420,0.5331
+387,dev-mktg-0387,Marketing Technology,development,2025-02-01,348.01,374,0.5179
+387,dev-mktg-0387,Marketing Technology,development,2025-03-01,348.53,372,0.4684
+388,dev-mktg-0388,Marketing Technology,development,2025-01-01,298.23,314,0.4008
+388,dev-mktg-0388,Marketing Technology,development,2025-02-01,269.19,289,0.4006
+388,dev-mktg-0388,Marketing Technology,development,2025-03-01,206.72,234,0.2779
+389,dev-mktg-0389,Marketing Technology,development,2025-01-01,201.88,223,0.2713
+389,dev-mktg-0389,Marketing Technology,development,2025-02-01,268.97,288,0.4003
+389,dev-mktg-0389,Marketing Technology,development,2025-03-01,298.93,319,0.4018
+390,prd-data-0390,Data & Analytics,production,2025-01-01,742.77,744,0.9984
+390,prd-data-0390,Data & Analytics,production,2025-02-01,671.03,672,0.9986
+390,prd-data-0390,Data & Analytics,production,2025-03-01,742.52,744,0.9980
+391,dev-plat-0391,Platform Engineering,development,2025-01-01,287.14,309,0.3859
+391,dev-plat-0391,Platform Engineering,development,2025-02-01,260.57,280,0.3877
+391,dev-plat-0391,Platform Engineering,development,2025-03-01,229.65,247,0.3087
+392,prd-capp-0392,Customer Applications,production,2025-01-01,744.00,744,1.0000
+392,prd-capp-0392,Customer Applications,production,2025-02-01,667.83,670,0.9938
+392,prd-capp-0392,Customer Applications,production,2025-03-01,741.81,743,0.9971
+393,dev-plat-0393,Platform Engineering,development,2025-01-01,256.12,274,0.3442
+393,dev-plat-0393,Platform Engineering,development,2025-02-01,227.01,248,0.3378
+393,dev-plat-0393,Platform Engineering,development,2025-03-01,161.85,180,0.2175
+394,prd-data-0394,Data & Analytics,production,2025-01-01,743.69,744,0.9996
+394,prd-data-0394,Data & Analytics,production,2025-02-01,671.43,672,0.9991
+394,prd-data-0394,Data & Analytics,production,2025-03-01,742.69,744,0.9982
+395,dev-capp-0395,Customer Applications,development,2025-01-01,277.71,297,0.3733
+395,dev-capp-0395,Customer Applications,development,2025-02-01,197.24,212,0.2935
+395,dev-capp-0395,Customer Applications,development,2025-03-01,265.90,285,0.3574
+396,prd-capp-0396,Customer Applications,production,2025-01-01,742.55,743,0.9981
+396,prd-capp-0396,Customer Applications,production,2025-02-01,670.74,672,0.9981
+396,prd-capp-0396,Customer Applications,production,2025-03-01,741.37,743,0.9965
+397,prd-data-0397,Data & Analytics,production,2025-01-01,742.72,744,0.9983
+397,prd-data-0397,Data & Analytics,production,2025-02-01,669.79,671,0.9967
+397,prd-data-0397,Data & Analytics,production,2025-03-01,741.68,744,0.9969
+398,dev-plat-0398,Platform Engineering,development,2025-01-01,36.01,49,0.0484
+398,dev-plat-0398,Platform Engineering,development,2025-02-01,31.13,40,0.0463
+398,dev-plat-0398,Platform Engineering,development,2025-03-01,31.50,39,0.0423
+399,dev-mktg-0399,Marketing Technology,development,2025-01-01,399.09,426,0.5364
+399,dev-mktg-0399,Marketing Technology,development,2025-02-01,334.46,357,0.4977
+399,dev-mktg-0399,Marketing Technology,development,2025-03-01,359.41,383,0.4831
+400,prd-mktg-0400,Marketing Technology,production,2025-01-01,742.27,744,0.9977
+400,prd-mktg-0400,Marketing Technology,production,2025-02-01,670.03,671,0.9971
+400,prd-mktg-0400,Marketing Technology,production,2025-03-01,743.60,744,0.9995
+401,prd-secu-0401,Security Operations,production,2025-01-01,743.05,744,0.9987
+401,prd-secu-0401,Security Operations,production,2025-02-01,670.57,672,0.9979
+401,prd-secu-0401,Security Operations,production,2025-03-01,741.55,744,0.9967
+402,dev-paym-0402,Payments,development,2025-01-01,0.00,0,0.0000
+402,dev-paym-0402,Payments,development,2025-02-01,0.00,0,0.0000
+402,dev-paym-0402,Payments,development,2025-03-01,0.00,0,0.0000
+403,dev-paym-0403,Payments,development,2025-01-01,39.62,50,0.0533
+403,dev-paym-0403,Payments,development,2025-02-01,49.39,64,0.0735
+403,dev-paym-0403,Payments,development,2025-03-01,41.01,53,0.0551
+404,dev-data-0404,Data & Analytics,development,2025-01-01,217.90,238,0.2929
+404,dev-data-0404,Data & Analytics,development,2025-02-01,194.74,218,0.2898
+404,dev-data-0404,Data & Analytics,development,2025-03-01,247.97,268,0.3333
+405,dev-mktg-0405,Marketing Technology,development,2025-01-01,52.19,67,0.0702
+405,dev-mktg-0405,Marketing Technology,development,2025-02-01,44.03,56,0.0655
+405,dev-mktg-0405,Marketing Technology,development,2025-03-01,39.28,47,0.0528
+406,dev-plat-0406,Platform Engineering,development,2025-01-01,289.63,310,0.3893
+406,dev-plat-0406,Platform Engineering,development,2025-02-01,166.26,186,0.2474
+406,dev-plat-0406,Platform Engineering,development,2025-03-01,256.29,276,0.3445
+407,dev-paym-0407,Payments,development,2025-01-01,244.48,265,0.3286
+407,dev-paym-0407,Payments,development,2025-02-01,216.14,234,0.3216
+407,dev-paym-0407,Payments,development,2025-03-01,289.94,312,0.3897
+408,prd-mktg-0408,Marketing Technology,production,2025-01-01,742.01,744,0.9973
+408,prd-mktg-0408,Marketing Technology,production,2025-02-01,670.81,672,0.9982
+408,prd-mktg-0408,Marketing Technology,production,2025-03-01,741.84,744,0.9971
+409,dev-plat-0409,Platform Engineering,development,2025-01-01,743.41,744,0.9992
+409,dev-plat-0409,Platform Engineering,development,2025-02-01,670.45,672,0.9977
+409,dev-plat-0409,Platform Engineering,development,2025-03-01,743.71,744,0.9996
+410,prd-paym-0410,Payments,production,2025-01-01,743.29,744,0.9990
+410,prd-paym-0410,Payments,production,2025-02-01,669.44,672,0.9962
+410,prd-paym-0410,Payments,production,2025-03-01,742.12,744,0.9975
+411,dev-paym-0411,Payments,development,2025-01-01,227.94,249,0.3064
+411,dev-paym-0411,Payments,development,2025-02-01,245.09,259,0.3647
+411,dev-paym-0411,Payments,development,2025-03-01,238.48,263,0.3205
+412,prd-data-0412,Data & Analytics,production,2025-01-01,743.15,744,0.9989
+412,prd-data-0412,Data & Analytics,production,2025-02-01,671.52,672,0.9993
+412,prd-data-0412,Data & Analytics,production,2025-03-01,743.36,744,0.9991
+413,prd-data-0413,Data & Analytics,production,2025-01-01,742.35,744,0.9978
+413,prd-data-0413,Data & Analytics,production,2025-02-01,670.51,672,0.9978
+413,prd-data-0413,Data & Analytics,production,2025-03-01,742.31,744,0.9977
+414,prd-data-0414,Data & Analytics,production,2025-01-01,742.46,744,0.9979
+414,prd-data-0414,Data & Analytics,production,2025-02-01,672.00,672,1.0000
+414,prd-data-0414,Data & Analytics,production,2025-03-01,743.45,744,0.9993
+415,prd-secu-0415,Security Operations,production,2025-01-01,743.03,744,0.9987
+415,prd-secu-0415,Security Operations,production,2025-02-01,670.82,672,0.9983
+415,prd-secu-0415,Security Operations,production,2025-03-01,742.08,744,0.9974
+416,prd-secu-0416,Security Operations,production,2025-01-01,742.52,744,0.9980
+416,prd-secu-0416,Security Operations,production,2025-02-01,672.00,672,1.0000
+416,prd-secu-0416,Security Operations,production,2025-03-01,744.00,744,1.0000
+417,prd-mktg-0417,Marketing Technology,production,2025-01-01,741.95,744,0.9972
+417,prd-mktg-0417,Marketing Technology,production,2025-02-01,670.96,672,0.9984
+417,prd-mktg-0417,Marketing Technology,production,2025-03-01,740.63,743,0.9955
+418,prd-mktg-0418,Marketing Technology,production,2025-01-01,742.64,744,0.9982
+418,prd-mktg-0418,Marketing Technology,production,2025-02-01,670.82,672,0.9982
+418,prd-mktg-0418,Marketing Technology,production,2025-03-01,743.29,744,0.9990
+419,prd-plat-0419,Platform Engineering,production,2025-01-01,742.56,744,0.9981
+419,prd-plat-0419,Platform Engineering,production,2025-02-01,672.00,672,1.0000
+419,prd-plat-0419,Platform Engineering,production,2025-03-01,744.00,744,1.0000
+420,prd-secu-0420,Security Operations,production,2025-01-01,743.01,744,0.9987
+420,prd-secu-0420,Security Operations,production,2025-02-01,672.00,672,1.0000
+420,prd-secu-0420,Security Operations,production,2025-03-01,743.48,744,0.9993
+421,dev-secu-0421,Security Operations,development,2025-01-01,742.07,744,0.9974
+421,dev-secu-0421,Security Operations,development,2025-02-01,670.95,672,0.9984
+421,dev-secu-0421,Security Operations,development,2025-03-01,741.29,744,0.9964
+422,dev-data-0422,Data & Analytics,development,2025-01-01,744.00,744,1.0000
+422,dev-data-0422,Data & Analytics,development,2025-02-01,672.00,672,1.0000
+422,dev-data-0422,Data & Analytics,development,2025-03-01,743.43,744,0.9992
+423,dev-itls-0423,Internal Tools,development,2025-01-01,0.00,0,0.0000
+423,dev-itls-0423,Internal Tools,development,2025-02-01,0.00,0,0.0000
+423,dev-itls-0423,Internal Tools,development,2025-03-01,0.00,0,0.0000
+424,dev-capp-0424,Customer Applications,development,2025-01-01,227.23,249,0.3054
+424,dev-capp-0424,Customer Applications,development,2025-02-01,199.45,219,0.2968
+424,dev-capp-0424,Customer Applications,development,2025-03-01,178.48,199,0.2399
+425,dev-secu-0425,Security Operations,development,2025-01-01,203.00,222,0.2728
+425,dev-secu-0425,Security Operations,development,2025-02-01,274.82,292,0.4090
+425,dev-secu-0425,Security Operations,development,2025-03-01,223.39,245,0.3002
+426,dev-capp-0426,Customer Applications,development,2025-01-01,294.82,315,0.3963
+426,dev-capp-0426,Customer Applications,development,2025-02-01,215.14,233,0.3202
+426,dev-capp-0426,Customer Applications,development,2025-03-01,193.97,215,0.2607
+427,dev-plat-0427,Platform Engineering,development,2025-01-01,228.43,251,0.3070
+427,dev-plat-0427,Platform Engineering,development,2025-02-01,162.86,180,0.2423
+427,dev-plat-0427,Platform Engineering,development,2025-03-01,255.76,273,0.3438
+428,prd-data-0428,Data & Analytics,production,2025-01-01,742.43,744,0.9979
+428,prd-data-0428,Data & Analytics,production,2025-02-01,671.35,672,0.9990
+428,prd-data-0428,Data & Analytics,production,2025-03-01,741.66,744,0.9969
+429,dev-plat-0429,Platform Engineering,development,2025-01-01,242.53,265,0.3260
+429,dev-plat-0429,Platform Engineering,development,2025-02-01,174.15,193,0.2592
+429,dev-plat-0429,Platform Engineering,development,2025-03-01,206.58,226,0.2777
+430,prd-itls-0430,Internal Tools,production,2025-01-01,742.37,743,0.9978
+430,prd-itls-0430,Internal Tools,production,2025-02-01,670.38,672,0.9976
+430,prd-itls-0430,Internal Tools,production,2025-03-01,742.52,744,0.9980
+431,prd-capp-0431,Customer Applications,production,2025-01-01,741.65,744,0.9968
+431,prd-capp-0431,Customer Applications,production,2025-02-01,671.44,672,0.9992
+431,prd-capp-0431,Customer Applications,production,2025-03-01,742.04,744,0.9974
+432,prd-paym-0432,Payments,production,2025-01-01,743.32,744,0.9991
+432,prd-paym-0432,Payments,production,2025-02-01,670.22,672,0.9974
+432,prd-paym-0432,Payments,production,2025-03-01,743.12,744,0.9988
+433,dev-capp-0433,Customer Applications,development,2025-01-01,224.41,251,0.3016
+433,dev-capp-0433,Customer Applications,development,2025-02-01,186.88,204,0.2781
+433,dev-capp-0433,Customer Applications,development,2025-03-01,202.00,224,0.2715
+434,prd-mktg-0434,Marketing Technology,production,2025-01-01,740.61,743,0.9954
+434,prd-mktg-0434,Marketing Technology,production,2025-02-01,671.08,672,0.9986
+434,prd-mktg-0434,Marketing Technology,production,2025-03-01,742.69,744,0.9982
+435,dev-mktg-0435,Marketing Technology,development,2025-01-01,314.50,337,0.4227
+435,dev-mktg-0435,Marketing Technology,development,2025-02-01,200.80,221,0.2988
+435,dev-mktg-0435,Marketing Technology,development,2025-03-01,214.73,233,0.2886
+436,dev-paym-0436,Payments,development,2025-01-01,224.44,247,0.3017
+436,dev-paym-0436,Payments,development,2025-02-01,213.83,232,0.3182
+436,dev-paym-0436,Payments,development,2025-03-01,292.41,309,0.3930
+437,dev-secu-0437,Security Operations,development,2025-01-01,21.94,28,0.0295
+437,dev-secu-0437,Security Operations,development,2025-02-01,58.58,69,0.0872
+437,dev-secu-0437,Security Operations,development,2025-03-01,56.15,73,0.0755
+438,prd-mktg-0438,Marketing Technology,production,2025-01-01,743.16,744,0.9989
+438,prd-mktg-0438,Marketing Technology,production,2025-02-01,671.78,672,0.9997
+438,prd-mktg-0438,Marketing Technology,production,2025-03-01,742.75,744,0.9983
+439,dev-capp-0439,Customer Applications,development,2025-01-01,0.00,0,0.0000
+439,dev-capp-0439,Customer Applications,development,2025-02-01,0.00,0,0.0000
+439,dev-capp-0439,Customer Applications,development,2025-03-01,0.00,0,0.0000
+440,dev-data-0440,Data & Analytics,development,2025-01-01,320.91,344,0.4313
+440,dev-data-0440,Data & Analytics,development,2025-02-01,179.04,197,0.2664
+440,dev-data-0440,Data & Analytics,development,2025-03-01,211.95,233,0.2849
+441,prd-capp-0441,Customer Applications,production,2025-01-01,741.78,744,0.9970
+441,prd-capp-0441,Customer Applications,production,2025-02-01,671.06,672,0.9986
+441,prd-capp-0441,Customer Applications,production,2025-03-01,742.26,744,0.9977
+442,dev-capp-0442,Customer Applications,development,2025-01-01,34.82,42,0.0468
+442,dev-capp-0442,Customer Applications,development,2025-02-01,46.78,63,0.0696
+442,dev-capp-0442,Customer Applications,development,2025-03-01,42.52,53,0.0572
+443,dev-paym-0443,Payments,development,2025-01-01,285.46,303,0.3837
+443,dev-paym-0443,Payments,development,2025-02-01,207.26,227,0.3084
+443,dev-paym-0443,Payments,development,2025-03-01,248.21,267,0.3336
+444,prd-plat-0444,Platform Engineering,production,2025-01-01,742.83,744,0.9984
+444,prd-plat-0444,Platform Engineering,production,2025-02-01,670.75,672,0.9981
+444,prd-plat-0444,Platform Engineering,production,2025-03-01,742.53,744,0.9980
+445,prd-plat-0445,Platform Engineering,production,2025-01-01,740.50,744,0.9953
+445,prd-plat-0445,Platform Engineering,production,2025-02-01,671.22,672,0.9988
+445,prd-plat-0445,Platform Engineering,production,2025-03-01,743.78,744,0.9997
+446,prd-paym-0446,Payments,production,2025-01-01,744.00,744,1.0000
+446,prd-paym-0446,Payments,production,2025-02-01,669.05,672,0.9956
+446,prd-paym-0446,Payments,production,2025-03-01,742.57,744,0.9981
+447,prd-itls-0447,Internal Tools,production,2025-01-01,743.67,744,0.9996
+447,prd-itls-0447,Internal Tools,production,2025-02-01,670.79,672,0.9982
+447,prd-itls-0447,Internal Tools,production,2025-03-01,743.17,744,0.9989
+448,prd-capp-0448,Customer Applications,production,2025-01-01,741.85,744,0.9971
+448,prd-capp-0448,Customer Applications,production,2025-02-01,670.35,672,0.9976
+448,prd-capp-0448,Customer Applications,production,2025-03-01,742.20,744,0.9976
+449,prd-data-0449,Data & Analytics,production,2025-01-01,741.79,743,0.9970
+449,prd-data-0449,Data & Analytics,production,2025-02-01,670.30,672,0.9975
+449,prd-data-0449,Data & Analytics,production,2025-03-01,742.67,744,0.9982
+450,prd-data-0450,Data & Analytics,production,2025-01-01,742.67,744,0.9982
+450,prd-data-0450,Data & Analytics,production,2025-02-01,668.52,672,0.9948
+450,prd-data-0450,Data & Analytics,production,2025-03-01,742.26,744,0.9977
+451,prd-plat-0451,Platform Engineering,production,2025-01-01,744.00,744,1.0000
+451,prd-plat-0451,Platform Engineering,production,2025-02-01,670.54,672,0.9978
+451,prd-plat-0451,Platform Engineering,production,2025-03-01,742.79,744,0.9984
+452,prd-capp-0452,Customer Applications,production,2025-01-01,741.81,743,0.9971
+452,prd-capp-0452,Customer Applications,production,2025-02-01,672.00,672,1.0000
+452,prd-capp-0452,Customer Applications,production,2025-03-01,743.63,744,0.9995
+453,prd-data-0453,Data & Analytics,production,2025-01-01,743.01,744,0.9987
+453,prd-data-0453,Data & Analytics,production,2025-02-01,670.78,672,0.9982
+453,prd-data-0453,Data & Analytics,production,2025-03-01,743.35,744,0.9991
+454,dev-capp-0454,Customer Applications,development,2025-01-01,744.00,744,1.0000
+454,dev-capp-0454,Customer Applications,development,2025-02-01,670.72,672,0.9981
+454,dev-capp-0454,Customer Applications,development,2025-03-01,741.86,743,0.9971
+455,prd-data-0455,Data & Analytics,production,2025-01-01,744.00,744,1.0000
+455,prd-data-0455,Data & Analytics,production,2025-02-01,667.33,672,0.9930
+455,prd-data-0455,Data & Analytics,production,2025-03-01,742.73,744,0.9983
+456,dev-mktg-0456,Marketing Technology,development,2025-01-01,240.80,264,0.3236
+456,dev-mktg-0456,Marketing Technology,development,2025-02-01,180.42,200,0.2685
+456,dev-mktg-0456,Marketing Technology,development,2025-03-01,182.79,205,0.2457
+457,prd-itls-0457,Internal Tools,production,2025-01-01,743.11,744,0.9988
+457,prd-itls-0457,Internal Tools,production,2025-02-01,666.52,670,0.9918
+457,prd-itls-0457,Internal Tools,production,2025-03-01,742.30,743,0.9977
+458,dev-data-0458,Data & Analytics,development,2025-01-01,225.55,248,0.3032
+458,dev-data-0458,Data & Analytics,development,2025-02-01,173.01,194,0.2575
+458,dev-data-0458,Data & Analytics,development,2025-03-01,270.38,293,0.3634
+459,dev-plat-0459,Platform Engineering,development,2025-01-01,742.69,744,0.9982
+459,dev-plat-0459,Platform Engineering,development,2025-02-01,670.96,672,0.9984
+459,dev-plat-0459,Platform Engineering,development,2025-03-01,744.00,744,1.0000
+460,prd-plat-0460,Platform Engineering,production,2025-01-01,743.35,744,0.9991
+460,prd-plat-0460,Platform Engineering,production,2025-02-01,672.00,672,1.0000
+460,prd-plat-0460,Platform Engineering,production,2025-03-01,742.10,744,0.9975
+461,prd-plat-0461,Platform Engineering,production,2025-01-01,740.11,744,0.9948
+461,prd-plat-0461,Platform Engineering,production,2025-02-01,669.44,671,0.9962
+461,prd-plat-0461,Platform Engineering,production,2025-03-01,740.99,744,0.9960
+462,prd-capp-0462,Customer Applications,production,2025-01-01,743.16,744,0.9989
+462,prd-capp-0462,Customer Applications,production,2025-02-01,671.42,672,0.9991
+462,prd-capp-0462,Customer Applications,production,2025-03-01,743.17,744,0.9989
+463,prd-data-0463,Data & Analytics,production,2025-01-01,739.97,743,0.9946
+463,prd-data-0463,Data & Analytics,production,2025-02-01,669.63,672,0.9965
+463,prd-data-0463,Data & Analytics,production,2025-03-01,741.68,744,0.9969
+464,prd-data-0464,Data & Analytics,production,2025-01-01,742.45,744,0.9979
+464,prd-data-0464,Data & Analytics,production,2025-02-01,670.60,671,0.9979
+464,prd-data-0464,Data & Analytics,production,2025-03-01,743.29,744,0.9990
+465,dev-mktg-0465,Marketing Technology,development,2025-01-01,231.83,259,0.3116
+465,dev-mktg-0465,Marketing Technology,development,2025-02-01,194.71,213,0.2898
+465,dev-mktg-0465,Marketing Technology,development,2025-03-01,198.59,222,0.2669
+466,prd-paym-0466,Payments,production,2025-01-01,744.00,744,1.0000
+466,prd-paym-0466,Payments,production,2025-02-01,670.22,672,0.9973
+466,prd-paym-0466,Payments,production,2025-03-01,741.63,744,0.9968
+467,dev-secu-0467,Security Operations,development,2025-01-01,39.66,53,0.0533
+467,dev-secu-0467,Security Operations,development,2025-02-01,34.24,44,0.0510
+467,dev-secu-0467,Security Operations,development,2025-03-01,52.53,67,0.0706
+468,prd-data-0468,Data & Analytics,production,2025-01-01,743.34,744,0.9991
+468,prd-data-0468,Data & Analytics,production,2025-02-01,672.00,672,1.0000
+468,prd-data-0468,Data & Analytics,production,2025-03-01,742.43,744,0.9979
+469,dev-itls-0469,Internal Tools,development,2025-01-01,225.47,251,0.3030
+469,dev-itls-0469,Internal Tools,development,2025-02-01,249.86,266,0.3718
+469,dev-itls-0469,Internal Tools,development,2025-03-01,203.20,225,0.2731
+470,prd-itls-0470,Internal Tools,production,2025-01-01,743.61,744,0.9995
+470,prd-itls-0470,Internal Tools,production,2025-02-01,671.30,672,0.9990
+470,prd-itls-0470,Internal Tools,production,2025-03-01,742.39,744,0.9978
+471,dev-itls-0471,Internal Tools,development,2025-01-01,744.00,744,1.0000
+471,dev-itls-0471,Internal Tools,development,2025-02-01,669.84,672,0.9968
+471,dev-itls-0471,Internal Tools,development,2025-03-01,742.56,743,0.9981
+472,dev-plat-0472,Platform Engineering,development,2025-01-01,40.58,51,0.0545
+472,dev-plat-0472,Platform Engineering,development,2025-02-01,22.24,31,0.0331
+472,dev-plat-0472,Platform Engineering,development,2025-03-01,46.97,61,0.0631
+473,dev-itls-0473,Internal Tools,development,2025-01-01,40.42,55,0.0543
+473,dev-itls-0473,Internal Tools,development,2025-02-01,39.34,49,0.0585
+473,dev-itls-0473,Internal Tools,development,2025-03-01,42.62,54,0.0573
+474,dev-plat-0474,Platform Engineering,development,2025-01-01,28.35,37,0.0381
+474,dev-plat-0474,Platform Engineering,development,2025-02-01,22.65,32,0.0337
+474,dev-plat-0474,Platform Engineering,development,2025-03-01,30.46,39,0.0409
+475,dev-paym-0475,Payments,development,2025-01-01,0.00,0,0.0000
+475,dev-paym-0475,Payments,development,2025-02-01,0.00,0,0.0000
+475,dev-paym-0475,Payments,development,2025-03-01,0.00,0,0.0000
+476,dev-plat-0476,Platform Engineering,development,2025-01-01,27.01,34,0.0363
+476,dev-plat-0476,Platform Engineering,development,2025-02-01,36.45,47,0.0542
+476,dev-plat-0476,Platform Engineering,development,2025-03-01,27.00,34,0.0363
+477,dev-secu-0477,Security Operations,development,2025-01-01,222.51,246,0.2991
+477,dev-secu-0477,Security Operations,development,2025-02-01,218.74,241,0.3255
+477,dev-secu-0477,Security Operations,development,2025-03-01,188.68,207,0.2536
+478,dev-mktg-0478,Marketing Technology,development,2025-01-01,49.84,61,0.0670
+478,dev-mktg-0478,Marketing Technology,development,2025-02-01,37.59,50,0.0559
+478,dev-mktg-0478,Marketing Technology,development,2025-03-01,54.38,67,0.0731
+479,dev-capp-0479,Customer Applications,development,2025-01-01,209.18,228,0.2812
+479,dev-capp-0479,Customer Applications,development,2025-02-01,199.72,221,0.2972
+479,dev-capp-0479,Customer Applications,development,2025-03-01,218.90,242,0.2942
+480,dev-plat-0480,Platform Engineering,development,2025-01-01,222.15,245,0.2986
+480,dev-plat-0480,Platform Engineering,development,2025-02-01,243.58,264,0.3625
+480,dev-plat-0480,Platform Engineering,development,2025-03-01,219.85,245,0.2955
+481,dev-itls-0481,Internal Tools,development,2025-01-01,209.00,234,0.2809
+481,dev-itls-0481,Internal Tools,development,2025-02-01,196.72,215,0.2927
+481,dev-itls-0481,Internal Tools,development,2025-03-01,180.75,201,0.2429
+482,dev-secu-0482,Security Operations,development,2025-01-01,45.89,60,0.0617
+482,dev-secu-0482,Security Operations,development,2025-02-01,29.68,36,0.0442
+482,dev-secu-0482,Security Operations,development,2025-03-01,36.91,49,0.0496
+483,prd-mktg-0483,Marketing Technology,production,2025-01-01,743.23,744,0.9990
+483,prd-mktg-0483,Marketing Technology,production,2025-02-01,668.93,672,0.9954
+483,prd-mktg-0483,Marketing Technology,production,2025-03-01,742.77,744,0.9984
+484,prd-data-0484,Data & Analytics,production,2025-01-01,742.97,744,0.9986
+484,prd-data-0484,Data & Analytics,production,2025-02-01,672.00,672,1.0000
+484,prd-data-0484,Data & Analytics,production,2025-03-01,742.68,744,0.9982
+485,dev-capp-0485,Customer Applications,development,2025-01-01,398.22,422,0.5352
+485,dev-capp-0485,Customer Applications,development,2025-02-01,351.62,376,0.5232
+485,dev-capp-0485,Customer Applications,development,2025-03-01,373.00,398,0.5013
+486,prd-data-0486,Data & Analytics,production,2025-01-01,741.71,744,0.9969
+486,prd-data-0486,Data & Analytics,production,2025-02-01,672.00,672,1.0000
+486,prd-data-0486,Data & Analytics,production,2025-03-01,743.45,744,0.9993
+487,dev-data-0487,Data & Analytics,development,2025-01-01,742.01,744,0.9973
+487,dev-data-0487,Data & Analytics,development,2025-02-01,672.00,672,1.0000
+487,dev-data-0487,Data & Analytics,development,2025-03-01,742.12,744,0.9975
+488,prd-capp-0488,Customer Applications,production,2025-01-01,742.50,744,0.9980
+488,prd-capp-0488,Customer Applications,production,2025-02-01,669.55,671,0.9964
+488,prd-capp-0488,Customer Applications,production,2025-03-01,743.38,744,0.9992
+489,prd-plat-0489,Platform Engineering,production,2025-01-01,744.00,744,1.0000
+489,prd-plat-0489,Platform Engineering,production,2025-02-01,671.35,672,0.9990
+489,prd-plat-0489,Platform Engineering,production,2025-03-01,741.54,744,0.9967
+490,prd-capp-0490,Customer Applications,production,2025-01-01,742.74,744,0.9983
+490,prd-capp-0490,Customer Applications,production,2025-02-01,671.64,672,0.9995
+490,prd-capp-0490,Customer Applications,production,2025-03-01,740.85,744,0.9958
+491,dev-data-0491,Data & Analytics,development,2025-01-01,393.29,421,0.5286
+491,dev-data-0491,Data & Analytics,development,2025-02-01,339.04,363,0.5045
+491,dev-data-0491,Data & Analytics,development,2025-03-01,350.64,374,0.4713
+492,dev-plat-0492,Platform Engineering,development,2025-01-01,194.93,218,0.2620
+492,dev-plat-0492,Platform Engineering,development,2025-02-01,243.94,262,0.3630
+492,dev-plat-0492,Platform Engineering,development,2025-03-01,207.78,226,0.2793
+493,prd-data-0493,Data & Analytics,production,2025-01-01,741.28,744,0.9963
+493,prd-data-0493,Data & Analytics,production,2025-02-01,671.28,672,0.9989
+493,prd-data-0493,Data & Analytics,production,2025-03-01,740.51,744,0.9953
+494,dev-plat-0494,Platform Engineering,development,2025-01-01,216.88,240,0.2915
+494,dev-plat-0494,Platform Engineering,development,2025-02-01,229.31,249,0.3412
+494,dev-plat-0494,Platform Engineering,development,2025-03-01,206.99,228,0.2782
+495,dev-plat-0495,Platform Engineering,development,2025-01-01,743.48,744,0.9993
+495,dev-plat-0495,Platform Engineering,development,2025-02-01,671.79,672,0.9997
+495,dev-plat-0495,Platform Engineering,development,2025-03-01,743.77,744,0.9997
+496,dev-data-0496,Data & Analytics,development,2025-01-01,744.00,744,1.0000
+496,dev-data-0496,Data & Analytics,development,2025-02-01,668.71,671,0.9951
+496,dev-data-0496,Data & Analytics,development,2025-03-01,742.02,744,0.9973
+497,dev-data-0497,Data & Analytics,development,2025-01-01,743.73,744,0.9996
+497,dev-data-0497,Data & Analytics,development,2025-02-01,671.62,672,0.9994
+497,dev-data-0497,Data & Analytics,development,2025-03-01,744.00,744,1.0000
+498,dev-capp-0498,Customer Applications,development,2025-01-01,242.75,263,0.3263
+498,dev-capp-0498,Customer Applications,development,2025-02-01,184.23,201,0.2742
+498,dev-capp-0498,Customer Applications,development,2025-03-01,282.42,302,0.3796
+499,dev-itls-0499,Internal Tools,development,2025-01-01,36.38,48,0.0489
+499,dev-itls-0499,Internal Tools,development,2025-02-01,47.79,60,0.0711
+499,dev-itls-0499,Internal Tools,development,2025-03-01,26.49,37,0.0356
+500,dev-plat-0500,Platform Engineering,development,2025-01-01,0.00,0,0.0000
+500,dev-plat-0500,Platform Engineering,development,2025-02-01,0.00,0,0.0000
+500,dev-plat-0500,Platform Engineering,development,2025-03-01,0.00,0,0.0000

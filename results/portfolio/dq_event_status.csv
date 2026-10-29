@@ -1,0 +1,7 @@
+status,event_type,events,servers
+paired,start,16752,492
+paired,stop,16752,492
+start_followed_by_start,start,6,6
+start_preceded_by_start,start,6,6
+stop_after_ambiguous_start,stop,6,6
+stop_without_start,stop,4,4

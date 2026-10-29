@@ -1,0 +1,25 @@
+department_name,cost_center,month,budget_usd,actual_usd,budget_status,variance_usd,variance_pct,has_no_servers
+Customer Applications,CC-1030,2025-01-01,7670.00,7391.82,budgeted,-278.18,-3.63,f
+Customer Applications,CC-1030,2025-02-01,6520.00,6721.13,budgeted,201.13,3.08,f
+Customer Applications,CC-1030,2025-03-01,7370.00,7498.74,budgeted,128.74,1.75,f
+Data & Analytics,CC-1020,2025-01-01,8870.00,8658.89,budgeted,-211.11,-2.38,f
+Data & Analytics,CC-1020,2025-02-01,7890.00,7912.78,budgeted,22.78,0.29,f
+Data & Analytics,CC-1020,2025-03-01,8870.00,8732.90,budgeted,-137.10,-1.55,f
+Internal Tools,CC-1060,2025-01-01,4530.00,4025.84,budgeted,-504.16,-11.13,f
+Internal Tools,CC-1060,2025-02-01,4110.00,3748.21,budgeted,-361.79,-8.80,f
+Internal Tools,CC-1060,2025-03-01,0.00,4163.88,zero_budget,4163.88,,f
+Marketing Technology,CC-1050,2025-01-01,5620.00,4684.85,budgeted,-935.15,-16.64,f
+Marketing Technology,CC-1050,2025-02-01,,4292.00,no_budget,,,f
+Marketing Technology,CC-1050,2025-03-01,5340.00,4780.36,budgeted,-559.64,-10.48,f
+Payments,CC-1040,2025-01-01,4840.00,4263.35,budgeted,-576.65,-11.91,f
+Payments,CC-1040,2025-02-01,4510.00,3876.02,budgeted,-633.98,-14.06,f
+Payments,CC-1040,2025-03-01,4780.00,4369.86,budgeted,-410.14,-8.58,f
+Platform Engineering,CC-1010,2025-01-01,5600.00,6395.66,budgeted,795.66,14.21,f
+Platform Engineering,CC-1010,2025-02-01,4800.00,5782.99,budgeted,982.99,20.48,f
+Platform Engineering,CC-1010,2025-03-01,5670.00,6441.68,budgeted,771.68,13.61,f
+Research Lab,CC-1080,2025-01-01,1200.00,0,budgeted,-1200.00,-100.00,t
+Research Lab,CC-1080,2025-02-01,1200.00,0,budgeted,-1200.00,-100.00,t
+Research Lab,CC-1080,2025-03-01,1200.00,0,budgeted,-1200.00,-100.00,t
+Security Operations,CC-1070,2025-01-01,2440.00,2630.52,budgeted,190.52,7.81,f
+Security Operations,CC-1070,2025-02-01,2180.00,2385.99,budgeted,205.99,9.45,f
+Security Operations,CC-1070,2025-03-01,2400.00,2650.51,budgeted,250.51,10.44,f

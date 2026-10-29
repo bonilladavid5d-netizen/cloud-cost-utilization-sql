@@ -1,0 +1,5 @@
+phase,query,variant,baseline_rows,variant_rows,rows_only_in_baseline,rows_only_in_variant,equivalent
+A_without_index,q1_server_week_metrics,optimized,165,165,0,0,True
+A_without_index,q2_monthly_cost_joins,optimized,165,165,0,0,True
+A_without_index,q3_dev_utilization_march,rewrite_only,168,168,0,0,True
+B_with_index,q3_dev_utilization_march,rewrite_plus_brin,168,168,0,0,True

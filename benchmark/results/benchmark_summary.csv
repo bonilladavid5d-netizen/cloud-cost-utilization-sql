@@ -1,0 +1,8 @@
+query,variant,phase,runs,median_ms,min_ms,max_ms,iqr_ms,median_planning_ms,median_jit_ms,ratio_vs_baseline,rows,shared_hit_blocks,shared_read_blocks,estimated_total_cost,top_node
+q1_server_week_metrics,baseline,A_without_index,7,2.895,2.602,2.987,0.366,0.348,,1.0,165,2143,0,4233.71,Sort
+q1_server_week_metrics,optimized,A_without_index,7,0.31,0.301,0.317,0.009,0.368,,0.107,165,172,0,644.43,Sort
+q2_monthly_cost_joins,baseline,A_without_index,7,363.912,358.83,382.439,7.914,1.861,,1.0,165,4739,0,44349.3,Aggregate
+q2_monthly_cost_joins,optimized,A_without_index,7,117.574,113.652,125.415,4.534,1.63,,0.323,165,4535,0,64909.3,Aggregate
+q3_dev_utilization_march,baseline,A_without_index,7,60.471,60.231,65.18,1.669,1.091,,1.0,168,5116,0,10589.48,Aggregate
+q3_dev_utilization_march,rewrite_only,A_without_index,7,32.176,31.962,32.69,0.471,1.06,,0.532,168,5042,0,12092.48,Aggregate
+q3_dev_utilization_march,rewrite_plus_brin,B_with_index,7,28.902,27.786,31.659,0.235,1.204,,0.478,168,1850,0,9434.09,Aggregate

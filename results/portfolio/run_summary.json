@@ -1,0 +1,118 @@
+{
+  "size": "portfolio",
+  "seed": 20250101,
+  "run_date_utc": "2026-10-29",
+  "postgres_version": "PostgreSQL 17.11 on aarch64-unknown-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit",
+  "code_fingerprint": "942da95889d26ad233b8ad1c22feba1c28e4e2c78438d05036951882d9912cf0",
+  "generated_rows": {
+    "departments": 8,
+    "servers": 500,
+    "pricing": 33,
+    "budgets": 23,
+    "server_events": 33526,
+    "server_metrics": 679122
+  },
+  "loaded_rows": {
+    "departments": 8,
+    "servers": 500,
+    "pricing": 33,
+    "budgets": 23,
+    "server_events": 33526,
+    "server_metrics": 679122
+  },
+  "generated_equals_loaded": true,
+  "server_patterns": {
+    "development/always_on": 40,
+    "development/extended_hours": 39,
+    "development/inactive": 8,
+    "development/office_hours": 155,
+    "development/sporadic": 54,
+    "production/always_on": 204
+  },
+  "injected_anomalies": [
+    {
+      "server_id": 212,
+      "kind": "lost_stop",
+      "removed_event_time": "2025-01-31 19:02:41+00"
+    },
+    {
+      "server_id": 357,
+      "kind": "lost_stop",
+      "removed_event_time": "2025-03-11 18:55:18+00"
+    },
+    {
+      "server_id": 291,
+      "kind": "lost_stop",
+      "removed_event_time": "2025-03-20 10:26:30+00"
+    },
+    {
+      "server_id": 90,
+      "kind": "lost_stop",
+      "removed_event_time": "2025-01-24 18:45:21+00"
+    },
+    {
+      "server_id": 63,
+      "kind": "lost_stop",
+      "removed_event_time": "2025-02-28 17:14:56+00"
+    },
+    {
+      "server_id": 333,
+      "kind": "lost_stop",
+      "removed_event_time": "2025-03-03 16:54:25+00"
+    },
+    {
+      "server_id": 443,
+      "kind": "lost_start",
+      "removed_event_time": "2025-01-16 07:33:07+00"
+    },
+    {
+      "server_id": 78,
+      "kind": "lost_start",
+      "removed_event_time": "2025-02-24 14:19:52+00"
+    },
+    {
+      "server_id": 474,
+      "kind": "lost_start",
+      "removed_event_time": "2025-03-01 08:49:54+00"
+    },
+    {
+      "server_id": 216,
+      "kind": "lost_start",
+      "removed_event_time": "2025-02-18 05:39:42+00"
+    }
+  ],
+  "data_quality": {
+    "events_excluded": "22",
+    "events_total": "33526",
+    "metrics_outside_reconstructed_uptime": "140",
+    "pricing_gaps": "0",
+    "running_hours_without_metrics": "16402",
+    "server_hours_rows": "695384",
+    "servers_without_events": "8",
+    "sessions": "16752",
+    "unpriced_server_hours": "0"
+  },
+  "exported_rows": {
+    "a1_uptime_by_server_month": 1500,
+    "a2_cost_by_department_region_environment": 165,
+    "a3_budget_vs_actual": 24,
+    "a4_low_utilization": 500,
+    "a5_spend_trend_concentration": 24,
+    "a6_offhours_savings_by_server": 270,
+    "a6_offhours_savings_summary": 8,
+    "dq_summary": 9,
+    "dq_event_status": 6
+  },
+  "timings_seconds": {
+    "generate": 4.61,
+    "recreate database": 0.79,
+    "schema": 0.15,
+    "load": 9.98,
+    "transform": 12.47,
+    "views and analyses": 1.06,
+    "indexes": 0.16,
+    "vacuum analyze": 0.43,
+    "quality gate": 2.05,
+    "export": 4.67
+  }
+}

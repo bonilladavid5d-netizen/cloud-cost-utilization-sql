@@ -1,0 +1,12 @@
+# Regenerable simulated input data (see generator/generate_data.py)
+data/
+
+# Local connection settings
+.env
+*.env
+!config.example.env
+
+# Python / OS
+__pycache__/
+*.pyc
+.DS_Store

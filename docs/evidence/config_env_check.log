@@ -1,0 +1,19 @@
+Configuration propagation check (clean shells: env -i, bash --noprofile --norc).
+Each test copy of config.example.env uses harmless test values; no database is contacted.
+
+1) Previous version of config.example.env (assignments without export):
+{'CCU_PSQL': None, 'PGHOST': None, 'PGPORT': None, 'PGUSER': None, 'CCU_ADMIN_DB': None, 'CCU_DB_PREFIX': None}
+
+2) Current version, Option A (local psql):
+{'CCU_PSQL': 'psql', 'PGHOST': 'localhost', 'PGPORT': '5432', 'PGUSER': 'ccu_test_user', 'CCU_ADMIN_DB': 'postgres', 'CCU_DB_PREFIX': 'ccu_envcheck'}
+
+3) Current version, Option B (Docker line uncommented, Option A commented):
+{'CCU_PSQL': 'docker exec -i test_container psql -U ccu_test_user', 'PGHOST': None, 'PGPORT': None, 'PGUSER': None, 'CCU_ADMIN_DB': 'postgres', 'CCU_DB_PREFIX': 'cloud_cost_utilization'}
+
+4) Current version, Option A, sourced from zsh:
+{'CCU_PSQL': 'psql', 'PGHOST': 'localhost', 'PGPORT': '5432', 'PGUSER': 'ccu_test_user', 'CCU_ADMIN_DB': 'postgres', 'CCU_DB_PREFIX': 'ccu_envcheck'}
+
+5) Current version, Option B, read through scripts/pgutil.py (no database call):
+psql_command = ['docker', 'exec', '-i', 'test_container', 'psql', '-U', 'ccu_test_user']
+admin_db = postgres
+db_name(small) = cloud_cost_utilization_small
